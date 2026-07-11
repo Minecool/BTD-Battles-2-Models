@@ -1,0 +1,2931 @@
+{
+    "version_code": 4,
+    "invalid": false,
+    "type": 1,
+    "variables": [
+        {
+            "key": "range",
+            "variable": {
+                "type": "Float",
+                "value": 40.0
+            }
+        },
+        {
+            "key": "shurikens",
+            "variable": {
+                "type": "Node",
+                "value": 16
+            }
+        },
+        {
+            "key": "reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 0.6200000047683716
+            }
+        },
+        {
+            "key": "emission_delay",
+            "variable": {
+                "type": "Float",
+                "value": 0.05999999865889549
+            }
+        },
+        {
+            "key": "emission_count",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "emission_angle",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "emission_type",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "projectile_ref",
+            "variable": {
+                "type": "Node",
+                "value": 18
+            }
+        },
+        {
+            "key": "proj_radius",
+            "variable": {
+                "type": "Float",
+                "value": 3.0
+            }
+        },
+        {
+            "key": "proj_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "proj_speed",
+            "variable": {
+                "type": "Float",
+                "value": 300.0
+            }
+        },
+        {
+            "key": "proj_pierce",
+            "variable": {
+                "type": "Int",
+                "value": 3
+            }
+        },
+        {
+            "key": "enable_distraction",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_counter_espionage",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "proj_lifespan",
+            "variable": {
+                "type": "Float",
+                "value": 0.6200000047683716
+            }
+        },
+        {
+            "key": "caltrop",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "caltrop_launcher",
+            "variable": {
+                "type": "Node",
+                "value": 19
+            }
+        },
+        {
+            "key": "caltrop_launcher_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "caltrop_spawner",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "caltrop_movement_duration",
+            "variable": {
+                "type": "Float",
+                "value": 0.5
+            }
+        },
+        {
+            "key": "caltrops_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 8.0
+            }
+        },
+        {
+            "key": "shuriken_motion_ref",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "homing_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "shinobi_tactics_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "shinobi_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 17
+            }
+        },
+        {
+            "key": "bloon_filter",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "linear_motion",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "enable_bloon_sabotage",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "bloon_sabotage_ref",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "bloon_sabotage_lifespan",
+            "variable": {
+                "type": "Float",
+                "value": 10.0
+            }
+        },
+        {
+            "key": "enable_grand_saboteur",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "sabotage_ability_icon_slot",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "bloon_sabotage_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 40
+            }
+        },
+        {
+            "key": "ability_id",
+            "variable": {
+                "type": "String",
+                "value": "bloon_sabotage"
+            }
+        },
+        {
+            "key": "enable_sticky_bomb",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "moab_only_filter_ref",
+            "variable": {
+                "type": "Node",
+                "value": 32
+            }
+        },
+        {
+            "key": "sticky_bomb_ref",
+            "variable": {
+                "type": "Node",
+                "value": 35
+            }
+        },
+        {
+            "key": "sticky_bomb_timer_ref",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "sticky_bomb_explosion_ref",
+            "variable": {
+                "type": "Node",
+                "value": 31
+            }
+        },
+        {
+            "key": "sticky_bomb_secondary_explosion_ref",
+            "variable": {
+                "type": "Node",
+                "value": 38
+            }
+        },
+        {
+            "key": "sticky_bomb_still_ref",
+            "variable": {
+                "type": "Node",
+                "value": 46
+            }
+        },
+        {
+            "key": "sticky_bomb_stun_ref",
+            "variable": {
+                "type": "Node",
+                "value": 45
+            }
+        },
+        {
+            "key": "sticky_bomb_status_ref",
+            "variable": {
+                "type": "Node",
+                "value": 41
+            }
+        },
+        {
+            "key": "sticky_bomb_bloon_status",
+            "variable": {
+                "type": "BloonStatus",
+                "value": "StickyBomb"
+            }
+        },
+        {
+            "key": "sticky_bomb_lifespan",
+            "variable": {
+                "type": "Float",
+                "value": 3.0
+            }
+        },
+        {
+            "key": "sticky_bomb_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 4.5
+            }
+        },
+        {
+            "key": "sticky_bomb_damage",
+            "variable": {
+                "type": "Float",
+                "value": 500.0
+            }
+        },
+        {
+            "key": "sticky_bomb_secondary_damage",
+            "variable": {
+                "type": "Float",
+                "value": 100.0
+            }
+        },
+        {
+            "key": "flash_moab_still_ref",
+            "variable": {
+                "type": "Node",
+                "value": 44
+            }
+        },
+        {
+            "key": "flash_bang_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "flash_bomb_lifespan",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "flash_bomb_proj_ref",
+            "variable": {
+                "type": "Node",
+                "value": 33
+            }
+        },
+        {
+            "key": "flash_bomb_aoe_ref",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "enable_master_bomber",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "flash_bomb_aoe_dmg",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "counter_espionage_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 36
+            }
+        },
+        {
+            "key": "distraction_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 42
+            }
+        },
+        {
+            "key": "flash_bomb_filter",
+            "variable": {
+                "type": "Node",
+                "value": 34
+            }
+        },
+        {
+            "key": "sticky_bomb_launcher",
+            "variable": {
+                "type": "Node",
+                "value": 28
+            }
+        },
+        {
+            "key": "flash_bomb_stun_moabs",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "stun_moabs_filter",
+            "variable": {
+                "type": "Node",
+                "value": 39
+            }
+        },
+        {
+            "key": "flash_moab_stun_ref",
+            "variable": {
+                "type": "Node",
+                "value": 43
+            }
+        },
+        {
+            "key": "ninjas_only_filter_ref",
+            "variable": {
+                "type": "Node",
+                "value": 47
+            }
+        },
+        {
+            "key": "caltrops_damage",
+            "variable": {
+                "type": "Float",
+                "value": 3.0
+            }
+        },
+        {
+            "key": "caltrops_rate",
+            "variable": {
+                "type": "Float",
+                "value": 9.0
+            }
+        },
+        {
+            "key": "moab_distraction_mod_red",
+            "variable": {
+                "type": "Node",
+                "value": 48
+            }
+        },
+        {
+            "key": "distraction_chance",
+            "variable": {
+                "type": "Float",
+                "value": 0.25
+            }
+        },
+        {
+            "key": "enable_moab_distraction",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "flash_bomb_pierce",
+            "variable": {
+                "type": "Float",
+                "value": 40.0
+            }
+        },
+        {
+            "key": "flash_bomb_ce_aoe_ref",
+            "variable": {
+                "type": "Node",
+                "value": 49
+            }
+        },
+        {
+            "key": "sabo_dont_soak",
+            "variable": {
+                "type": "BloonType",
+                "value": "BAD"
+            }
+        },
+        {
+            "key": "grand_sabo_weapon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 50
+            }
+        },
+        {
+            "key": "shinobis_only_filter_ref",
+            "variable": {
+                "type": "Node",
+                "value": 51
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_TOWER_NAME_NinjaMonkey",
+            "description": "LOC_TOWER_DESC_NinjaMonkey",
+            "cost": 400.0,
+            "upgrade_xp_cost_multiplier": 1.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Tower",
+                "tower_type": "NinjaMonkey",
+                "tower_category": "Magic",
+                "valid_targeting_modes": "First|Last|Strong|Close",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 6.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true,
+                    "can_intersect_blockers": false,
+                    "can_be_placed_on_track": false
+                },
+                "range": "range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "can_be_temporarily_disabled_by_map": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "ignore_parent_hierarchy": false,
+                "inherit_target_mode_from_parent_on_change": false,
+                "inherit_target_mode_from_parent_on_instantiation": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "can_target_camo": false,
+                "can_prioritise_camo_targets": true,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "spawn_with_random_angle": 0.0,
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "shurikens",
+                    "caltrop_launcher",
+                    "bloon_sabotage_ref",
+                    "sticky_bomb_launcher",
+                    "grand_sabo_weapon_ref"
+                ],
+                "mod_provider_props": "shinobi_mod_ref"
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_UPGRADE_NAME_Ninja_Discipline",
+            "description": "LOC_UPGRADE_DESC_Ninja_Discipline",
+            "parent_id": 0,
+            "cost": 150.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "range",
+                    "expression": "x+7"
+                },
+                {
+                    "key": "reload_time",
+                    "expression": "x-(x*0.3)"
+                },
+                {
+                    "key": "caltrops_reload_time",
+                    "expression": "x-(x*0.3)"
+                },
+                {
+                    "key": "sticky_bomb_reload_time",
+                    "expression": "x-(x*0.3)"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_UPGRADE_NAME_Sharp_Shurikens",
+            "description": "LOC_UPGRADE_DESC_Sharp_Shurikens",
+            "parent_id": 1,
+            "cost": 200.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "proj_pierce",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_UPGRADE_NAME_Double_Shot",
+            "description": "LOC_UPGRADE_DESC_Double_Shot",
+            "parent_id": 2,
+            "cost": 700.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "emission_count",
+                    "expression": "2"
+                },
+                {
+                    "key": "emission_angle",
+                    "expression": "30.0"
+                },
+                {
+                    "key": "emission_delay",
+                    "expression": "0.045"
+                },
+                {
+                    "key": "emission_type",
+                    "expression": "25"
+                },
+                {
+                    "key": "caltrops_damage",
+                    "expression": "5"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_UPGRADE_NAME_Bloonjitsu",
+            "description": "LOC_UPGRADE_DESC_Bloonjitsu",
+            "parent_id": 3,
+            "cost": 2750.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "emission_count",
+                    "expression": "5"
+                },
+                {
+                    "key": "emission_angle",
+                    "expression": "45.0"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_UPGRADE_NAME_Grandmaster_Ninja",
+            "description": "LOC_UPGRADE_DESC_Grandmaster_Ninja",
+            "parent_id": 4,
+            "cost": 35000.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "reload_time",
+                    "expression": "0.217"
+                },
+                {
+                    "key": "range",
+                    "expression": "x+10"
+                },
+                {
+                    "key": "emission_count",
+                    "expression": "8"
+                },
+                {
+                    "key": "emission_angle",
+                    "expression": "60.0"
+                },
+                {
+                    "key": "emission_delay",
+                    "expression": "0.053"
+                },
+                {
+                    "key": "proj_damage",
+                    "expression": "x+3"
+                },
+                {
+                    "key": "caltrops_reload_time",
+                    "expression": "x/2"
+                },
+                {
+                    "key": "caltrops_damage",
+                    "expression": "75"
+                },
+                {
+                    "key": "distraction_chance",
+                    "expression": "0.5"
+                },
+                {
+                    "key": "enable_moab_distraction",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_UPGRADE_NAME_Distraction",
+            "description": "LOC_UPGRADE_DESC_Distraction",
+            "parent_id": 0,
+            "cost": 200.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "enable_distraction",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_UPGRADE_NAME_Counter-Espionage",
+            "description": "LOC_UPGRADE_DESC_Counter-Espionage",
+            "parent_id": 6,
+            "cost": 375.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "enable_counter_espionage",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_UPGRADE_NAME_Shinobi_Tactics",
+            "description": "LOC_UPGRADE_DESC_Shinobi_Tactics",
+            "parent_id": 7,
+            "cost": 2100.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "shinobi_tactics_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_UPGRADE_NAME_Bloon_Sabotage",
+            "description": "LOC_UPGRADE_DESC_Bloon_Sabotage",
+            "parent_id": 8,
+            "cost": 5200.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "enable_bloon_sabotage",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_UPGRADE_NAME_Grand_Saboteur",
+            "description": "LOC_UPGRADE_DESC_Grand_Saboteur",
+            "parent_id": 9,
+            "cost": 20000.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "bloon_sabotage_lifespan",
+                    "expression": "x * 3"
+                },
+                {
+                    "key": "enable_grand_saboteur",
+                    "expression": "true"
+                },
+                {
+                    "key": "sabotage_ability_icon_slot",
+                    "expression": "1"
+                },
+                {
+                    "key": "ability_id",
+                    "expression": "\"grand_saboteur\""
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_UPGRADE_NAME_Seeking_Shuriken",
+            "description": "LOC_UPGRADE_DESC_Seeking_Shuriken",
+            "parent_id": 0,
+            "cost": 200.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "shuriken_motion_ref",
+                    "expression": "22"
+                },
+                {
+                    "key": "homing_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_UPGRADE_NAME_Caltrops",
+            "description": "LOC_UPGRADE_DESC_Caltrops",
+            "parent_id": 11,
+            "cost": 250.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "caltrop_launcher_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_UPGRADE_NAME_Flash_Bomb",
+            "description": "LOC_UPGRADE_DESC_Flash_Bomb",
+            "parent_id": 12,
+            "cost": 1800.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "flash_bang_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_UPGRADE_NAME_Sticky_Bomb",
+            "description": "LOC_UPGRADE_DESC_Sticky_Bomb",
+            "parent_id": 13,
+            "cost": 4600.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "enable_sticky_bomb",
+                    "expression": "true"
+                },
+                {
+                    "key": "range",
+                    "expression": ""
+                },
+                {
+                    "key": "sticky_bomb_damage",
+                    "expression": "450"
+                },
+                {
+                    "key": "sticky_bomb_secondary_damage",
+                    "expression": "100"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_UPGRADE_NAME_Master_Bomber",
+            "description": "LOC_UPGRADE_DESC_Master_Bomber",
+            "parent_id": 14,
+            "cost": 40000.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "enable_master_bomber",
+                    "expression": "true"
+                },
+                {
+                    "key": "sticky_bomb_reload_time",
+                    "expression": "1.8"
+                },
+                {
+                    "key": "flash_bomb_aoe_dmg",
+                    "expression": "5"
+                },
+                {
+                    "key": "flash_bomb_stun_moabs",
+                    "expression": "true"
+                },
+                {
+                    "key": "sticky_bomb_damage",
+                    "expression": "1000"
+                },
+                {
+                    "key": "sticky_bomb_secondary_damage",
+                    "expression": "200"
+                },
+                {
+                    "key": "sticky_bomb_status_ref",
+                    "expression": "37"
+                },
+                {
+                    "key": "sticky_bomb_bloon_status",
+                    "expression": "EBloonStatus.StickyBombT5"
+                },
+                {
+                    "key": "reload_time",
+                    "expression": "0.4"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 16,
+            "name": "Shuriken Launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "reload_time",
+                "emission_delay": "emission_delay",
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "save_bloon_position": false,
+                    "exclude_from_shared_targeting": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "None",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SEmissionSequenceProps",
+                    "enabled": true,
+                    "sequence": [
+                        "emission_type",
+                        "emission_type",
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": "flash_bang_enabled",
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "flash_bomb_proj_ref"
+                        }
+                    ]
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 18,
+            "name": "Shuriken",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "proj_radius",
+                "infinite_collision_radius": false,
+                "damage": "proj_damage",
+                "damage_type": "Sharp",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "proj_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 0,
+                "angular_velocity_init_props": {
+                    "type": "SAngularVelocityInitFixedProps",
+                    "enabled": true,
+                    "velocity": 12.565999984741213
+                },
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "proj_lifespan",
+                    "allow_disable": false
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "retarget_props": {
+                    "type": "SRetargetProps",
+                    "enabled": "homing_enabled",
+                    "track_new_targets": true,
+                    "range": "range",
+                    "ignore_range": true,
+                    "use_tower_range": false,
+                    "fov": 144.0,
+                    "delay": 0.0,
+                    "max_bounces": "proj_pierce",
+                    "use_original_target_mode": false,
+                    "target_mode": "Close",
+                    "destroy_if_no_target": false,
+                    "min_bounces_to_destroy": 0,
+                    "use_lifespan_as_range": true,
+                    "use_bloon_bounce_increments": false,
+                    "stop_child_bloons_being_retargeted": false,
+                    "ignore_line_of_sight": false
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": true,
+                    "inherit_age_from_projectile": false,
+                    "bloon_modifier_props": [
+                        "distraction_mod_ref",
+                        "counter_espionage_mod_ref",
+                        "moab_distraction_mod_red"
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                },
+                "projectile_motion_props": "shuriken_motion_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 19,
+            "name": "Caltrop Launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "caltrop_launcher_enabled",
+                "targeting_mode_override": "Normal",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "caltrops_reload_time",
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 0,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "STrackTargetingProps",
+                    "enabled": true,
+                    "cache_path_manually": false,
+                    "forward_projection_amount": 0.0,
+                    "return_path_data": false,
+                    "target_active_paths_only": false,
+                    "ignore_line_of_sight": false,
+                    "targeting_mode_override": "None",
+                    "filter_bloon_source": "None"
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "caltrop_spawner"
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "Caltrop Spawner",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 2.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": -1.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 1,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "caltrop_movement_duration",
+                    "allow_disable": false
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnDeathProps",
+                    "enabled": true,
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "caltrop"
+                        }
+                    ],
+                    "use_parents_collision_history": false,
+                    "emit_from_last_contact_position": false,
+                    "emit_on_bloon_leak": true,
+                    "use_target_bloon_props_as_originating_entity_props": false,
+                    "render_on_death": false,
+                    "ignore_child_bloons": false
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionTweenProps",
+                    "enabled": true,
+                    "duration": "caltrop_movement_duration",
+                    "tween_type": "\"expo_out\"",
+                    "tween_elevation": false,
+                    "start_elevation": 0.0,
+                    "end_elevation": 0.0,
+                    "elevation_tween_type": "\"linear\""
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "Caltrop",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 6.0,
+                "infinite_collision_radius": false,
+                "damage": "caltrops_damage",
+                "damage_type": "Sharp",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 6.0,
+                "avoid_buff": "Pierce",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": true,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 2,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "TrackProjectile",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 25.0,
+                    "allow_disable": false
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": false,
+                    "inherit_age_from_projectile": false,
+                    "bloon_modifier_props": [
+                        "counter_espionage_mod_ref"
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "Shuriken Linear",
+            "props": {
+                "type": "SProjectileMotionLinearProps",
+                "enabled": true,
+                "speed": "proj_speed"
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "Shuriken Homing",
+            "props": {
+                "type": "SProjectileMotionHomingProps",
+                "enabled": true,
+                "speed": "proj_speed",
+                "speed_multiplier_while_turning": 0.0,
+                "turn_rate": 0.0,
+                "track_time": 0.05799999833106995
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "Single Emission",
+            "props": {
+                "type": "SSingleEmissionProps",
+                "enabled": true,
+                "slot": 0,
+                "spray_angle": 0.0,
+                "projectile_props": "projectile_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "Arc Emission",
+            "props": {
+                "type": "SArcEmissionProps",
+                "enabled": true,
+                "slot": 0,
+                "count": "emission_count",
+                "spread_angle": "emission_angle",
+                "lateral_offset": 0.0,
+                "inclusive_angle": true,
+                "spread_evenly": true,
+                "projectile_props": "projectile_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "Flash Bomb Explosion",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 40.0,
+                "infinite_collision_radius": false,
+                "damage": "flash_bomb_aoe_dmg",
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "flash_bomb_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 4,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "0",
+                    "allow_disable": false
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "Stun",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": false,
+                    "inherit_age_from_projectile": false,
+                    "bloon_modifier_props": [
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": true,
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "perform_immunity_check": false,
+                            "mod": {
+                                "type": "SBloonStatusMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Stack",
+                                "mod_instances_limit": 1,
+                                "status": "Stun"
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": "flash_bomb_lifespan",
+                                "allow_disable": false
+                            },
+                            "bloon_filter_props": "bloon_filter",
+                            "only_apply_filter_once": false
+                        },
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": true,
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "perform_immunity_check": false,
+                            "mod": {
+                                "type": "SBloonMotionStateMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Stack",
+                                "mod_instances_limit": 1,
+                                "bloon_motion_state": "Still"
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": "flash_bomb_lifespan",
+                                "allow_disable": false
+                            },
+                            "bloon_filter_props": "bloon_filter",
+                            "only_apply_filter_once": false
+                        },
+                        "flash_moab_stun_ref",
+                        "flash_moab_still_ref",
+                        "counter_espionage_mod_ref"
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 17,
+            "name": "Shinobi Tactics",
+            "props": {
+                "type": "SModProviderProps",
+                "enabled": true,
+                "parent_dependant": true,
+                "modifier_props": [
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": "shinobi_tactics_enabled",
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerWeaponReloadTimeMod",
+                            "enabled": true,
+                            "apply_to_self": true,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 10,
+                            "multiplier": -0.10000000149011612
+                        },
+                        "inclusive_filter": "ninjas_only_filter_ref"
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": "shinobi_tactics_enabled",
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerActiveVFXMod",
+                            "enabled": true,
+                            "apply_to_self": true,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 10,
+                            "new_active_vfx_props": [
+                                {
+                                    "type": "SActiveVFXProps",
+                                    "enabled": true,
+                                    "vfx_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 0,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false,
+                                        "attach_to_parent_tower": false,
+                                        "use_opponents_visuals": false,
+                                        "buff_special_case": "Default"
+                                    },
+                                    "allow_temporary_disable": false
+                                }
+                            ]
+                        },
+                        "inclusive_filter": "ninjas_only_filter_ref"
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": "shinobi_tactics_enabled",
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerPierceMod",
+                            "enabled": true,
+                            "apply_to_self": true,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 10,
+                            "multiplier": 0.10000000149011612,
+                            "additive": 0.0
+                        },
+                        "inclusive_filter": "ninjas_only_filter_ref"
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": "enable_grand_saboteur",
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerRangeMod",
+                            "enabled": true,
+                            "apply_to_self": true,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "multiplier": 0.0,
+                            "additive": 10.0
+                        },
+                        "inclusive_filter": "shinobis_only_filter_ref"
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": "enable_grand_saboteur",
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerAddDamageAdjustMod",
+                            "enabled": true,
+                            "apply_to_self": true,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "projectile_damage_props": {
+                                "type": "SDamageAdjustProps",
+                                "enabled": true,
+                                "damage_adjust_filters": [
+                                    {
+                                        "type": "SDamageAdjustFilterProps",
+                                        "enabled": true,
+                                        "damage_set": -1.0,
+                                        "damage_set_percentage": -1.0,
+                                        "damage_modifier": 2.0,
+                                        "damage_multiplier": 1.0,
+                                        "damage_modifier_non_multiplicable": 0.0,
+                                        "clamp_percentage_damage_to_current_layer": false,
+                                        "inclusive_filter_props": "moab_only_filter_ref"
+                                    }
+                                ]
+                            }
+                        },
+                        "inclusive_filter": "shinobis_only_filter_ref"
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": "enable_grand_saboteur",
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerActiveVFXMod",
+                            "enabled": true,
+                            "apply_to_self": true,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "new_active_vfx_props": [
+                                {
+                                    "type": "SActiveVFXProps",
+                                    "enabled": true,
+                                    "vfx_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 4,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false,
+                                        "attach_to_parent_tower": false,
+                                        "use_opponents_visuals": false,
+                                        "buff_special_case": "Default"
+                                    },
+                                    "allow_temporary_disable": false
+                                }
+                            ]
+                        },
+                        "inclusive_filter": "shinobis_only_filter_ref"
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "Exclude MOABs",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "Minecart|BEAST|MOAB|BFB|ZOMG|DDT|BAD",
+                "exclude_features": "None",
+                "exclude_status": "None",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "Bloon Sabotage",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_bloon_sabotage",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "1.0",
+                "emission_delay": 0.0,
+                "avoid_buff": "Reload|ReloadCooldown",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": "\"\""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 0,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": false,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"\"",
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "ability_id"
+                    },
+                    "ability_icon_slot": "sabotage_ability_icon_slot",
+                    "cooldown_time": 60.0,
+                    "initial_cooldown_mod": 0.0,
+                    "lives_lost_on_activation": 0.0,
+                    "force_target_mode_on_activation": "None",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": true,
+                    "close_tower_ui_if_activated": false,
+                    "can_be_activated_by_drag": false,
+                    "cooldown_persists_globally": "enable_grand_saboteur",
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "unique_effect": {
+                        "type": "SDamageBloonOnSpawnProps",
+                        "enabled": "enable_grand_saboteur",
+                        "damage_amount": 0.25,
+                        "downgrade_bloon": false,
+                        "bloon_filter": {
+                            "type": "SInclusiveBloonFilterProps",
+                            "enabled": true,
+                            "include_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                            "include_features": "None",
+                            "include_status": "None",
+                            "include_mod_groups": [],
+                            "chance": 1.0,
+                            "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                        }
+                    },
+                    "send_custom_reload_event": {
+                        "type": "SCustomReloadEventProps",
+                        "enabled": true,
+                        "send_custom_reload_event_to_self": true,
+                        "send_custom_reload_event_to_all": false,
+                        "custom_reload_event": "\"sabotage_reload\""
+                    },
+                    "duration": {
+                        "type": "STimeDurationProps",
+                        "enabled": true,
+                        "time": "bloon_sabotage_lifespan"
+                    },
+                    "mod_provider": {
+                        "type": "SModProviderProps",
+                        "enabled": true,
+                        "parent_dependant": false,
+                        "modifier_props": [
+                            {
+                                "type": "SBloonModifierZoneProps",
+                                "enabled": true,
+                                "group_id": {
+                                    "group_str": ""
+                                },
+                                "only_apply_mod_while_parent_valid": true,
+                                "except_if_existing_target": true,
+                                "can_soak_though_moab_class": false,
+                                "mod": "bloon_sabotage_mod_ref",
+                                "lifespan_props": {
+                                    "type": "SLifespanSecondsProps",
+                                    "enabled": true,
+                                    "lifespan": "bloon_sabotage_lifespan",
+                                    "allow_disable": false
+                                },
+                                "bloon_filter_props": {
+                                    "type": "SExclusiveBloonFilterProps",
+                                    "enabled": true,
+                                    "exclude_types": "Minecart|BEAST|MOAB_Decoy|BFB_Decoy|ZOMG_Decoy|BAD",
+                                    "exclude_features": "None",
+                                    "exclude_status": "None",
+                                    "exclude_mod_groups": [],
+                                    "chance": 1.0
+                                },
+                                "avoid_mod_in_descendants_props": {
+                                    "type": "SAvoidModInDescendantsProps",
+                                    "enabled": true,
+                                    "bloon_filter_props": {
+                                        "type": "SInclusiveBloonFilterProps",
+                                        "enabled": true,
+                                        "include_types": "sabo_dont_soak",
+                                        "include_features": "None",
+                                        "include_status": "None",
+                                        "include_mod_groups": [],
+                                        "chance": 1.0,
+                                        "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                                    }
+                                },
+                                "only_apply_filter_once": false,
+                                "bloon_target_limit": 0,
+                                "use_tower_base_position": true,
+                                "range_override": {
+                                    "type": "SRangeOverrideProps",
+                                    "enabled": true,
+                                    "override_range": 2000.0,
+                                    "override_ignore_range": true
+                                }
+                            }
+                        ]
+                    },
+                    "tower_modifiers": [
+                        {
+                            "type": "STowerModifierProps",
+                            "enabled": true,
+                            "is_multi_dependent": false,
+                            "group_id": {
+                                "group_str": ""
+                            },
+                            "accumulate_modifier": false,
+                            "mod": {
+                                "type": "STowerActiveVFXMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "new_active_vfx_props": [
+                                    {
+                                        "type": "SActiveVFXProps",
+                                        "enabled": true,
+                                        "vfx_props": {
+                                            "type": "SVisualEffectProps",
+                                            "enabled": true,
+                                            "effect_visual_slot": 2,
+                                            "use_alt_emission_slot": false,
+                                            "emission_slot": 0,
+                                            "life_dependent_on_parent_tower": false,
+                                            "attach_to_parent_tower": false,
+                                            "use_opponents_visuals": false,
+                                            "buff_special_case": "Default"
+                                        },
+                                        "allow_temporary_disable": false
+                                    }
+                                ]
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": "bloon_sabotage_lifespan",
+                                "allow_disable": false
+                            }
+                        }
+                    ],
+                    "vfx_on_activation": [
+                        {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 1,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false,
+                            "attach_to_parent_tower": false,
+                            "use_opponents_visuals": false,
+                            "buff_special_case": "Default"
+                        }
+                    ],
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 3
+                    }
+                },
+                "weapon_group_props": {
+                    "type": "SWeaponGroupProps",
+                    "enabled": true,
+                    "group_id": {
+                        "group_str": "\"bloon_sabotage\""
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "Sticky Bomb Launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_sticky_bomb",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "sticky_bomb_reload_time",
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "save_bloon_position": false,
+                    "exclude_from_shared_targeting": false,
+                    "inclusive_filter_props": "moab_only_filter_ref",
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "None",
+                        "exclude_status": "sticky_bomb_bloon_status",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    },
+                    "target_range_override": {
+                        "type": "SRangeOverrideProps",
+                        "enabled": true,
+                        "override_range": "range * 1.5",
+                        "override_ignore_range": "enable_master_bomber"
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "sticky_bomb_ref"
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 49,
+            "name": "Flash Bomb CE AOE",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 65.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "flash_bomb_pierce",
+                "avoid_buff": "Damage",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 0.0,
+                    "allow_disable": false
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": true,
+                    "inherit_age_from_projectile": false,
+                    "bloon_modifier_props": [
+                        "counter_espionage_mod_ref"
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "Sticky Bomb Timer",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 2.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 3,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": true,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "sticky_bomb_lifespan",
+                    "allow_disable": false
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnTimeProps",
+                    "enabled": true,
+                    "max_time": "sticky_bomb_lifespan",
+                    "count": 1,
+                    "immediate_fire_first_shot": false,
+                    "requires_target": false,
+                    "targeting_props": {
+                        "type": "SAreaTargetingProps",
+                        "enabled": true,
+                        "base_position_type": "Target",
+                        "point_sample_distance": 0.0,
+                        "ideal_distance_within_track": 0.0,
+                        "prioritise_random_target_over_base_position": false,
+                        "required_valid_target": false,
+                        "ignore_line_of_sight": false,
+                        "target_path_start_on_init": false
+                    },
+                    "emission_props": {
+                        "type": "SSingleEmissionProps",
+                        "enabled": true,
+                        "slot": 0,
+                        "spray_angle": 0.0,
+                        "projectile_props": "sticky_bomb_explosion_ref"
+                    }
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 32,
+            "name": "MOABs Only",
+            "props": {
+                "type": "SInclusiveBloonFilterProps",
+                "enabled": true,
+                "include_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                "include_features": "None",
+                "include_status": "None",
+                "include_mod_groups": [],
+                "chance": 1.0,
+                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "Sticky Bomb Explosion",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 40.0,
+                "infinite_collision_radius": false,
+                "damage": "sticky_bomb_damage",
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "Pierce",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 6,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "DDT",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": "moab_only_filter_ref",
+                "create_projectile_on_death_props": {
+                    "type": "SCreateProjectileOnDeathProps",
+                    "enabled": true,
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "sticky_bomb_secondary_explosion_ref"
+                        }
+                    ],
+                    "use_parents_collision_history": true,
+                    "emit_from_last_contact_position": false,
+                    "emit_on_bloon_leak": true,
+                    "use_target_bloon_props_as_originating_entity_props": false,
+                    "render_on_death": false,
+                    "ignore_child_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 33,
+            "name": "Flash Bomb",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 4.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "Pierce",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 3,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "proj_lifespan",
+                    "allow_disable": false
+                },
+                "collision_filter_props": "flash_bomb_filter",
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnContactProps",
+                    "enabled": true,
+                    "trigger_on_max_contacts": false,
+                    "max_num_contacts": 0,
+                    "ammo_count": -1,
+                    "on_bloon_destroyed": false,
+                    "on_destroyed_by_immunity": false,
+                    "on_not_destroyed_by_immunity": false,
+                    "attatch_to_bloon": false,
+                    "bloon_lifespan_dependent": false,
+                    "use_parents_collision_history": false,
+                    "refund_original_pierce_if_not_created": false,
+                    "create_at_target_position": false,
+                    "min_time_between_emissions": 0.0,
+                    "extra_pierce_cost_per_emission": 0,
+                    "target_spawned_children": "None",
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "flash_bomb_aoe_ref"
+                        },
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": "enable_counter_espionage",
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "flash_bomb_ce_aoe_ref"
+                        }
+                    ]
+                },
+                "sfx_on_contact": [
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 0
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 1
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 2
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 3
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 4
+                    }
+                ],
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": 100.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 40,
+            "name": "Bloon Sabotage",
+            "props": {
+                "type": "SBloonSpeedMod",
+                "enabled": true,
+                "apply_to_self": false,
+                "modify_type": "Exclusive",
+                "mod_instances_limit": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "type": 4,
+            "id": 36,
+            "name": "Counter Espionage",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "enable_counter_espionage",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "effector_props": {
+                    "type": "SBloonRemoveFeaturesEffectorProps",
+                    "enabled": true,
+                    "features_to_remove": "Camo"
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 42,
+            "name": "Distraction",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "enable_distraction",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonBlowbackAddMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "blowback_bloon_props": {
+                        "type": "SBlowbackProps",
+                        "enabled": true,
+                        "chance": "distraction_chance",
+                        "distance_min": 150.0,
+                        "distance_max": 250.0
+                    }
+                },
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "Minecart|BEAST|MOAB|MOAB_Decoy|BFB|BFB_Decoy|ZOMG|ZOMG_Decoy|DDT|BAD",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 34,
+            "name": "Flash Bomb Filter",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "None",
+                "exclude_features": "None",
+                "exclude_status": "None",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 39,
+            "name": "Stun MOABS Filter",
+            "props": {
+                "type": "SInclusiveBloonFilterProps",
+                "enabled": true,
+                "include_types": "MOAB|BFB|ZOMG|DDT",
+                "include_features": "None",
+                "include_status": "None",
+                "include_mod_groups": [],
+                "chance": 1.0,
+                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+            }
+        },
+        {
+            "type": 4,
+            "id": 43,
+            "name": "Flash MOAB Stun",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "flash_bomb_stun_moabs",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "status": "Stun"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 0.25,
+                    "allow_disable": false
+                },
+                "bloon_filter_props": "stun_moabs_filter",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 44,
+            "name": "Flash MOAB still",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "flash_bomb_stun_moabs",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonMotionStateMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "bloon_motion_state": "Still"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 0.25,
+                    "allow_disable": false
+                },
+                "bloon_filter_props": "stun_moabs_filter",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 35,
+            "name": "Sticky Bomb",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 4.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "Pierce",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 5,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 2.0,
+                    "allow_disable": false
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "Minecart|Red|Blue|Green|Yellow|Pink|Black|White|Purple|Lead|Zebra|Rainbow|Ceramic|BEAST|MOAB_Decoy|BFB_Decoy|ZOMG_Decoy",
+                    "exclude_features": "None",
+                    "exclude_status": "sticky_bomb_bloon_status",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnContactProps",
+                    "enabled": true,
+                    "trigger_on_max_contacts": false,
+                    "max_num_contacts": 0,
+                    "ammo_count": -1,
+                    "on_bloon_destroyed": false,
+                    "on_destroyed_by_immunity": false,
+                    "on_not_destroyed_by_immunity": false,
+                    "attatch_to_bloon": false,
+                    "bloon_lifespan_dependent": false,
+                    "use_parents_collision_history": false,
+                    "refund_original_pierce_if_not_created": false,
+                    "create_at_target_position": false,
+                    "min_time_between_emissions": 0.0,
+                    "extra_pierce_cost_per_emission": 0,
+                    "target_spawned_children": "None",
+                    "bloon_filter_props": "moab_only_filter_ref",
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "sticky_bomb_timer_ref"
+                        }
+                    ]
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": false,
+                    "inherit_age_from_projectile": false,
+                    "bloon_modifier_props": [
+                        "sticky_bomb_status_ref",
+                        "sticky_bomb_stun_ref",
+                        "sticky_bomb_still_ref",
+                        "counter_espionage_mod_ref"
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                },
+                "sfx_on_contact": [
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 5
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 6
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 7
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 8
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 9
+                    }
+                ],
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": 300.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 41,
+            "name": "Sticky Bomb Status",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "status": "StickyBomb"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "sticky_bomb_lifespan",
+                    "allow_disable": false
+                },
+                "bloon_filter_props": "moab_only_filter_ref",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 45,
+            "name": "Sticky Bomb Stun",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "enable_master_bomber",
+                "propagate_to_children": false,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "status": "Stun"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 1.0,
+                    "allow_disable": false
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "MOAB|BFB|ZOMG|DDT",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 46,
+            "name": "Sticky Bomb Still",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "enable_master_bomber",
+                "propagate_to_children": false,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonMotionStateMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "bloon_motion_state": "Still"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 1.0,
+                    "allow_disable": false
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "MOAB|BFB|ZOMG|DDT",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 37,
+            "name": "Sticky Bomb T5 Status",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "status": "StickyBombT5"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "sticky_bomb_lifespan",
+                    "allow_disable": false
+                },
+                "bloon_filter_props": "moab_only_filter_ref",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 47,
+            "name": "Ninjas Only",
+            "props": {
+                "type": "SInclusiveTowerFilterProps",
+                "enabled": true,
+                "include_types": "NinjaMonkey",
+                "include_kinds": "None",
+                "include_category": "None",
+                "include_area_types": "None",
+                "include_placed_area_types": "None",
+                "include_must_have_weapon": false,
+                "include_must_have_ability": false,
+                "include_mod_groups": [],
+                "include_target_mode": "None",
+                "include_any_combo": false,
+                "include_only_placement_candidate": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 48,
+            "name": "MOAB Distraction",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "enable_distraction and enable_moab_distraction",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonBlowbackAddMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "blowback_bloon_props": {
+                        "type": "SBlowbackProps",
+                        "enabled": true,
+                        "chance": "0.5",
+                        "distance_min": 60.0,
+                        "distance_max": 100.0
+                    }
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "MOAB|BFB",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 38,
+            "name": "Sticky Bomb Secondary Explosion",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 40.0,
+                "infinite_collision_radius": false,
+                "damage": "sticky_bomb_secondary_damage",
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 10.0,
+                "avoid_buff": "Pierce",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 6,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "DDT",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 50,
+            "name": "Grand Saboteur Weapon",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_grand_saboteur",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.07999999821186066,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": 1,
+                "refresh_ammo_every_n_rounds": 0,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": false,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": true,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "custom_reloader": {
+                    "type": "SCustomWeaponReloaderProps",
+                    "enabled": true,
+                    "event": "\"sabotage_reload\"",
+                    "cooldown": -1.0,
+                    "once_per_round": false,
+                    "reload_on_start": false,
+                    "start_cooldown_on_first_weapon_fire": false,
+                    "dynamic_ammo_count": false,
+                    "additive": false
+                },
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": false,
+                    "target_path_start_on_init": false
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": {
+                        "type": "SProjectileProps",
+                        "enabled": true,
+                        "collision_radius": 1.0,
+                        "infinite_collision_radius": true,
+                        "damage": 0.0,
+                        "damage_type": "Unstoppable",
+                        "damage_distribution_mode": "SingleLayerOnly",
+                        "pierce": -1.0,
+                        "avoid_buff": "Damage|Pierce|DamageType",
+                        "collide_only_with_target": false,
+                        "collide_with_target_multiple_times": false,
+                        "ignore_collision_lineage": false,
+                        "time_between_collisions": 0.0,
+                        "collide_with_blockers": "None",
+                        "visual_slot": 0,
+                        "random_starting_angle": false,
+                        "ignore_immunity_for_bloon_types": "None",
+                        "ignore_immunity_for_damage_type": "None",
+                        "projectile_type": "None",
+                        "lifespan_depends_on_target": false,
+                        "lifespan_depends_on_tower": false,
+                        "destroy_projectile_when": "None",
+                        "show_visual_on_spawn": false,
+                        "destroy_at_screen_bounds": false,
+                        "transform_emission_point_by_camera": false,
+                        "save_target_position": false,
+                        "lifespan_props": {
+                            "type": "SLifespanSingleFrameProps",
+                            "enabled": true
+                        },
+                        "collision_filter_props": "moab_only_filter_ref",
+                        "damage_props": {
+                            "type": "SDamageAdjustProps",
+                            "enabled": true,
+                            "damage_adjust_filters": [
+                                {
+                                    "type": "SDamageAdjustFilterProps",
+                                    "enabled": true,
+                                    "damage_set": -1.0,
+                                    "damage_set_percentage": 0.125,
+                                    "damage_modifier": 0.0,
+                                    "damage_multiplier": 1.0,
+                                    "damage_modifier_non_multiplicable": 0.0,
+                                    "clamp_percentage_damage_to_current_layer": true,
+                                    "inclusive_filter_props": "moab_only_filter_ref"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 51,
+            "name": "Shinobis Only",
+            "props": {
+                "type": "SInclusiveTowerFilterProps",
+                "enabled": true,
+                "include_types": "NinjaMonkey",
+                "include_kinds": "None",
+                "include_category": "None",
+                "include_upgrades": {
+                    "type": "SUpgradeTierProps",
+                    "enabled": true,
+                    "paths": [
+                        1
+                    ],
+                    "tiers": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                "include_area_types": "None",
+                "include_placed_area_types": "None",
+                "include_must_have_weapon": false,
+                "include_must_have_ability": false,
+                "include_mod_groups": [],
+                "include_target_mode": "None",
+                "include_any_combo": false,
+                "include_only_placement_candidate": false
+            }
+        }
+    ]
+}

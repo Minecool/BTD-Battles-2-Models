@@ -1,0 +1,491 @@
+{
+    "version_code": 3,
+    "invalid": false,
+    "type": 1,
+    "variables": [
+        {
+            "key": "fireball_ref",
+            "variable": {
+                "type": "Node",
+                "value": 16
+            }
+        },
+        {
+            "key": "fireball_launcher",
+            "variable": {
+                "type": "Node",
+                "value": 17
+            }
+        },
+        {
+            "key": "has_lifespan",
+            "variable": {
+                "type": "Bool",
+                "value": true
+            }
+        },
+        {
+            "key": "fireball_pierce",
+            "variable": {
+                "type": "Float",
+                "value": 8.0
+            }
+        },
+        {
+            "key": "fireball_speed",
+            "variable": {
+                "type": "Float",
+                "value": 350.0
+            }
+        },
+        {
+            "key": "fireball_damage",
+            "variable": {
+                "type": "Float",
+                "value": 6.0
+            }
+        },
+        {
+            "key": "fireball_radius",
+            "variable": {
+                "type": "Float",
+                "value": 6.0
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_ABILITY_NAME_Summon_Phoenix",
+            "description": "",
+            "cost": 0.0,
+            "upgrade_xp_cost_multiplier": 1.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Tower|Child",
+                "tower_type": "Phoenix",
+                "tower_category": "Magic",
+                "valid_targeting_modes": "CenteredPath",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 6.0,
+                    "supported_area": "Land|Water|Blocker",
+                    "blocks_other_towers": false,
+                    "can_intersect_blockers": true
+                },
+                "range": 0.0,
+                "show_full_vision_poly": false,
+                "is_selectable": false,
+                "is_sellable": false,
+                "is_upgradable": true,
+                "can_be_temporarily_disabled_by_map": false,
+                "destroy_on_parent_removal": true,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": true,
+                "ignore_parent_hierarchy": false,
+                "inherit_target_mode_from_parent_on_change": false,
+                "inherit_target_mode_from_parent_on_instantiation": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "can_target_camo": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "fireball_launcher"
+                ],
+                "tower_flight_props": {
+                    "type": "SPlaneFlightProps",
+                    "enabled": true,
+                    "speed": 50.0,
+                    "radius": 55.0,
+                    "takeoff_scale": 0.699999988079071,
+                    "takeoff_scale_exponent": 2.5,
+                    "takeoff_pitch": 0.7853981852531433,
+                    "takeoff_pitch_exponent": 1.0,
+                    "takeoff_time": 0.5,
+                    "bank_rotation_degrees": 0.0,
+                    "bank_rotation_mult": 0.0,
+                    "tower_radius": 10.0,
+                    "always_spawn_from_base_position": true
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": "has_lifespan",
+                    "lifespan": 20.0,
+                    "allow_disable": false
+                },
+                "active_vfx_props": [
+                    {
+                        "type": "SActiveVFXProps",
+                        "enabled": true,
+                        "vfx_props": {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 0,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false,
+                            "attach_to_parent_tower": false,
+                            "use_opponents_visuals": false,
+                            "buff_special_case": "Default"
+                        },
+                        "allow_temporary_disable": false
+                    }
+                ],
+                "vfx_on_spawn_override": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 1,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false,
+                    "attach_to_parent_tower": false,
+                    "use_opponents_visuals": false,
+                    "buff_special_case": "Default"
+                },
+                "despawn_visual_props": {
+                    "type": "SDespawnVisualProps",
+                    "enabled": true,
+                    "vfx_on_despawn": {
+                        "type": "SVisualEffectProps",
+                        "enabled": true,
+                        "effect_visual_slot": 2,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false,
+                        "attach_to_parent_tower": false,
+                        "use_opponents_visuals": false,
+                        "buff_special_case": "Default"
+                    },
+                    "animation_trigger_on_despawn": "",
+                    "despawn_animation_length": 0.0
+                },
+                "tag_props": {
+                    "type": "STagProps",
+                    "enabled": true,
+                    "tag": "Phoenix"
+                }
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "Upgrade 0/1",
+            "description": "",
+            "parent_id": 0,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "Upgrade 0/2",
+            "description": "",
+            "parent_id": 1,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "Upgrade 0/3",
+            "description": "",
+            "parent_id": 2,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "Upgrade 0/4",
+            "description": "",
+            "parent_id": 3,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "Upgrade 0/5",
+            "description": "",
+            "parent_id": 4,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "Upgrade 1/1",
+            "description": "",
+            "parent_id": 0,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "Upgrade 1/2",
+            "description": "",
+            "parent_id": 6,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "Upgrade 1/3",
+            "description": "",
+            "parent_id": 7,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "Upgrade 1/4",
+            "description": "",
+            "parent_id": 8,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "Upgrade 1/5",
+            "description": "",
+            "parent_id": 9,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "has_lifespan",
+                    "expression": "false"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "Upgrade 2/1",
+            "description": "",
+            "parent_id": 0,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "Upgrade 2/2",
+            "description": "",
+            "parent_id": 11,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "Upgrade 2/3",
+            "description": "",
+            "parent_id": 12,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "Upgrade 2/4",
+            "description": "",
+            "parent_id": 13,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "Upgrade 2/5",
+            "description": "",
+            "parent_id": 14,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 4,
+            "id": 16,
+            "name": "fireball",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "fireball_radius",
+                "infinite_collision_radius": false,
+                "damage": "fireball_damage",
+                "damage_type": "Plasma",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "fireball_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 2.0,
+                    "allow_disable": false
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": "fireball_speed"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 17,
+            "name": "fireball_launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.10000000149011612,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": true,
+                "animation_trigger": "",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "None",
+                    "ignore_line_of_sight": true,
+                    "use_bloon_position": false,
+                    "save_bloon_position": false,
+                    "camo_prioritisation": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "None",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "fireball_ref"
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        }
+    ]
+}
