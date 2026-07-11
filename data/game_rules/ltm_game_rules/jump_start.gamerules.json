@@ -1,0 +1,430 @@
+{
+    "version": 10,
+    "template_asset_id": 0,
+    "roundset_asset": 17287649892945711110,
+    "bloonset_asset": 4862887742878862382,
+    "bloonset_loadout_asset": 10922101686331993204,
+    "starting_lives": 150.0,
+    "starting_cash": 650.0,
+    "starting_income": 250.0,
+    "max_lives": 48000.0,
+    "reward_first_blood": true,
+    "eco_tick_time": 6.0,
+    "disable_tower_selling": false,
+    "tower_max_sell_value_multiplier": 0.949999988079071,
+    "phayze_pause_seconds": 0.5,
+    "phayze_dash_length": 0.10000000149011612,
+    "phayze_dash_speed": 350.0,
+    "allow_all_heroes": true,
+    "allow_all_towers": true,
+    "allow_all_upgrades": true,
+    "start_round": 19,
+    "overtime_round": 40,
+    "game_over_round": 50,
+    "super_ceramic_round": 30,
+    "zero_income_round": 50,
+    "first_round_delay": 30.0,
+    "minimum_delay_after_last_spawned": 5.5,
+    "natural_round_end_delay_base": 8.5,
+    "natural_round_end_delay_per_round": 1.5,
+    "early_round_end_delay_one_finished": 4.0,
+    "early_round_end_delay_all_finished": 2.0,
+    "disable_camo_bloon_send": false,
+    "disable_regen_bloon_send": false,
+    "disable_fortified_bloon_send": false,
+    "disable_phayze_bloon_send": false,
+    "bloon_send_round_unlock_regen": 8,
+    "bloon_send_round_unlock_camo": 12,
+    "bloon_send_round_unlock_fortified": 18,
+    "bloon_send_cost_multiplier_regen": 1.600000023841858,
+    "bloon_send_cost_multiplier_camo": 1.75,
+    "bloon_send_cost_multiplier_fortified": 2.0,
+    "bloon_send_cost_multiplier_phayze": 1.600000023841858,
+    "bloon_send_eco_multiplier_bloon_type_string": "MOAB|BFB|ZOMG|DDT|BAD",
+    "bloon_send_eco_multiplier_camo": 1.0,
+    "bloon_send_eco_multiplier_regen": 1.0,
+    "bloon_send_eco_multiplier_fortified": 2.0,
+    "bloon_send_eco_multiplier_phayze": 1.0,
+    "starting_bloon_boosts": 3,
+    "bloon_boost_duration": 12.0,
+    "bloon_boost_speed_mod": 1.3300000429153442,
+    "bloon_boost_cooldown": 30.0,
+    "bloon_boost_initial_cooldown_mod": 0.25,
+    "starting_tower_boosts": 3,
+    "tower_boost_duration": 12.0,
+    "tower_boost_reload_mod": -0.4000000059604645,
+    "tower_boost_cooldown": 40.0,
+    "tower_boost_initial_cooldown_mod": 0.5,
+    "map_skips": 1,
+    "lobby_hero_select_countdown": 15.0,
+    "lobby_tower_select_countdown": 30.0,
+    "hero_select_cooldown": 0.0,
+    "force_random_heroes": false,
+    "force_random_towers": false,
+    "force_random_heroes_same": false,
+    "force_random_towers_same": false,
+    "track_list_asset": 15645779642833891825,
+    "all_bloons_speed_multiplier": 1.0,
+    "all_bloon_sends_unlocking_round_offset": 0,
+    "all_bloon_sends_eco_multiplier": 1.0,
+    "all_cash_gains_multiplier": 1.0,
+    "bloon_sends_go_to_both_sides": false,
+    "all_costs_base_multiplier": 1.0,
+    "all_costs_base_multiplier_decrease": 0.0,
+    "disable_natural_camo_modifier": false,
+    "disable_natural_regen_modifier": false,
+    "disable_natural_fortified_modifier": false,
+    "hp_ramping_brackets": [
+        {
+            "ramping_per_round": 0.20000000298023224,
+            "starts_on_round": 25,
+            "stops_after_round": 30
+        },
+        {
+            "ramping_per_round": 0.4000000059604645,
+            "starts_on_round": 31,
+            "stops_after_round": 40
+        },
+        {
+            "ramping_per_round": 0.800000011920929,
+            "starts_on_round": 41,
+            "stops_after_round": 50
+        },
+        {
+            "ramping_per_round": 0.6000000238418579,
+            "starts_on_round": 51,
+            "stops_after_round": 100
+        }
+    ],
+    "speed_ramping_brackets": [
+        {
+            "ramping_per_round": 0.10000000149011612,
+            "starts_on_round": 25,
+            "stops_after_round": 100
+        }
+    ],
+    "randomise_start_round": true,
+    "min_start_round": 9,
+    "max_start_round": 29,
+    "randomise_start_cash": true,
+    "starting_cash_brackets": [
+        {
+            "r": 9,
+            "mn": 4000.0,
+            "mx": 9000.0
+        },
+        {
+            "r": 10,
+            "mn": 6000.0,
+            "mx": 16000.0
+        },
+        {
+            "r": 11,
+            "mn": 7000.0,
+            "mx": 21000.0
+        },
+        {
+            "r": 12,
+            "mn": 8000.0,
+            "mx": 24000.0
+        },
+        {
+            "r": 13,
+            "mn": 9000.0,
+            "mx": 25000.0
+        },
+        {
+            "r": 14,
+            "mn": 9000.0,
+            "mx": 27000.0
+        },
+        {
+            "r": 15,
+            "mn": 10000.0,
+            "mx": 28000.0
+        },
+        {
+            "r": 16,
+            "mn": 11000.0,
+            "mx": 30000.0
+        },
+        {
+            "r": 17,
+            "mn": 12000.0,
+            "mx": 34000.0
+        },
+        {
+            "r": 18,
+            "mn": 13000.0,
+            "mx": 39000.0
+        },
+        {
+            "r": 19,
+            "mn": 15000.0,
+            "mx": 47000.0
+        },
+        {
+            "r": 20,
+            "mn": 18000.0,
+            "mx": 58000.0
+        },
+        {
+            "r": 21,
+            "mn": 21000.0,
+            "mx": 73000.0
+        },
+        {
+            "r": 22,
+            "mn": 25000.0,
+            "mx": 93000.0
+        },
+        {
+            "r": 23,
+            "mn": 29000.0,
+            "mx": 117000.0
+        },
+        {
+            "r": 24,
+            "mn": 35000.0,
+            "mx": 147000.0
+        },
+        {
+            "r": 25,
+            "mn": 42000.0,
+            "mx": 183000.0
+        },
+        {
+            "r": 26,
+            "mn": 50000.0,
+            "mx": 226000.0
+        },
+        {
+            "r": 27,
+            "mn": 59000.0,
+            "mx": 276000.0
+        },
+        {
+            "r": 28,
+            "mn": 70000.0,
+            "mx": 335000.0
+        },
+        {
+            "r": 29,
+            "mn": 83000.0,
+            "mx": 402000.0
+        },
+        {
+            "r": 30,
+            "mn": 97000.0,
+            "mx": 479000.0
+        },
+        {
+            "r": 31,
+            "mn": 112000.0,
+            "mx": 565000.0
+        },
+        {
+            "r": 32,
+            "mn": 130000.0,
+            "mx": 662000.0
+        },
+        {
+            "r": 33,
+            "mn": 150000.0,
+            "mx": 770000.0
+        },
+        {
+            "r": 34,
+            "mn": 171000.0,
+            "mx": 889000.0
+        },
+        {
+            "r": 35,
+            "mn": 195000.0,
+            "mx": 1022000.0
+        },
+        {
+            "r": 36,
+            "mn": 221000.0,
+            "mx": 1167000.0
+        },
+        {
+            "r": 37,
+            "mn": 250000.0,
+            "mx": 1325000.0
+        },
+        {
+            "r": 38,
+            "mn": 281000.0,
+            "mx": 1498000.0
+        },
+        {
+            "r": 39,
+            "mn": 315000.0,
+            "mx": 1685000.0
+        }
+    ],
+    "randomise_start_income": true,
+    "starting_income_brackets": [
+        {
+            "r": 9,
+            "mn": 250.0,
+            "mx": 1100.0
+        },
+        {
+            "r": 10,
+            "mn": 250.0,
+            "mx": 1200.0
+        },
+        {
+            "r": 11,
+            "mn": 250.0,
+            "mx": 1300.0
+        },
+        {
+            "r": 12,
+            "mn": 250.0,
+            "mx": 1400.0
+        },
+        {
+            "r": 13,
+            "mn": 250.0,
+            "mx": 1550.0
+        },
+        {
+            "r": 14,
+            "mn": 250.0,
+            "mx": 1700.0
+        },
+        {
+            "r": 15,
+            "mn": 250.0,
+            "mx": 1900.0
+        },
+        {
+            "r": 16,
+            "mn": 250.0,
+            "mx": 2100.0
+        },
+        {
+            "r": 17,
+            "mn": 250.0,
+            "mx": 2300.0
+        },
+        {
+            "r": 18,
+            "mn": 250.0,
+            "mx": 2500.0
+        },
+        {
+            "r": 19,
+            "mn": 250.0,
+            "mx": 2750.0
+        },
+        {
+            "r": 20,
+            "mn": 250.0,
+            "mx": 3050.0
+        },
+        {
+            "r": 21,
+            "mn": 250.0,
+            "mx": 3300.0
+        },
+        {
+            "r": 22,
+            "mn": 250.0,
+            "mx": 3600.0
+        },
+        {
+            "r": 23,
+            "mn": 250.0,
+            "mx": 3950.0
+        },
+        {
+            "r": 24,
+            "mn": 250.0,
+            "mx": 4300.0
+        },
+        {
+            "r": 25,
+            "mn": 250.0,
+            "mx": 4650.0
+        },
+        {
+            "r": 26,
+            "mn": 250.0,
+            "mx": 5000.0
+        },
+        {
+            "r": 27,
+            "mn": 250.0,
+            "mx": 5400.0
+        },
+        {
+            "r": 28,
+            "mn": 250.0,
+            "mx": 5800.0
+        },
+        {
+            "r": 29,
+            "mn": 250.0,
+            "mx": 6250.0
+        },
+        {
+            "r": 30,
+            "mn": 250.0,
+            "mx": 6700.0
+        },
+        {
+            "r": 31,
+            "mn": 250.0,
+            "mx": 7150.0
+        },
+        {
+            "r": 32,
+            "mn": 250.0,
+            "mx": 7600.0
+        },
+        {
+            "r": 33,
+            "mn": 250.0,
+            "mx": 8100.0
+        },
+        {
+            "r": 34,
+            "mn": 250.0,
+            "mx": 8650.0
+        },
+        {
+            "r": 35,
+            "mn": 250.0,
+            "mx": 9150.0
+        },
+        {
+            "r": 36,
+            "mn": 250.0,
+            "mx": 9700.0
+        },
+        {
+            "r": 37,
+            "mn": 250.0,
+            "mx": 10300.0
+        },
+        {
+            "r": 38,
+            "mn": 250.0,
+            "mx": 10900.0
+        },
+        {
+            "r": 39,
+            "mn": 250.0,
+            "mx": 11500.0
+        }
+    ],
+    "first_round_delay_per_cash": 0.0002500000118743628,
+    "first_round_delay_per_cash_max": 70.0,
+    "allow_negative_lives": false,
+    "manually_control_rounds": false,
+    "allow_free_sends": false
+}

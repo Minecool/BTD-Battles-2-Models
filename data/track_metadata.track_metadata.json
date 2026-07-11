@@ -1,0 +1,356 @@
+{
+    "v": 2,
+    "track_metadata": [
+        {
+            "asset_id": 17952145555794453232,
+            "thumbnail_asset_id": 7750076309565641840,
+            "loc_id": "LOC_MAP_MAYAN",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 611.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 1257599897607147664,
+            "thumbnail_asset_id": 1878234229017780062,
+            "loc_id": "LOC_MAP_GLADE",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 535.0,
+            "track_length_type": "Short"
+        },
+        {
+            "asset_id": 8027579449967740256,
+            "thumbnail_asset_id": 7801130556011257466,
+            "loc_id": "LOC_MAP_GLADE_REVERSED",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 535.7498168945312,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 6951804431439461138,
+            "thumbnail_asset_id": 15923859864650338112,
+            "loc_id": "LOC_MAP_BASALT_COLUMNS",
+            "has_water": true,
+            "use_alt_range_colours": true,
+            "track_length": 446.0,
+            "track_length_type": "Short"
+        },
+        {
+            "asset_id": 1401319518854848888,
+            "thumbnail_asset_id": 12215672424219577890,
+            "loc_id": "LOC_MAP_DOCKS",
+            "has_water": true,
+            "use_alt_range_colours": true,
+            "track_length": 903.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 9222671290642196600,
+            "thumbnail_asset_id": 14010917124596797582,
+            "loc_id": "LOC_MAP_DINO_GRAVEYARD",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 645.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 14430652889006179982,
+            "thumbnail_asset_id": 796294735213088044,
+            "loc_id": "LOC_MAP_GARDEN",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 660.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 12152742872688528676,
+            "thumbnail_asset_id": 7988948908992147239,
+            "loc_id": "LOC_MAP_BLOONTONIUM_MINES",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 795.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 15320176001238911992,
+            "thumbnail_asset_id": 272190030506053294,
+            "loc_id": "LOC_CASTLE_RUINS",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 609.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 711968296318320874,
+            "thumbnail_asset_id": 18442972785427977059,
+            "loc_id": "LOC_MAP_KORU",
+            "has_water": true,
+            "use_alt_range_colours": true,
+            "track_length": 642.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 11553016678554216392,
+            "thumbnail_asset_id": 140642919903546732,
+            "loc_id": "LOC_MAP_SANDS_OF_TIME",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 618.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 3659636820901883336,
+            "thumbnail_asset_id": 10004230946254798547,
+            "loc_id": "LOC_MAP_IN_THE_WALL",
+            "has_water": true,
+            "use_alt_range_colours": true,
+            "track_length": 734.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 8343071063775984599,
+            "thumbnail_asset_id": 8432819578980159816,
+            "loc_id": "LOC_MAP_PORTS",
+            "has_water": true,
+            "use_alt_range_colours": true,
+            "track_length": 402.0,
+            "track_length_type": "Short"
+        },
+        {
+            "asset_id": 9413697416314786125,
+            "thumbnail_asset_id": 4731559836859675937,
+            "loc_id": "LOC_MAP_INFLECTION",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 402.0,
+            "track_length_type": "Short"
+        },
+        {
+            "asset_id": 2909763556575902948,
+            "thumbnail_asset_id": 9326196603433935054,
+            "loc_id": "LOC_MAP_INFLECTION_REVERSED",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 402.8961791992188,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 5666999363450793683,
+            "thumbnail_asset_id": 5950926218138266454,
+            "loc_id": "LOC_MAP_STAR",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 624.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 17198029359086180959,
+            "thumbnail_asset_id": 16539118902881189545,
+            "loc_id": "LOC_MAP_OASIS",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 641.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 2232577791283497494,
+            "thumbnail_asset_id": 15753682049954767126,
+            "loc_id": "LOC_MAP_OASIS_REVERSED",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 641.5665893554688,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 9618600194191516692,
+            "thumbnail_asset_id": 3987048716676506738,
+            "loc_id": "LOC_MAP_BUILDING_SITE",
+            "has_water": true,
+            "use_alt_range_colours": true,
+            "track_length": 451.0,
+            "track_length_type": "Short"
+        },
+        {
+            "asset_id": 6333712566928688192,
+            "thumbnail_asset_id": 12703833853019724838,
+            "loc_id": "LOC_MAP_BANANA_DEPOT",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 664.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 3130608744432217775,
+            "thumbnail_asset_id": 3337031315586402557,
+            "loc_id": "LOC_MAP_BOT_FACTORY",
+            "has_water": true,
+            "use_alt_range_colours": true,
+            "track_length": 680.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 8125659218633392693,
+            "thumbnail_asset_id": 6881869586916629233,
+            "loc_id": "LOC_MAP_THIN_ICE",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 789.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 7472034809792866759,
+            "thumbnail_asset_id": 8224785145050731863,
+            "loc_id": "LOC_MAP_COBRA_COMMAND",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 603.0,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 18326302441374234366,
+            "thumbnail_asset_id": 14460778191534957980,
+            "loc_id": "LOC_MAP_COBRA_COMMAND_REVERSED",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 603.0032958984375,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 1309491162027151959,
+            "thumbnail_asset_id": 5630322812471521100,
+            "loc_id": "LOC_MAP_OFFTIDE",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 485.0,
+            "track_length_type": "Short"
+        },
+        {
+            "asset_id": 8508597303585390526,
+            "thumbnail_asset_id": 16034011450160847741,
+            "loc_id": "LOC_MAP_OFFTIDE_REVERSED",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 485.2729187011719,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 10534053285117059855,
+            "thumbnail_asset_id": 2842411910073826589,
+            "loc_id": "LOC_MAP_PIRATE_COVE",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 457.0,
+            "track_length_type": "Short"
+        },
+        {
+            "asset_id": 16045887547852307781,
+            "thumbnail_asset_id": 15563488037954548365,
+            "loc_id": "LOC_MAP_PRECIOUS_SPACE",
+            "has_water": true,
+            "use_alt_range_colours": true,
+            "track_length": 523.7572021484375,
+            "track_length_type": "Short"
+        },
+        {
+            "asset_id": 11464969743852723269,
+            "thumbnail_asset_id": 16673441814514018929,
+            "loc_id": "LOC_MAP_SUN_PALACE",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 596.6257934570312,
+            "track_length_type": "Short"
+        },
+        {
+            "asset_id": 15096222018498793931,
+            "thumbnail_asset_id": 13659363338518005155,
+            "loc_id": "LOC_MAP_ISLAND_BASE",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 726.3947143554688,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 532924781668202644,
+            "thumbnail_asset_id": 15506143362346405963,
+            "loc_id": "LOC_MAP_SALMON_LADDER",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 669.7645874023438,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 7013270227544270951,
+            "thumbnail_asset_id": 14704790432423531684,
+            "loc_id": "LOC_MAP_TIMES_UP",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 388.927490234375,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 3278045168404455591,
+            "thumbnail_asset_id": 17816968454923313056,
+            "loc_id": "LOC_MAP_BLOONSTONE_QUARRY",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 637.6835327148438,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 2928485441062405543,
+            "thumbnail_asset_id": 15787717812312566800,
+            "loc_id": "LOC_MAP_UP_ON_THE_ROOF",
+            "has_water": true,
+            "use_alt_range_colours": true,
+            "track_length": 798.7755737304688,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 16315870596546079523,
+            "thumbnail_asset_id": 10773867283312146934,
+            "loc_id": "LOC_MAP_NEO_HIGHWAY",
+            "has_water": true,
+            "use_alt_range_colours": true,
+            "track_length": 499.4032897949219,
+            "track_length_type": "Short"
+        },
+        {
+            "asset_id": 4638625935298442543,
+            "thumbnail_asset_id": 3718591524049162373,
+            "loc_id": "LOC_MAP_SPLASHDOWN",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 575.5604248046875,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 14556977416833833703,
+            "thumbnail_asset_id": 13749306539570405520,
+            "loc_id": "LOC_MAP_SKULL_PARTY",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 476.8522033691406,
+            "track_length_type": "Long"
+        },
+        {
+            "asset_id": 9178558050312350704,
+            "thumbnail_asset_id": 736344452903455432,
+            "loc_id": "LOC_MAP_LAVA_CANYON",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 316.7012023925781,
+            "track_length_type": "Short"
+        },
+        {
+            "asset_id": 17593737903097010891,
+            "thumbnail_asset_id": 4124444163946290057,
+            "loc_id": "LOC_MAP_PARK",
+            "has_water": true,
+            "use_alt_range_colours": false,
+            "track_length": 714.3356323242188,
+            "track_length_type": "Long"
+        }
+    ]
+}
