@@ -1,0 +1,215 @@
+{
+    "version_code": 4,
+    "invalid": false,
+    "type": 3,
+    "variables": [
+        {
+            "key": "tower_selector",
+            "variable": {
+                "type": "Node",
+                "value": 1
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_AGENT_TECH_BOT_NAME",
+            "description": "",
+            "cost": 0.0,
+            "upgrade_xp_cost_multiplier": 1.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Agent",
+                "tower_type": "TechBot",
+                "tower_category": "None",
+                "valid_targeting_modes": "",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 3.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true,
+                    "can_intersect_blockers": false,
+                    "can_be_placed_on_track": false
+                },
+                "range": 5.0,
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": false,
+                "can_be_temporarily_disabled_by_map": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "ignore_parent_hierarchy": false,
+                "inherit_target_mode_from_parent_on_change": false,
+                "inherit_target_mode_from_parent_on_instantiation": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "can_target_camo": false,
+                "can_prioritise_camo_targets": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "spawn_with_random_angle": 0.0,
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "tower_selector"
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 1,
+            "name": "Tower Selector",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"activate\"",
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"tech_bot_selector\""
+                    },
+                    "ability_icon_slot": 0,
+                    "cooldown_time": 1.0,
+                    "initial_cooldown_mod": 0.0,
+                    "lives_lost_on_activation": 0.0,
+                    "force_target_mode_on_activation": "None",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "can_be_activated_by_drag": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "priming_states": [
+                        {
+                            "type": "SPrimingStateSelectTowerProps",
+                            "enabled": true,
+                            "tower_filter_props": [
+                                {
+                                    "type": "SInclusiveTowerFilterProps",
+                                    "enabled": true,
+                                    "include_types": "None",
+                                    "include_kinds": "None",
+                                    "include_category": "None",
+                                    "include_area_types": "None",
+                                    "include_placed_area_types": "None",
+                                    "include_must_have_weapon": false,
+                                    "include_must_have_ability": true,
+                                    "include_mod_groups": [],
+                                    "include_target_mode": "None",
+                                    "include_any_combo": false,
+                                    "include_only_placement_candidate": false
+                                },
+                                {
+                                    "type": "SExclusiveTowerFilterProps",
+                                    "enabled": true,
+                                    "exclude_types": "BombShooter|SuperMonkey",
+                                    "exclude_kinds": "None",
+                                    "exclude_category": "None",
+                                    "exclude_upgrades": {
+                                        "type": "SUpgradeTierProps",
+                                        "enabled": true,
+                                        "paths": [
+                                            2
+                                        ],
+                                        "tiers": [
+                                            3,
+                                            4,
+                                            5
+                                        ]
+                                    },
+                                    "exclude_area_types": "None",
+                                    "exclude_placed_area_types": "None",
+                                    "exclude_must_have_weapon": false,
+                                    "exclude_mod_groups": [],
+                                    "exclude_target_mode": "None",
+                                    "exclude_any_combo": false,
+                                    "exclude_placement_candidate": false
+                                },
+                                {
+                                    "type": "SExclusiveTowerFilterProps",
+                                    "enabled": true,
+                                    "exclude_types": "BananaFarm",
+                                    "exclude_kinds": "None",
+                                    "exclude_category": "None",
+                                    "exclude_upgrades": {
+                                        "type": "SUpgradeTierProps",
+                                        "enabled": true,
+                                        "paths": [
+                                            1
+                                        ],
+                                        "tiers": [
+                                            4
+                                        ]
+                                    },
+                                    "exclude_area_types": "None",
+                                    "exclude_placed_area_types": "None",
+                                    "exclude_must_have_weapon": false,
+                                    "exclude_mod_groups": [],
+                                    "exclude_target_mode": "None",
+                                    "exclude_any_combo": false,
+                                    "exclude_placement_candidate": false
+                                }
+                            ],
+                            "allow_self_target": false,
+                            "select_target_children_too": false
+                        }
+                    ],
+                    "tech_bot_link_tower": {
+                        "type": "STechBotLinkProps",
+                        "enabled": true,
+                        "sfx_on_link_start": {
+                            "type": "SSoundEffectProps",
+                            "enabled": true,
+                            "effect_slot": 0
+                        },
+                        "sfx_on_link_confirmed": {
+                            "type": "SSoundEffectProps",
+                            "enabled": true,
+                            "effect_slot": 1
+                        }
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        }
+    ]
+}

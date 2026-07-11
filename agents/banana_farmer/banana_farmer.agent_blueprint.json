@@ -1,0 +1,63 @@
+{
+    "version_code": 3,
+    "invalid": false,
+    "type": 3,
+    "variables": [],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_AGENT_BANANA_FARMER_NAME",
+            "description": "LOC_AGENT_BANANA_FARMER_DESC",
+            "cost": 0.0,
+            "upgrade_xp_cost_multiplier": 1.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Agent",
+                "tower_type": "BananaFarmer",
+                "tower_category": "None",
+                "valid_targeting_modes": "",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 3.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true,
+                    "can_intersect_blockers": false
+                },
+                "range": 5.0,
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": false,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "ignore_parent_hierarchy": false,
+                "inherit_target_mode_from_parent_on_change": false,
+                "inherit_target_mode_from_parent_on_instantiation": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "can_target_camo": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "collector_props": {
+                    "type": "SCollectorProps",
+                    "enabled": true,
+                    "range": -1.0,
+                    "collection_time": 0.5,
+                    "contribute_to_tower_score": true,
+                    "animation_trigger_on_collect": "\"collect\""
+                }
+            }
+        }
+    ]
+}
