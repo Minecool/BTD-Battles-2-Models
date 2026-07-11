@@ -203,7 +203,7 @@
             "key": "hiu_damage_mod",
             "variable": {
                 "type": "Float",
-                "value": 1.0
+                "value": 2.0
             }
         },
         {
@@ -491,6 +491,13 @@
             "variable": {
                 "type": "Node",
                 "value": 48
+            }
+        },
+        {
+            "key": "wall_off_fire_pierce",
+            "variable": {
+                "type": "Int",
+                "value": 200
             }
         }
     ],
@@ -800,6 +807,10 @@
                 {
                     "key": "walloffire_moab_burn",
                     "expression": "true"
+                },
+                {
+                    "key": "wall_off_fire_pierce",
+                    "expression": "x+50"
                 }
             ]
         },
@@ -1365,7 +1376,7 @@
                 "damage": "0",
                 "damage_type": "Fire",
                 "damage_distribution_mode": "ChildrenIfAllowed",
-                "pierce": 200.0,
+                "pierce": "wall_off_fire_pierce",
                 "avoid_buff": "None",
                 "collide_only_with_target": false,
                 "collide_with_target_multiple_times": false,
@@ -1387,7 +1398,7 @@
                 "lifespan_props": {
                     "type": "SLifespanSecondsProps",
                     "enabled": true,
-                    "lifespan": 12.0,
+                    "lifespan": 15.0,
                     "allow_disable": false
                 },
                 "collision_filter_props": {

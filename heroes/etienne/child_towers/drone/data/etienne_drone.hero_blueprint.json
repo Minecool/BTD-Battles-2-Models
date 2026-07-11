@@ -28,7 +28,7 @@
             "key": "reload_time",
             "variable": {
                 "type": "Float",
-                "value": 0.699999988079071
+                "value": 0.8999999761581421
             }
         },
         {
@@ -270,7 +270,7 @@
                 },
                 {
                     "key": "reload_time",
-                    "expression": "0.55"
+                    "expression": "0.65"
                 }
             ]
         },
@@ -284,7 +284,12 @@
             "requires_prompt": false,
             "additional_cost": 0.0,
             "additional_tower_type": "",
-            "variable_modifiers": []
+            "variable_modifiers": [
+                {
+                    "key": "reload_time",
+                    "expression": "0.55"
+                }
+            ]
         },
         {
             "type": 1,

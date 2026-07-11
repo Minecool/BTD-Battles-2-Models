@@ -376,7 +376,7 @@
                             "inclusive_filter": {
                                 "type": "SInclusiveTowerFilterProps",
                                 "enabled": true,
-                                "include_types": "IceMonkey|MonkeySub|MonkeyBuccaneer|WizardMonkey|SuperMonkey|NinjaMonkey|Alchemist|Druid",
+                                "include_types": "IceMonkey|MonkeySub|MonkeyBuccaneer",
                                 "include_kinds": "None",
                                 "include_category": "None",
                                 "include_area_types": "None",
@@ -406,7 +406,7 @@
                             "inclusive_filter": {
                                 "type": "SInclusiveTowerFilterProps",
                                 "enabled": true,
-                                "include_types": "IceMonkey|MonkeySub|MonkeyBuccaneer|WizardMonkey|SuperMonkey|NinjaMonkey|Alchemist|Druid",
+                                "include_types": "IceMonkey|MonkeySub|MonkeyBuccaneer",
                                 "include_kinds": "None",
                                 "include_category": "None",
                                 "include_area_types": "None",
@@ -428,7 +428,7 @@
                             "inclusive_filter": {
                                 "type": "SInclusiveTowerFilterProps",
                                 "enabled": true,
-                                "include_types": "IceMonkey|MonkeySub|MonkeyBuccaneer|WizardMonkey|SuperMonkey|NinjaMonkey|Alchemist|Druid",
+                                "include_types": "IceMonkey|MonkeySub|MonkeyBuccaneer",
                                 "include_kinds": "None",
                                 "include_category": "None",
                                 "include_area_types": "None",
@@ -450,7 +450,7 @@
                             "inclusive_filter": {
                                 "type": "SInclusiveTowerFilterProps",
                                 "enabled": true,
-                                "include_types": "IceMonkey|MonkeySub|MonkeyBuccaneer|WizardMonkey|SuperMonkey|NinjaMonkey|Alchemist|Druid",
+                                "include_types": "IceMonkey|MonkeySub|MonkeyBuccaneer",
                                 "include_kinds": "None",
                                 "include_category": "None",
                                 "include_area_types": "None",
@@ -493,7 +493,7 @@
                             "inclusive_filter": {
                                 "type": "SInclusiveTowerFilterProps",
                                 "enabled": true,
-                                "include_types": "IceMonkey|MonkeySub|MonkeyBuccaneer|WizardMonkey|SuperMonkey|NinjaMonkey|Alchemist|Druid",
+                                "include_types": "IceMonkey|MonkeySub|MonkeyBuccaneer",
                                 "include_kinds": "None",
                                 "include_category": "None",
                                 "include_area_types": "None",
@@ -539,7 +539,7 @@
                             "inclusive_filter": {
                                 "type": "SInclusiveTowerFilterProps",
                                 "enabled": true,
-                                "include_types": "IceMonkey|MonkeySub|MonkeyBuccaneer|WizardMonkey|SuperMonkey|NinjaMonkey|Alchemist|Druid",
+                                "include_types": "IceMonkey|MonkeySub|MonkeyBuccaneer",
                                 "include_kinds": "None",
                                 "include_category": "None",
                                 "include_area_types": "None",

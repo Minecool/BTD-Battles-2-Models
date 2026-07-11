@@ -396,7 +396,7 @@
             "name": "LOC_HERO_NAME_SmudgeCatt",
             "description": "LOC_HERO_LEVEL_DESC_SmudgeCatt_1",
             "cost": 600.0,
-            "upgrade_xp_cost_multiplier": 1.5,
+            "upgrade_xp_cost_multiplier": 1.25,
             "props": {
                 "type": "STowerProps",
                 "enabled": true,

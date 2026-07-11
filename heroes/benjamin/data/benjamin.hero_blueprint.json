@@ -42,7 +42,7 @@
             "key": "biohack_mod_seconds",
             "variable": {
                 "type": "Float",
-                "value": 9.0
+                "value": 7.0
             }
         },
         {
@@ -364,7 +364,7 @@
             "key": "biohack_cooldown",
             "variable": {
                 "type": "Float",
-                "value": 40.0
+                "value": 45.0
             }
         },
         {
@@ -721,11 +721,11 @@
                 },
                 {
                     "key": "biohack_mod_seconds",
-                    "expression": "15"
+                    "expression": "13"
                 },
                 {
                     "key": "biohack_cooldown",
-                    "expression": "35"
+                    "expression": "40"
                 },
                 {
                     "key": "give_boosts_on_next_upgrade",
@@ -863,7 +863,7 @@
             "variable_modifiers": [
                 {
                     "key": "biohack_mod_seconds",
-                    "expression": "18"
+                    "expression": "16"
                 },
                 {
                     "key": "biohack_damage",

@@ -624,7 +624,7 @@
             "variable_modifiers": [
                 {
                     "key": "proj_pierce",
-                    "expression": "x+2"
+                    "expression": "x+1"
                 },
                 {
                     "key": "reload_time",
@@ -650,7 +650,7 @@
             "name": "LOC_UPGRADE_NAME_Blade_Maelstrom",
             "description": "LOC_UPGRADE_DESC_Blade_Maelstrom",
             "parent_id": 8,
-            "cost": 3550.0,
+            "cost": 3850.0,
             "requires_prompt": false,
             "additional_cost": 0.0,
             "additional_tower_type": "",

@@ -7,7 +7,7 @@
             "key": "range",
             "variable": {
                 "type": "Float",
-                "value": 32
+                "value": 32.0
             }
         },
         {
@@ -28,21 +28,21 @@
             "key": "dart_damage",
             "variable": {
                 "type": "Float",
-                "value": 1
+                "value": 1.0
             }
         },
         {
             "key": "spike_ball_damage",
             "variable": {
                 "type": "Float",
-                "value": 1
+                "value": 1.0
             }
         },
         {
             "key": "arrow_damage",
             "variable": {
                 "type": "Float",
-                "value": 3
+                "value": 3.0
             }
         },
         {
@@ -56,14 +56,14 @@
             "key": "proj_radius",
             "variable": {
                 "type": "Float",
-                "value": 2
+                "value": 2.0
             }
         },
         {
             "key": "proj_speed",
             "variable": {
                 "type": "Float",
-                "value": 300
+                "value": 300.0
             }
         },
         {
@@ -147,7 +147,7 @@
             "key": "smfc_duration",
             "variable": {
                 "type": "Float",
-                "value": 12
+                "value": 12.0
             }
         },
         {
@@ -245,7 +245,7 @@
             "key": "smfc_lifespan",
             "variable": {
                 "type": "Float",
-                "value": 12
+                "value": 12.0
             }
         },
         {
@@ -266,7 +266,7 @@
             "key": "smfc_cooldown",
             "variable": {
                 "type": "Float",
-                "value": 50
+                "value": 50.0
             }
         },
         {
@@ -280,14 +280,14 @@
             "key": "random_min",
             "variable": {
                 "type": "Float",
-                "value": 7
+                "value": 7.0
             }
         },
         {
             "key": "random_max",
             "variable": {
                 "type": "Float",
-                "value": 7
+                "value": 7.0
             }
         },
         {
@@ -308,7 +308,7 @@
             "key": "crossbow_pierce_boost",
             "variable": {
                 "type": "Float",
-                "value": 0
+                "value": 0.0
             }
         },
         {
@@ -350,7 +350,7 @@
             "key": "smfc_initial_cooldown",
             "variable": {
                 "type": "Float",
-                "value": 0
+                "value": 0.0
             }
         },
         {
@@ -392,21 +392,21 @@
             "key": "smfc_proj_pierce",
             "variable": {
                 "type": "Float",
-                "value": 2
+                "value": 2.0
             }
         },
         {
             "key": "smfc_proj_speed",
             "variable": {
                 "type": "Float",
-                "value": 300
+                "value": 300.0
             }
         },
         {
             "key": "juggernaut_ceramic_dmg_multiplier",
             "variable": {
                 "type": "Float",
-                "value": 3
+                "value": 3.0
             }
         },
         {
@@ -468,8 +468,8 @@
             "id": 0,
             "name": "LOC_TOWER_NAME_DartMonkey",
             "description": "LOC_TOWER_DESC_DartMonkey",
-            "cost": 200,
-            "upgrade_xp_cost_multiplier": 1,
+            "cost": 200.0,
+            "upgrade_xp_cost_multiplier": 1.0,
             "props": {
                 "type": "STowerProps",
                 "enabled": true,
@@ -480,7 +480,7 @@
                 "default_targeting_mode": "None",
                 "placement": {
                     "type": "Range",
-                    "radius": 6,
+                    "radius": 6.0,
                     "supported_area": "Land",
                     "blocks_other_towers": true,
                     "can_intersect_blockers": false,
@@ -504,13 +504,13 @@
                 "can_prioritise_camo_targets": "camo_priority",
                 "calculate_full_vision": false,
                 "lock_tower_bone_rotation": "",
-                "spawn_with_random_angle": 0,
-                "submerge_offset": -5,
-                "tower_xp_multiplier": 1,
-                "placement_cost_multiplier": 1,
+                "spawn_with_random_angle": 0.0,
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
                 "upgrade_cost_multipliers": [],
                 "sell_value_multiplier": 0.699999988079071,
-                "target_reticle_scale": 1,
+                "target_reticle_scale": 1.0,
                 "fire_weapons_in_sequence": false,
                 "weapon_props": [
                     "weapon_ref",
@@ -547,9 +547,9 @@
             "name": "LOC_UPGRADE_NAME_Sharp_Shots",
             "description": "LOC_UPGRADE_DESC_Sharp_Shots",
             "parent_id": 0,
-            "cost": 100,
+            "cost": 100.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -572,9 +572,9 @@
             "name": "LOC_UPGRADE_NAME_Razor_Sharp_Shots",
             "description": "LOC_UPGRADE_DESC_Razor_Sharp_Shots",
             "parent_id": 1,
-            "cost": 250,
+            "cost": 250.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -597,9 +597,9 @@
             "name": "LOC_UPGRADE_NAME_Spike-o-pult",
             "description": "LOC_UPGRADE_DESC_Spike-o-pult",
             "parent_id": 2,
-            "cost": 450,
+            "cost": 450.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -658,9 +658,9 @@
             "name": "LOC_UPGRADE_NAME_Juggernaut",
             "description": "LOC_UPGRADE_DESC_Juggernaut",
             "parent_id": 3,
-            "cost": 1800,
+            "cost": 1800.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -703,9 +703,9 @@
             "name": "LOC_UPGRADE_NAME_Ultra-Juggernaut",
             "description": "LOC_UPGRADE_DESC_Ultra-Juggernaut",
             "parent_id": 4,
-            "cost": 13500,
+            "cost": 13500.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -740,9 +740,9 @@
             "name": "LOC_UPGRADE_NAME_Quick_Shots",
             "description": "LOC_UPGRADE_DESC_Quick_Shots",
             "parent_id": 0,
-            "cost": 100,
+            "cost": 100.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -765,9 +765,9 @@
             "name": "LOC_UPGRADE_NAME_Very_Quick_Shots",
             "description": "LOC_UPGRADE_DESC_Very_Quick_Shots",
             "parent_id": 6,
-            "cost": 100,
+            "cost": 100.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -790,9 +790,9 @@
             "name": "LOC_UPGRADE_NAME_Triple_Shot",
             "description": "LOC_UPGRADE_DESC_Triple_Shot",
             "parent_id": 7,
-            "cost": 350,
+            "cost": 350.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -807,9 +807,9 @@
             "name": "LOC_UPGRADE_NAME_Super_Monkey_Fan_Club",
             "description": "LOC_UPGRADE_DESC_Super_Monkey_Fan_Club",
             "parent_id": 8,
-            "cost": 9000,
+            "cost": 9000.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -828,9 +828,9 @@
             "name": "LOC_UPGRADE_NAME_Plasma_Monkey_Fan_Club",
             "description": "LOC_UPGRADE_DESC_Plasma_Monkey_Fan_Club",
             "parent_id": 9,
-            "cost": 45000,
+            "cost": 45000.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -893,9 +893,9 @@
             "name": "LOC_UPGRADE_NAME_Long_Range_Darts",
             "description": "LOC_UPGRADE_DESC_Long_Range_Darts",
             "parent_id": 0,
-            "cost": 90,
+            "cost": 90.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -910,9 +910,9 @@
             "name": "LOC_UPGRADE_NAME_Enhanced_Eyesight",
             "description": "LOC_UPGRADE_DESC_Enhanced_Eyesight",
             "parent_id": 11,
-            "cost": 200,
+            "cost": 200.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -943,9 +943,9 @@
             "name": "LOC_UPGRADE_NAME_Crossbow",
             "description": "LOC_UPGRADE_DESC_Crossbow",
             "parent_id": 12,
-            "cost": 600,
+            "cost": 600.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -980,9 +980,9 @@
             "name": "LOC_UPGRADE_NAME_Sharp_Shooter",
             "description": "LOC_UPGRADE_DESC_Sharp_Shooter",
             "parent_id": 13,
-            "cost": 2300,
+            "cost": 2300.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -1013,9 +1013,9 @@
             "name": "LOC_UPGRADE_NAME_Crossbow_Master",
             "description": "LOC_UPGRADE_DESC_Crossbow_Master",
             "parent_id": 14,
-            "cost": 27000,
+            "cost": 27000.0,
             "requires_prompt": false,
-            "additional_cost": 0,
+            "additional_cost": 0.0,
             "additional_tower_type": "",
             "variable_modifiers": [
                 {
@@ -1069,7 +1069,7 @@
                 "enabled": true,
                 "targeting_mode_override": "None",
                 "required_target_mode": "None",
-                "initial_load_time": 0,
+                "initial_load_time": 0.0,
                 "reload_time": "reload_time",
                 "emission_delay": 0.14000000059604645,
                 "avoid_buff": "None",
@@ -1078,11 +1078,11 @@
                     "enabled": true,
                     "weapon_can_rotate": true,
                     "weapon_rotates_tower": true,
-                    "tower_rotation_offset": 0,
+                    "tower_rotation_offset": 0.0,
                     "continuous_rotation": false,
-                    "rotation_rate": 0,
+                    "rotation_rate": 0.0,
                     "use_alt_rotation_if_closer": false,
-                    "alt_rotation_tower_rotation_offset": 0,
+                    "alt_rotation_tower_rotation_offset": 0.0,
                     "alt_rotation_emission_slot": 0,
                     "alt_rotation_animation_trigger": ""
                 },
@@ -1098,7 +1098,7 @@
                 "spread_ammo_use_evenly_during_round": false,
                 "initialise_with_no_ammo": false,
                 "reset_ammo_on_target_aquisition": false,
-                "field_of_view": 360,
+                "field_of_view": 360.0,
                 "ignore_tower_range": false,
                 "use_parent_targeting_inputs": false,
                 "use_target_mode_from_owning_parents_parent_tower": false,
@@ -1119,14 +1119,14 @@
                         "exclude_features": "exclude_features",
                         "exclude_status": "None",
                         "exclude_mod_groups": [],
-                        "chance": 1
+                        "chance": 1.0
                     }
                 },
                 "emission_props": {
                     "type": "SSingleEmissionProps",
                     "enabled": true,
                     "slot": 0,
-                    "spray_angle": 0,
+                    "spray_angle": 0.0,
                     "projectile_props": "dart_proj_ref"
                 },
                 "ignore_target_to_other_weapons": false
@@ -1149,7 +1149,7 @@
                 "collide_only_with_target": false,
                 "collide_with_target_multiple_times": false,
                 "ignore_collision_lineage": false,
-                "time_between_collisions": 0,
+                "time_between_collisions": 0.0,
                 "collide_with_blockers": "Destroy",
                 "visual_slot": "proj_visual",
                 "random_starting_angle": false,
@@ -1176,7 +1176,7 @@
                     "exclude_features": "exclude_features",
                     "exclude_status": "None",
                     "exclude_mod_groups": [],
-                    "chance": 1
+                    "chance": 1.0
                 },
                 "projectile_motion_props": {
                     "type": "SProjectileMotionLinearProps",
@@ -1194,7 +1194,7 @@
                 "enabled": true,
                 "targeting_mode_override": "None",
                 "required_target_mode": "None",
-                "initial_load_time": 0,
+                "initial_load_time": 0.0,
                 "reload_time": "reload_time",
                 "emission_delay": 0.14000000059604645,
                 "avoid_buff": "None",
@@ -1203,11 +1203,11 @@
                     "enabled": true,
                     "weapon_can_rotate": true,
                     "weapon_rotates_tower": true,
-                    "tower_rotation_offset": 0,
+                    "tower_rotation_offset": 0.0,
                     "continuous_rotation": false,
-                    "rotation_rate": 0,
+                    "rotation_rate": 0.0,
                     "use_alt_rotation_if_closer": false,
-                    "alt_rotation_tower_rotation_offset": 0,
+                    "alt_rotation_tower_rotation_offset": 0.0,
                     "alt_rotation_emission_slot": 0,
                     "alt_rotation_animation_trigger": ""
                 },
@@ -1223,7 +1223,7 @@
                 "spread_ammo_use_evenly_during_round": false,
                 "initialise_with_no_ammo": false,
                 "reset_ammo_on_target_aquisition": false,
-                "field_of_view": 360,
+                "field_of_view": 360.0,
                 "ignore_tower_range": false,
                 "use_parent_targeting_inputs": false,
                 "use_target_mode_from_owning_parents_parent_tower": false,
@@ -1244,7 +1244,7 @@
                         "exclude_features": "exclude_features",
                         "exclude_status": "None",
                         "exclude_mod_groups": [],
-                        "chance": 1
+                        "chance": 1.0
                     }
                 },
                 "emission_props": {
@@ -1252,8 +1252,8 @@
                     "enabled": true,
                     "slot": 0,
                     "count": 3,
-                    "spread_angle": 30,
-                    "lateral_offset": 0,
+                    "spread_angle": 30.0,
+                    "lateral_offset": 0.0,
                     "inclusive_angle": true,
                     "spread_evenly": true,
                     "projectile_props": "dart_proj_ref"
@@ -1270,7 +1270,7 @@
                 "enabled": true,
                 "targeting_mode_override": "None",
                 "required_target_mode": "None",
-                "initial_load_time": 0,
+                "initial_load_time": 0.0,
                 "reload_time": "reload_time",
                 "emission_delay": "spike_anim_delay",
                 "avoid_buff": "None",
@@ -1279,11 +1279,11 @@
                     "enabled": true,
                     "weapon_can_rotate": true,
                     "weapon_rotates_tower": true,
-                    "tower_rotation_offset": 0,
+                    "tower_rotation_offset": 0.0,
                     "continuous_rotation": false,
-                    "rotation_rate": 0,
+                    "rotation_rate": 0.0,
                     "use_alt_rotation_if_closer": false,
-                    "alt_rotation_tower_rotation_offset": 0,
+                    "alt_rotation_tower_rotation_offset": 0.0,
                     "alt_rotation_emission_slot": 0,
                     "alt_rotation_animation_trigger": ""
                 },
@@ -1299,7 +1299,7 @@
                 "spread_ammo_use_evenly_during_round": false,
                 "initialise_with_no_ammo": false,
                 "reset_ammo_on_target_aquisition": false,
-                "field_of_view": 360,
+                "field_of_view": 360.0,
                 "ignore_tower_range": false,
                 "use_parent_targeting_inputs": false,
                 "use_target_mode_from_owning_parents_parent_tower": false,
@@ -1320,14 +1320,14 @@
                         "exclude_features": "exclude_features",
                         "exclude_status": "None",
                         "exclude_mod_groups": [],
-                        "chance": 1
+                        "chance": 1.0
                     }
                 },
                 "emission_props": {
                     "type": "SSingleEmissionProps",
                     "enabled": true,
                     "slot": 0,
-                    "spray_angle": 0,
+                    "spray_angle": 0.0,
                     "projectile_props": "primary_projectile"
                 },
                 "ignore_target_to_other_weapons": false
@@ -1350,7 +1350,7 @@
                 "collide_only_with_target": false,
                 "collide_with_target_multiple_times": false,
                 "ignore_collision_lineage": false,
-                "time_between_collisions": 0,
+                "time_between_collisions": 0.0,
                 "collide_with_blockers": "BounceAndResetCollisions",
                 "visual_slot": "proj_visual",
                 "random_starting_angle": false,
@@ -1377,7 +1377,7 @@
                     "exclude_features": "exclude_features",
                     "exclude_status": "None",
                     "exclude_mod_groups": [],
-                    "chance": 1
+                    "chance": 1.0
                 },
                 "damage_props": {
                     "type": "SDamageAdjustProps",
@@ -1387,11 +1387,11 @@
                         {
                             "type": "SDamageAdjustFilterProps",
                             "enabled": "ultra_juggernaut_enabled",
-                            "damage_set": -1,
-                            "damage_set_percentage": -1,
-                            "damage_modifier": 0,
-                            "damage_multiplier": 3,
-                            "damage_modifier_non_multiplicable": 0,
+                            "damage_set": -1.0,
+                            "damage_set_percentage": -1.0,
+                            "damage_modifier": 0.0,
+                            "damage_multiplier": 3.0,
+                            "damage_modifier_non_multiplicable": 0.0,
                             "clamp_percentage_damage_to_current_layer": false,
                             "inclusive_filter_props": {
                                 "type": "SInclusiveBloonFilterProps",
@@ -1400,18 +1400,18 @@
                                 "include_features": "None",
                                 "include_status": "None",
                                 "include_mod_groups": [],
-                                "chance": 1,
+                                "chance": 1.0,
                                 "include_sources": "Round|Opponent|Debug|Projectile|Self"
                             }
                         },
                         {
                             "type": "SDamageAdjustFilterProps",
                             "enabled": "ultra_juggernaut_enabled",
-                            "damage_set": -1,
-                            "damage_set_percentage": -1,
-                            "damage_modifier": 2,
-                            "damage_multiplier": 1,
-                            "damage_modifier_non_multiplicable": 0,
+                            "damage_set": -1.0,
+                            "damage_set_percentage": -1.0,
+                            "damage_modifier": 2.0,
+                            "damage_multiplier": 1.0,
+                            "damage_modifier_non_multiplicable": 0.0,
                             "clamp_percentage_damage_to_current_layer": false,
                             "inclusive_filter_props": {
                                 "type": "SInclusiveBloonFilterProps",
@@ -1420,7 +1420,7 @@
                                 "include_features": "Fortified",
                                 "include_status": "None",
                                 "include_mod_groups": [],
-                                "chance": 1,
+                                "chance": 1.0,
                                 "include_sources": "Round|Opponent|Debug|Projectile|Self"
                             }
                         }
@@ -1450,7 +1450,7 @@
                 "collide_only_with_target": false,
                 "collide_with_target_multiple_times": false,
                 "ignore_collision_lineage": false,
-                "time_between_collisions": 0,
+                "time_between_collisions": 0.0,
                 "collide_with_blockers": "Destroy",
                 "visual_slot": 2,
                 "random_starting_angle": false,
@@ -1477,7 +1477,7 @@
                     "exclude_features": "exclude_features",
                     "exclude_status": "None",
                     "exclude_mod_groups": [],
-                    "chance": 1
+                    "chance": 1.0
                 },
                 "retarget_props": "arrow_retarget_ref",
                 "projectile_motion_props": {
@@ -1496,20 +1496,20 @@
                 "enabled": true,
                 "targeting_mode_override": "None",
                 "required_target_mode": "None",
-                "initial_load_time": 0,
+                "initial_load_time": 0.0,
                 "reload_time": "reload_time",
-                "emission_delay": 0,
+                "emission_delay": 0.0,
                 "avoid_buff": "None",
                 "weapon_rotation_props": {
                     "type": "SRotateTowerWeaponRotationProps",
                     "enabled": true,
                     "weapon_can_rotate": true,
                     "weapon_rotates_tower": true,
-                    "tower_rotation_offset": 0,
+                    "tower_rotation_offset": 0.0,
                     "continuous_rotation": false,
-                    "rotation_rate": 0,
+                    "rotation_rate": 0.0,
                     "use_alt_rotation_if_closer": false,
-                    "alt_rotation_tower_rotation_offset": 0,
+                    "alt_rotation_tower_rotation_offset": 0.0,
                     "alt_rotation_emission_slot": 0,
                     "alt_rotation_animation_trigger": ""
                 },
@@ -1525,7 +1525,7 @@
                 "spread_ammo_use_evenly_during_round": false,
                 "initialise_with_no_ammo": false,
                 "reset_ammo_on_target_aquisition": false,
-                "field_of_view": 360,
+                "field_of_view": 360.0,
                 "ignore_tower_range": false,
                 "use_parent_targeting_inputs": false,
                 "use_target_mode_from_owning_parents_parent_tower": false,
@@ -1546,7 +1546,7 @@
                         "exclude_features": "exclude_features",
                         "exclude_status": "None",
                         "exclude_mod_groups": [],
-                        "chance": 1
+                        "chance": 1.0
                     }
                 },
                 "emission_props": "crossbow_emission_ref",
@@ -1562,7 +1562,7 @@
                 "enabled": true,
                 "collision_radius": "proj_radius",
                 "infinite_collision_radius": false,
-                "damage": 50,
+                "damage": 50.0,
                 "damage_type": "damage_type",
                 "damage_distribution_mode": "ChildrenIfAllowed",
                 "pierce": "pierce",
@@ -1570,7 +1570,7 @@
                 "collide_only_with_target": false,
                 "collide_with_target_multiple_times": false,
                 "ignore_collision_lineage": false,
-                "time_between_collisions": 0,
+                "time_between_collisions": 0.0,
                 "collide_with_blockers": "Destroy",
                 "visual_slot": 2,
                 "random_starting_angle": false,
@@ -1597,7 +1597,7 @@
                     "exclude_features": "exclude_features",
                     "exclude_status": "None",
                     "exclude_mod_groups": [],
-                    "chance": 1
+                    "chance": 1.0
                 },
                 "retarget_props": "arrow_retarget_ref",
                 "vfx_on_contact": {
@@ -1626,7 +1626,7 @@
                 "type": "SSingleEmissionProps",
                 "enabled": true,
                 "slot": 0,
-                "spray_angle": 0,
+                "spray_angle": 0.0,
                 "projectile_props": "arrow_proj_ref"
             }
         },
@@ -1638,7 +1638,7 @@
                 "type": "SRandomSwitchEmissionProps",
                 "enabled": true,
                 "slot": 0,
-                "spray_angle": 0,
+                "spray_angle": 0.0,
                 "regular_projectile_props": "arrow_proj_ref",
                 "random_min_shot_count": "random_min",
                 "random_max_shot_count": "random_max",
@@ -1655,9 +1655,9 @@
                 "enabled": "smfc_enabled",
                 "targeting_mode_override": "None",
                 "required_target_mode": "None",
-                "initial_load_time": 0,
-                "reload_time": 1,
-                "emission_delay": 0,
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
                 "avoid_buff": "None",
                 "ammo_count": -1,
                 "refresh_ammo_every_n_rounds": 1,
@@ -1671,7 +1671,7 @@
                 "spread_ammo_use_evenly_during_round": false,
                 "initialise_with_no_ammo": false,
                 "reset_ammo_on_target_aquisition": false,
-                "field_of_view": 360,
+                "field_of_view": 360.0,
                 "ignore_tower_range": false,
                 "use_parent_targeting_inputs": false,
                 "use_target_mode_from_owning_parents_parent_tower": false,
@@ -1680,8 +1680,8 @@
                     "type": "SAreaTargetingProps",
                     "enabled": true,
                     "base_position_type": "Origin",
-                    "point_sample_distance": 6,
-                    "ideal_distance_within_track": 0,
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
                     "prioritise_random_target_over_base_position": true,
                     "required_valid_target": false,
                     "ignore_line_of_sight": false,
@@ -1696,7 +1696,7 @@
                     "ability_icon_slot": "smfc_icon_slot",
                     "cooldown_time": "smfc_cooldown",
                     "initial_cooldown_mod": "smfc_initial_cooldown",
-                    "lives_lost_on_activation": 0,
+                    "lives_lost_on_activation": 0.0,
                     "force_target_mode_on_activation": "None",
                     "requires_valid_target": false,
                     "debt_lock": false,
@@ -1784,8 +1784,8 @@
                                     "apply_to_self": true,
                                     "modify_type": "Exclusive",
                                     "mod_instances_limit": 1,
-                                    "multiplier": 0,
-                                    "additive": 18,
+                                    "multiplier": 0.0,
+                                    "additive": 18.0,
                                     "Simulation::Properties::SPropertyModifier::group_props": {
                                         "type": "SModifierGroupProps",
                                         "enabled": true,
@@ -2054,20 +2054,20 @@
                 "enabled": false,
                 "targeting_mode_override": "None",
                 "required_target_mode": "None",
-                "initial_load_time": 0,
+                "initial_load_time": 0.0,
                 "reload_time": "smfc_reload_time",
-                "emission_delay": 0,
+                "emission_delay": 0.0,
                 "avoid_buff": "None",
                 "weapon_rotation_props": {
                     "type": "SRotateTowerWeaponRotationProps",
                     "enabled": true,
                     "weapon_can_rotate": true,
                     "weapon_rotates_tower": true,
-                    "tower_rotation_offset": 0,
+                    "tower_rotation_offset": 0.0,
                     "continuous_rotation": false,
-                    "rotation_rate": 0,
+                    "rotation_rate": 0.0,
                     "use_alt_rotation_if_closer": false,
-                    "alt_rotation_tower_rotation_offset": 0,
+                    "alt_rotation_tower_rotation_offset": 0.0,
                     "alt_rotation_emission_slot": 0,
                     "alt_rotation_animation_trigger": ""
                 },
@@ -2083,7 +2083,7 @@
                 "spread_ammo_use_evenly_during_round": false,
                 "initialise_with_no_ammo": false,
                 "reset_ammo_on_target_aquisition": false,
-                "field_of_view": 360,
+                "field_of_view": 360.0,
                 "ignore_tower_range": false,
                 "use_parent_targeting_inputs": false,
                 "use_target_mode_from_owning_parents_parent_tower": false,
@@ -2104,14 +2104,14 @@
                         "exclude_features": "exclude_features",
                         "exclude_status": "None",
                         "exclude_mod_groups": [],
-                        "chance": 1
+                        "chance": 1.0
                     }
                 },
                 "emission_props": {
                     "type": "SSingleEmissionProps",
                     "enabled": true,
                     "slot": 0,
-                    "spray_angle": 0,
+                    "spray_angle": 0.0,
                     "projectile_props": "smfc_dart_proj_ref"
                 },
                 "vfx_on_emission_props": [
@@ -2146,20 +2146,20 @@
                 "enabled": false,
                 "targeting_mode_override": "None",
                 "required_target_mode": "None",
-                "initial_load_time": 0,
+                "initial_load_time": 0.0,
                 "reload_time": "pmfc_reload_time",
-                "emission_delay": 0,
+                "emission_delay": 0.0,
                 "avoid_buff": "None",
                 "weapon_rotation_props": {
                     "type": "SRotateTowerWeaponRotationProps",
                     "enabled": true,
                     "weapon_can_rotate": true,
                     "weapon_rotates_tower": true,
-                    "tower_rotation_offset": 0,
+                    "tower_rotation_offset": 0.0,
                     "continuous_rotation": false,
-                    "rotation_rate": 0,
+                    "rotation_rate": 0.0,
                     "use_alt_rotation_if_closer": false,
-                    "alt_rotation_tower_rotation_offset": 0,
+                    "alt_rotation_tower_rotation_offset": 0.0,
                     "alt_rotation_emission_slot": 0,
                     "alt_rotation_animation_trigger": ""
                 },
@@ -2175,7 +2175,7 @@
                 "spread_ammo_use_evenly_during_round": false,
                 "initialise_with_no_ammo": false,
                 "reset_ammo_on_target_aquisition": false,
-                "field_of_view": 360,
+                "field_of_view": 360.0,
                 "ignore_tower_range": false,
                 "use_parent_targeting_inputs": false,
                 "use_target_mode_from_owning_parents_parent_tower": false,
@@ -2196,14 +2196,14 @@
                         "exclude_features": "exclude_features",
                         "exclude_status": "None",
                         "exclude_mod_groups": [],
-                        "chance": 1
+                        "chance": 1.0
                     }
                 },
                 "emission_props": {
                     "type": "SSingleEmissionProps",
                     "enabled": true,
                     "slot": 0,
-                    "spray_angle": 0,
+                    "spray_angle": 0.0,
                     "projectile_props": "pmfc_plasma_proj_ref"
                 },
                 "weapon_group_props": {
@@ -2223,7 +2223,7 @@
             "props": {
                 "type": "SProjectileProps",
                 "enabled": true,
-                "collision_radius": 6,
+                "collision_radius": 6.0,
                 "infinite_collision_radius": false,
                 "damage": "dart_damage+1",
                 "damage_type": "Plasma",
@@ -2233,7 +2233,7 @@
                 "collide_only_with_target": false,
                 "collide_with_target_multiple_times": false,
                 "ignore_collision_lineage": false,
-                "time_between_collisions": 0,
+                "time_between_collisions": 0.0,
                 "collide_with_blockers": "Destroy",
                 "visual_slot": 1,
                 "random_starting_angle": false,
@@ -2260,7 +2260,7 @@
                     "exclude_features": "exclude_features",
                     "exclude_status": "None",
                     "exclude_mod_groups": [],
-                    "chance": 1
+                    "chance": 1.0
                 },
                 "projectile_motion_props": {
                     "type": "SProjectileMotionLinearProps",
@@ -2276,17 +2276,17 @@
             "props": {
                 "type": "SProjectileProps",
                 "enabled": true,
-                "collision_radius": 9,
+                "collision_radius": 9.0,
                 "infinite_collision_radius": false,
-                "damage": 5,
+                "damage": 5.0,
                 "damage_type": "Unstoppable",
                 "damage_distribution_mode": "ChildrenIfAllowed",
-                "pierce": 200,
+                "pierce": 200.0,
                 "avoid_buff": "None",
                 "collide_only_with_target": false,
                 "collide_with_target_multiple_times": false,
                 "ignore_collision_lineage": false,
-                "time_between_collisions": 0,
+                "time_between_collisions": 0.0,
                 "collide_with_blockers": "BounceAndResetCollisions",
                 "visual_slot": 2,
                 "random_starting_angle": false,
@@ -2313,7 +2313,7 @@
                     "exclude_features": "exclude_features",
                     "exclude_status": "None",
                     "exclude_mod_groups": [],
-                    "chance": 1
+                    "chance": 1.0
                 },
                 "create_projectile_props": {
                     "type": "SCreateProjectileOnDeathProps",
@@ -2324,8 +2324,8 @@
                             "enabled": true,
                             "slot": 0,
                             "count": 6,
-                            "spread_angle": 360,
-                            "lateral_offset": 0,
+                            "spread_angle": 360.0,
+                            "lateral_offset": 0.0,
                             "inclusive_angle": true,
                             "spread_evenly": true,
                             "projectile_props": "spikeball_proj_ref"
@@ -2335,8 +2335,8 @@
                         "type": "SAreaTargetingProps",
                         "enabled": true,
                         "base_position_type": "Origin",
-                        "point_sample_distance": 6,
-                        "ideal_distance_within_track": 0,
+                        "point_sample_distance": 6.0,
+                        "ideal_distance_within_track": 0.0,
                         "prioritise_random_target_over_base_position": true,
                         "required_valid_target": false,
                         "ignore_line_of_sight": false,
@@ -2360,8 +2360,8 @@
                         "type": "SAreaTargetingProps",
                         "enabled": true,
                         "base_position_type": "Origin",
-                        "point_sample_distance": 6,
-                        "ideal_distance_within_track": 0,
+                        "point_sample_distance": 6.0,
+                        "ideal_distance_within_track": 0.0,
                         "prioritise_random_target_over_base_position": true,
                         "required_valid_target": false,
                         "ignore_line_of_sight": false,
@@ -2373,7 +2373,7 @@
                         "slot": 0,
                         "count": 6,
                         "spread_angle": "360",
-                        "lateral_offset": 0,
+                        "lateral_offset": 0.0,
                         "inclusive_angle": true,
                         "spread_evenly": true,
                         "projectile_props": "spikeball_proj_ref"
@@ -2387,11 +2387,11 @@
                         {
                             "type": "SDamageAdjustFilterProps",
                             "enabled": true,
-                            "damage_set": -1,
-                            "damage_set_percentage": -1,
-                            "damage_modifier": 0,
-                            "damage_multiplier": 6,
-                            "damage_modifier_non_multiplicable": 0,
+                            "damage_set": -1.0,
+                            "damage_set_percentage": -1.0,
+                            "damage_modifier": 0.0,
+                            "damage_multiplier": 6.0,
+                            "damage_modifier_non_multiplicable": 0.0,
                             "clamp_percentage_damage_to_current_layer": false,
                             "inclusive_filter_props": {
                                 "type": "SInclusiveBloonFilterProps",
@@ -2400,18 +2400,18 @@
                                 "include_features": "None",
                                 "include_status": "None",
                                 "include_mod_groups": [],
-                                "chance": 1,
+                                "chance": 1.0,
                                 "include_sources": "Round|Opponent|Debug|Projectile|Self"
                             }
                         },
                         {
                             "type": "SDamageAdjustFilterProps",
                             "enabled": true,
-                            "damage_set": -1,
-                            "damage_set_percentage": -1,
-                            "damage_modifier": 6,
-                            "damage_multiplier": 1,
-                            "damage_modifier_non_multiplicable": 0,
+                            "damage_set": -1.0,
+                            "damage_set_percentage": -1.0,
+                            "damage_modifier": 6.0,
+                            "damage_multiplier": 1.0,
+                            "damage_modifier_non_multiplicable": 0.0,
                             "clamp_percentage_damage_to_current_layer": false,
                             "inclusive_filter_props": {
                                 "type": "SInclusiveBloonFilterProps",
@@ -2420,7 +2420,7 @@
                                 "include_features": "Fortified",
                                 "include_status": "None",
                                 "include_mod_groups": [],
-                                "chance": 1,
+                                "chance": 1.0,
                                 "include_sources": "Round|Opponent|Debug|Projectile|Self"
                             }
                         }
@@ -2451,11 +2451,11 @@
             "props": {
                 "type": "SDamageAdjustFilterProps",
                 "enabled": true,
-                "damage_set": -1,
-                "damage_set_percentage": -1,
-                "damage_modifier": 0,
-                "damage_multiplier": 2,
-                "damage_modifier_non_multiplicable": 0,
+                "damage_set": -1.0,
+                "damage_set_percentage": -1.0,
+                "damage_modifier": 0.0,
+                "damage_multiplier": 2.0,
+                "damage_modifier_non_multiplicable": 0.0,
                 "clamp_percentage_damage_to_current_layer": false,
                 "inclusive_filter_props": {
                     "type": "SInclusiveBloonFilterProps",
@@ -2464,7 +2464,7 @@
                     "include_features": "None",
                     "include_status": "None",
                     "include_mod_groups": [],
-                    "chance": 1,
+                    "chance": 1.0,
                     "include_sources": "Round|Opponent|Debug|Projectile|Self"
                 }
             }
@@ -2476,11 +2476,11 @@
             "props": {
                 "type": "SDamageAdjustFilterProps",
                 "enabled": true,
-                "damage_set": -1,
-                "damage_set_percentage": -1,
-                "damage_modifier": 0,
+                "damage_set": -1.0,
+                "damage_set_percentage": -1.0,
+                "damage_modifier": 0.0,
                 "damage_multiplier": "juggernaut_ceramic_dmg_multiplier",
-                "damage_modifier_non_multiplicable": 0,
+                "damage_modifier_non_multiplicable": 0.0,
                 "clamp_percentage_damage_to_current_layer": false,
                 "inclusive_filter_props": {
                     "type": "SInclusiveBloonFilterProps",
@@ -2489,7 +2489,7 @@
                     "include_features": "None",
                     "include_status": "None",
                     "include_mod_groups": [],
-                    "chance": 1,
+                    "chance": 1.0,
                     "include_sources": "Round|Opponent|Debug|Projectile|Self"
                 }
             }
@@ -2521,7 +2521,7 @@
                 "type": "SRandomSwitchEmissionProps",
                 "enabled": true,
                 "slot": 0,
-                "spray_angle": 0,
+                "spray_angle": 0.0,
                 "regular_projectile_props": "cm_arrow_ref",
                 "random_min_shot_count": "random_min",
                 "random_max_shot_count": "random_max",
@@ -2546,7 +2546,7 @@
                 "collide_only_with_target": false,
                 "collide_with_target_multiple_times": false,
                 "ignore_collision_lineage": false,
-                "time_between_collisions": 0,
+                "time_between_collisions": 0.0,
                 "collide_with_blockers": "Destroy",
                 "visual_slot": 2,
                 "random_starting_angle": false,
@@ -2573,7 +2573,7 @@
                     "exclude_features": "exclude_features",
                     "exclude_status": "None",
                     "exclude_mod_groups": [],
-                    "chance": 1
+                    "chance": 1.0
                 },
                 "retarget_props": "arrow_retarget_ref",
                 "projectile_motion_props": {
@@ -2592,7 +2592,7 @@
                 "enabled": true,
                 "collision_radius": "proj_radius",
                 "infinite_collision_radius": false,
-                "damage": 75,
+                "damage": 75.0,
                 "damage_type": "damage_type",
                 "damage_distribution_mode": "ChildrenIfAllowed",
                 "pierce": "pierce + crossbow_pierce_boost",
@@ -2600,7 +2600,7 @@
                 "collide_only_with_target": false,
                 "collide_with_target_multiple_times": false,
                 "ignore_collision_lineage": false,
-                "time_between_collisions": 0,
+                "time_between_collisions": 0.0,
                 "collide_with_blockers": "Destroy",
                 "visual_slot": 2,
                 "random_starting_angle": false,
@@ -2627,7 +2627,7 @@
                     "exclude_features": "exclude_features",
                     "exclude_status": "None",
                     "exclude_mod_groups": [],
-                    "chance": 1
+                    "chance": 1.0
                 },
                 "retarget_props": "arrow_retarget_ref",
                 "vfx_on_contact": {
@@ -2655,7 +2655,7 @@
             "props": {
                 "type": "SProjectileProps",
                 "enabled": true,
-                "collision_radius": 2,
+                "collision_radius": 2.0,
                 "infinite_collision_radius": false,
                 "damage": "dart_damage",
                 "damage_type": "Sharp",
@@ -2665,7 +2665,7 @@
                 "collide_only_with_target": false,
                 "collide_with_target_multiple_times": false,
                 "ignore_collision_lineage": false,
-                "time_between_collisions": 0,
+                "time_between_collisions": 0.0,
                 "collide_with_blockers": "Destroy",
                 "visual_slot": 0,
                 "random_starting_angle": false,
@@ -2692,7 +2692,7 @@
                     "exclude_features": "exclude_features",
                     "exclude_status": "None",
                     "exclude_mod_groups": [],
-                    "chance": 1
+                    "chance": 1.0
                 },
                 "projectile_motion_props": {
                     "type": "SProjectileMotionLinearProps",
@@ -2709,11 +2709,11 @@
                 "type": "SRetargetProps",
                 "enabled": "sharp_shooter_enabled",
                 "track_new_targets": false,
-                "range": 50,
+                "range": 50.0,
                 "ignore_range": false,
                 "use_tower_range": false,
-                "fov": 0,
-                "delay": 0,
+                "fov": 0.0,
+                "delay": 0.0,
                 "max_bounces": 1,
                 "use_original_target_mode": true,
                 "target_mode": "None",

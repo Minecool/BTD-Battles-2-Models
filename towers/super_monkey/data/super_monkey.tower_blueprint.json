@@ -595,7 +595,7 @@
             "key": "legend_shield_duration",
             "variable": {
                 "type": "Float",
-                "value": 4.0
+                "value": 8.0
             }
         },
         {
