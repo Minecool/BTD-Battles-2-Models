@@ -1,0 +1,1534 @@
+{
+    "version_code": 4,
+    "invalid": false,
+    "type": 2,
+    "variables": [
+        {
+            "key": "main_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "mw_projectile",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "mw_range",
+            "variable": {
+                "type": "Float",
+                "value": 45.0
+            }
+        },
+        {
+            "key": "mw_proj_count",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "mw_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "mw_damage_fortified",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "mw_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "mw_pierce",
+            "variable": {
+                "type": "Float",
+                "value": 5.0
+            }
+        },
+        {
+            "key": "default_exclusive_filter",
+            "variable": {
+                "type": "Node",
+                "value": 22
+            }
+        },
+        {
+            "key": "opponent_aa_cd_modifier",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "ocm_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "ocm_towers_modifier",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "ocm_hero_modifier",
+            "variable": {
+                "type": "Float",
+                "value": 0.05000000074505806
+            }
+        },
+        {
+            "key": "sharp_sting_of_fate",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "ssf_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "ssf_projectile",
+            "variable": {
+                "type": "Node",
+                "value": 25
+            }
+        },
+        {
+            "key": "eye_of_misfortune",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "eom_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "eom_speed_multiplier",
+            "variable": {
+                "type": "Float",
+                "value": 1.5
+            }
+        },
+        {
+            "key": "eom_range",
+            "variable": {
+                "type": "Float",
+                "value": 50.0
+            }
+        },
+        {
+            "key": "chains_of_fate",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "cof_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "cof_duration",
+            "variable": {
+                "type": "Float",
+                "value": 6.0
+            }
+        },
+        {
+            "key": "cof_worth_to_dmg_ratio",
+            "variable": {
+                "type": "Float",
+                "value": 0.0010000000474974513
+            }
+        },
+        {
+            "key": "cof_moab_duration_multiplier",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "cof_orb_proj",
+            "variable": {
+                "type": "Node",
+                "value": 28
+            }
+        },
+        {
+            "key": "cof_bloons_status",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "cof_bloons_still",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "ssf_damage_multiplier",
+            "variable": {
+                "type": "Float",
+                "value": 2.0
+            }
+        },
+        {
+            "key": "cof_base_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_HERO_NAME_FateweaverAdora",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_1",
+            "cost": 700.0,
+            "upgrade_xp_cost_multiplier": 1.200000047683716,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Hero",
+                "tower_type": "Adora_Fateweaver",
+                "tower_category": "None",
+                "valid_targeting_modes": "First|Last|Close|Strong",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 6.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true,
+                    "can_intersect_blockers": false,
+                    "can_be_placed_on_track": false
+                },
+                "range": "mw_range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "can_be_temporarily_disabled_by_map": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "ignore_parent_hierarchy": false,
+                "inherit_target_mode_from_parent_on_change": false,
+                "inherit_target_mode_from_parent_on_instantiation": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "can_target_camo": false,
+                "can_prioritise_camo_targets": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "spawn_with_random_angle": 0.0,
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 0.5,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "main_weapon",
+                    "sharp_sting_of_fate",
+                    "eye_of_misfortune",
+                    "chains_of_fate"
+                ],
+                "opponent_modifier_props": "opponent_aa_cd_modifier"
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_HERO_LEVEL_2",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_2",
+            "parent_id": 0,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "ocm_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_HERO_LEVEL_3",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_3",
+            "parent_id": 1,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "ssf_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_HERO_LEVEL_4",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_4",
+            "parent_id": 2,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_proj_count",
+                    "expression": "2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_HERO_LEVEL_5",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_5",
+            "parent_id": 3,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_pierce",
+                    "expression": "x+3"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_HERO_LEVEL_6",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_6",
+            "parent_id": 4,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_proj_count",
+                    "expression": "3"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_HERO_LEVEL_7",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_7",
+            "parent_id": 5,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "eom_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_HERO_LEVEL_8",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_8",
+            "parent_id": 6,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_proj_count",
+                    "expression": "4"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_HERO_LEVEL_9",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_9",
+            "parent_id": 7,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_range",
+                    "expression": "x+5"
+                },
+                {
+                    "key": "mw_damage_fortified",
+                    "expression": "1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_HERO_LEVEL_10",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_10",
+            "parent_id": 8,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "cof_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_HERO_LEVEL_11",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_11",
+            "parent_id": 9,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_reload_time",
+                    "expression": "0.8"
+                },
+                {
+                    "key": "ocm_hero_modifier",
+                    "expression": "0.1"
+                },
+                {
+                    "key": "ssf_damage_multiplier",
+                    "expression": "t/0.8"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_HERO_LEVEL_12",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_12",
+            "parent_id": 10,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_proj_count",
+                    "expression": "5"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_HERO_LEVEL_13",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_13",
+            "parent_id": 11,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_pierce",
+                    "expression": "x+3"
+                },
+                {
+                    "key": "mw_damage_fortified",
+                    "expression": "2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_HERO_LEVEL_14",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_14",
+            "parent_id": 12,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_proj_count",
+                    "expression": "6"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_HERO_LEVEL_15",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_15",
+            "parent_id": 13,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_damage",
+                    "expression": "2"
+                },
+                {
+                    "key": "cof_duration",
+                    "expression": "8"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_HERO_LEVEL_16",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_16",
+            "parent_id": 14,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "ocm_towers_modifier",
+                    "expression": "0.1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 16,
+            "name": "LOC_HERO_LEVEL_17",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_17",
+            "parent_id": 15,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_reload_time",
+                    "expression": "0.6"
+                },
+                {
+                    "key": "ssf_damage_multiplier",
+                    "expression": "t/0.6"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 17,
+            "name": "LOC_HERO_LEVEL_18",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_18",
+            "parent_id": 16,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_proj_count",
+                    "expression": "8"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 18,
+            "name": "LOC_HERO_LEVEL_19",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_19",
+            "parent_id": 17,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_range",
+                    "expression": "x+5"
+                },
+                {
+                    "key": "mw_damage",
+                    "expression": "3"
+                },
+                {
+                    "key": "mw_damage_fortified",
+                    "expression": "3"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 19,
+            "name": "LOC_HERO_LEVEL_20",
+            "description": "LOC_HERO_LEVEL_DESC_FateweaverAdora_20",
+            "parent_id": 18,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "eom_speed_multiplier",
+                    "expression": "1.7"
+                },
+                {
+                    "key": "eom_range",
+                    "expression": "65"
+                },
+                {
+                    "key": "cof_worth_to_dmg_ratio",
+                    "expression": "0.002"
+                },
+                {
+                    "key": "cof_duration",
+                    "expression": "12"
+                },
+                {
+                    "key": "cof_moab_duration_multiplier",
+                    "expression": "2"
+                },
+                {
+                    "key": "cof_base_damage",
+                    "expression": "x*2"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "Main Weapon",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "mw_reload_time",
+                "emission_delay": 0.25,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": true,
+                    "use_bloon_position": false,
+                    "save_bloon_position": false,
+                    "exclude_from_shared_targeting": false,
+                    "exclusive_filter_props": "default_exclusive_filter"
+                },
+                "emission_props": {
+                    "type": "SArcEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "count": "mw_proj_count",
+                    "spread_angle": "150+30*(mw_proj_count-1)",
+                    "lateral_offset": 0.0,
+                    "inclusive_angle": true,
+                    "spread_evenly": true,
+                    "projectile_props": "mw_projectile"
+                },
+                "weapon_group_props": {
+                    "type": "SWeaponGroupProps",
+                    "enabled": true,
+                    "group_id": {
+                        "group_str": "\"spark\""
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "MW Projectile (Spark)",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 2.0,
+                "infinite_collision_radius": false,
+                "damage": "mw_damage",
+                "damage_type": "Plasma",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "mw_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 1.5,
+                    "allow_disable": false
+                },
+                "collision_filter_props": "default_exclusive_filter",
+                "retarget_props": {
+                    "type": "SRetargetProps",
+                    "enabled": true,
+                    "track_new_targets": true,
+                    "range": 400.0,
+                    "ignore_range": false,
+                    "use_tower_range": false,
+                    "fov": 0.0,
+                    "delay": 0.0,
+                    "max_bounces": -1,
+                    "use_original_target_mode": false,
+                    "target_mode": "Close",
+                    "destroy_if_no_target": false,
+                    "min_bounces_to_destroy": 0,
+                    "use_lifespan_as_range": false,
+                    "use_bloon_bounce_increments": false,
+                    "stop_child_bloons_being_retargeted": false,
+                    "ignore_line_of_sight": true
+                },
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": "mw_damage_fortified > 0",
+                    "damage_adjust_filters": [
+                        {
+                            "type": "SDamageAdjustFilterProps",
+                            "enabled": true,
+                            "damage_set": -1.0,
+                            "damage_set_percentage": -1.0,
+                            "damage_modifier": "mw_damage_fortified",
+                            "damage_multiplier": 1.0,
+                            "damage_modifier_non_multiplicable": 0.0,
+                            "clamp_percentage_damage_to_current_layer": false,
+                            "inclusive_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "None",
+                                "include_features": "Fortified",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                            }
+                        }
+                    ]
+                },
+                "sfx_on_spawn": [
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 1
+                    }
+                ],
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionHomingProps",
+                    "enabled": true,
+                    "speed": 220.0,
+                    "speed_multiplier_while_turning": 0.6000000238418579,
+                    "turn_rate": 700.0,
+                    "track_time": 0.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "Default Exclusive Filter",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "None",
+                "exclude_features": "Camo",
+                "exclude_status": "None",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "Opponent AA Cooldown Modifier",
+            "props": {
+                "type": "SOpponentAACooldownModifierProps",
+                "enabled": "ocm_enabled",
+                "hero_cooldown_modifier": "ocm_hero_modifier",
+                "towers_cooldown_modifier": "ocm_towers_modifier",
+                "icon_slot": 7
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "Sharp Sting of Fate",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "ssf_enabled",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.5,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"sting_of_fate\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": true,
+                    "use_bloon_position": false,
+                    "save_bloon_position": false,
+                    "exclude_from_shared_targeting": true,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "None",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "ssf_projectile"
+                },
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"Sharp Sting of Fate\""
+                    },
+                    "ability_icon_slot": 0,
+                    "cooldown_time": 50.0,
+                    "initial_cooldown_mod": 0.25,
+                    "lives_lost_on_activation": 0.0,
+                    "force_target_mode_on_activation": "None",
+                    "requires_valid_target": true,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "can_be_activated_by_drag": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 2
+                    }
+                },
+                "weapon_group_props": {
+                    "type": "SWeaponGroupProps",
+                    "enabled": true,
+                    "group_id": {
+                        "group_str": "\"Sharp Sting of Fate\""
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "SSF Projectile",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 4.0,
+                "infinite_collision_radius": false,
+                "damage": "mw_damage*ssf_damage_multiplier",
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "8*mw_proj_count *mw_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 1,
+                "angular_velocity_init_props": {
+                    "type": "SAngularVelocityInitFixedProps",
+                    "enabled": true,
+                    "velocity": -10.0
+                },
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 6.0,
+                    "allow_disable": false
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "clear_collided_with_props": {
+                    "type": "SClearCollidedWithProps",
+                    "enabled": true,
+                    "interval_time": 0.05000000074505806
+                },
+                "retarget_props": {
+                    "type": "SRetargetProps",
+                    "enabled": true,
+                    "track_new_targets": true,
+                    "range": 300.0,
+                    "ignore_range": false,
+                    "use_tower_range": false,
+                    "fov": 0.0,
+                    "delay": 0.0,
+                    "max_bounces": -1,
+                    "use_original_target_mode": true,
+                    "target_mode": "None",
+                    "destroy_if_no_target": false,
+                    "min_bounces_to_destroy": 0,
+                    "use_lifespan_as_range": false,
+                    "use_bloon_bounce_increments": false,
+                    "stop_child_bloons_being_retargeted": true,
+                    "ignore_line_of_sight": true
+                },
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": "mw_damage_fortified > 0",
+                    "damage_adjust_filters": [
+                        {
+                            "type": "SDamageAdjustFilterProps",
+                            "enabled": true,
+                            "damage_set": -1.0,
+                            "damage_set_percentage": -1.0,
+                            "damage_modifier": "mw_damage_fortified*ssf_damage_multiplier",
+                            "damage_multiplier": 1.0,
+                            "damage_modifier_non_multiplicable": 0.0,
+                            "clamp_percentage_damage_to_current_layer": false,
+                            "inclusive_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "None",
+                                "include_features": "Fortified",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                            }
+                        }
+                    ]
+                },
+                "vfx_on_despawn": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 5,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false,
+                    "attach_to_parent_tower": false,
+                    "use_opponents_visuals": false,
+                    "buff_special_case": "Default"
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionHomingProps",
+                    "enabled": true,
+                    "speed": 300.0,
+                    "speed_multiplier_while_turning": 0.6000000238418579,
+                    "turn_rate": 950.0,
+                    "track_time": 0.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "Eye Of Misfortune",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "eom_enabled",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"eye_of_misfortune\"",
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"Eye of Misfortune\""
+                    },
+                    "ability_icon_slot": 1,
+                    "cooldown_time": 30.0,
+                    "initial_cooldown_mod": 0.0,
+                    "lives_lost_on_activation": 0.0,
+                    "force_target_mode_on_activation": "None",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "can_be_activated_by_drag": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "priming_states": [
+                        {
+                            "type": "SPrimingStateSelectTowerProps",
+                            "enabled": true,
+                            "tower_filter_props": [
+                                {
+                                    "type": "SExclusiveTowerFilterProps",
+                                    "enabled": true,
+                                    "exclude_types": "None",
+                                    "exclude_kinds": "Hero|Child|Agent",
+                                    "exclude_category": "None",
+                                    "exclude_area_types": "None",
+                                    "exclude_placed_area_types": "None",
+                                    "exclude_must_have_weapon": false,
+                                    "exclude_mod_groups": [],
+                                    "exclude_target_mode": "None",
+                                    "exclude_any_combo": false,
+                                    "exclude_placement_candidate": false
+                                }
+                            ],
+                            "allow_self_target": false,
+                            "select_target_children_too": true
+                        }
+                    ],
+                    "sacrifice_tower": {
+                        "type": "SFateweaverSacrificeTowerProps",
+                        "enabled": true,
+                        "group_id": {
+                            "group_str": "\"fateweaver_sacrifice\""
+                        },
+                        "aura_range": "eom_range",
+                        "seconds_per_100_dollars": 0.30000001192092896,
+                        "speed_multiplier": "eom_speed_multiplier",
+                        "bloon_zone_vfx_slot": 0,
+                        "opponent_hero_xp_cost_increase_value_ratio": 1.0,
+                        "tower_sacrificed_vfx": 6
+                    },
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 3
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "Chains of Fate",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "cof_enabled",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.0,
+                "emission_delay": 0.10000000149011612,
+                "avoid_buff": "Damage|Pierce|Reload",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"chains_of_fate\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Target",
+                    "point_sample_distance": 0.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": true,
+                    "target_path_start_on_init": false,
+                    "manual_targeting_props": {
+                        "type": "SManualTargetingProps",
+                        "enabled": true,
+                        "ignore_range": false,
+                        "must_be_on_path": false,
+                        "tower_target_mode_change_enabled": true,
+                        "initial_track_target_props": {
+                            "type": "STrackTargetingProps",
+                            "enabled": true,
+                            "cache_path_manually": false,
+                            "forward_projection_amount": 0.0,
+                            "return_path_data": false,
+                            "target_active_paths_only": false,
+                            "ignore_line_of_sight": false,
+                            "targeting_mode_override": "Close",
+                            "filter_bloon_source": "None"
+                        },
+                        "manual_targeting_requires_mode": "None",
+                        "placement_parameters": {
+                            "type": "STowerPlacementProps",
+                            "enabled": true,
+                            "tower_placement": {
+                                "type": "Range",
+                                "radius": 6.0,
+                                "supported_area": "Land|Water",
+                                "blocks_other_towers": false,
+                                "can_intersect_blockers": false,
+                                "can_be_placed_on_track": false
+                            }
+                        },
+                        "path_priority_target_type": "Default"
+                    }
+                },
+                "emission_props": {
+                    "type": "SChainsOfFateSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "additive_amount": "cof_base_damage",
+                    "worth_to_dmg_ratio": "cof_worth_to_dmg_ratio",
+                    "projectile_props": "cof_orb_proj"
+                },
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"Chains of Fate\""
+                    },
+                    "ability_icon_slot": 2,
+                    "cooldown_time": 60.0,
+                    "initial_cooldown_mod": 0.0,
+                    "lives_lost_on_activation": 0.0,
+                    "force_target_mode_on_activation": "None",
+                    "requires_valid_target": true,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "can_be_activated_by_drag": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 4
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "CoF Orb",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 10.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 450.0,
+                "avoid_buff": "Damage|Pierce|Reload",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 2,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "TrackProjectile",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": true,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "special_visual_slot_props": {
+                    "type": "SOpponentHighestValueTowerVisualSlotProps",
+                    "enabled": true,
+                    "visual_slot_small": 2,
+                    "threshold_medium": 10000.0,
+                    "visual_slot_medium": 3,
+                    "threshold_big": 40000.0,
+                    "visual_slot_big": 4
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "cof_duration",
+                    "allow_disable": false
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "MOAB_Decoy|BFB_Decoy|ZOMG_Decoy",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": true,
+                    "inherit_age_from_projectile": true,
+                    "bloon_modifier_props": [
+                        "cof_bloons_status",
+                        "cof_bloons_still"
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                },
+                "pierce_props": {
+                    "type": "SPierceAdjustProps",
+                    "enabled": true,
+                    "pierce_adjust_filters": [
+                        {
+                            "type": "SPierceAdjustFilterProps",
+                            "enabled": true,
+                            "pierce_modifier": 9.0,
+                            "inclusive_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "MOAB",
+                                "include_features": "None",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                            }
+                        },
+                        {
+                            "type": "SPierceAdjustFilterProps",
+                            "enabled": true,
+                            "pierce_modifier": 19.0,
+                            "inclusive_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "BFB",
+                                "include_features": "None",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                            }
+                        },
+                        {
+                            "type": "SPierceAdjustFilterProps",
+                            "enabled": true,
+                            "pierce_modifier": 39.0,
+                            "inclusive_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "ZOMG|DDT",
+                                "include_features": "None",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                            }
+                        },
+                        {
+                            "type": "SPierceAdjustFilterProps",
+                            "enabled": true,
+                            "pierce_modifier": 59.0,
+                            "inclusive_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "BAD",
+                                "include_features": "None",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                            }
+                        }
+                    ]
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "CoF Bloons Status",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": true,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "status": "ChainsOfFate"
+                },
+                "effector_props": {
+                    "type": "SBloonDoTProps",
+                    "enabled": true,
+                    "interval": 0.119999997317791,
+                    "amount": 0.0,
+                    "percentage_damage": 0.0,
+                    "damage_cap": 0.0,
+                    "damage_type": "None",
+                    "damage_distribution_mode": "ChildrenIfAllowed",
+                    "tick_immediately_on_refresh": false
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "cof_duration",
+                    "allow_disable": false
+                },
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "MOAB_Decoy|BFB_Decoy|ZOMG_Decoy",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "CoF Bloons Still",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": true,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SSnowStormBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 1.0,
+                    "use_override_value": true,
+                    "override_value": 1.0
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "cof_duration",
+                    "allow_disable": false
+                },
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "MOAB_Decoy|BFB_Decoy|ZOMG_Decoy|BAD",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        }
+    ]
+}

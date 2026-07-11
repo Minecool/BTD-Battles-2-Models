@@ -1,0 +1,1615 @@
+{
+    "version_code": 4,
+    "invalid": false,
+    "type": 2,
+    "variables": [
+        {
+            "key": "level",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "range",
+            "variable": {
+                "type": "Float",
+                "value": 45.0
+            }
+        },
+        {
+            "key": "n_swarms",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "lives_generator",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "lives_projectile",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "honey_mode_lives",
+            "variable": {
+                "type": "Float",
+                "value": 2.0
+            }
+        },
+        {
+            "key": "swarm_spawner",
+            "variable": {
+                "type": "Node",
+                "value": 22
+            }
+        },
+        {
+            "key": "remove_camo_zone",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "remove_camo_zone_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "targeting_modes",
+            "variable": {
+                "type": "TowerTargetMode",
+                "value": "First"
+            }
+        },
+        {
+            "key": "hs_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "defend_the_hive",
+            "variable": {
+                "type": "Node",
+                "value": 25
+            }
+        },
+        {
+            "key": "dth_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "dth_base_duration",
+            "variable": {
+                "type": "Float",
+                "value": 10.0
+            }
+        },
+        {
+            "key": "dth_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 45.0
+            }
+        },
+        {
+            "key": "dth_damage",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "dth_reload_time_mod",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "dth_reload_time_buff",
+            "variable": {
+                "type": "Float",
+                "value": -0.3300000131130219
+            }
+        },
+        {
+            "key": "dth_mod_targets",
+            "variable": {
+                "type": "TowerTypeMask",
+                "value": "Etienne_Bee_Swarm|Etienne_Bee_Swarm_AA"
+            }
+        },
+        {
+            "key": "dth_damage_mod",
+            "variable": {
+                "type": "Node",
+                "value": 28
+            }
+        },
+        {
+            "key": "dth_drone_speed_mod",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "dth_dmg_buff_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "auxiliary_hive_spawner",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "auxiliary_swarm_spawner",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "ahs_swarms_per_hive",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "ahs_hive_lives_cost",
+            "variable": {
+                "type": "Float",
+                "value": 100.0
+            }
+        },
+        {
+            "key": "dth_vfx_mod",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "bb_targeting",
+            "variable": {
+                "type": "Node",
+                "value": 32
+            }
+        },
+        {
+            "key": "bb_mod_reload",
+            "variable": {
+                "type": "Node",
+                "value": 31
+            }
+        },
+        {
+            "key": "bb_reload_time_mult",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "bb_mod_damage",
+            "variable": {
+                "type": "Node",
+                "value": 33
+            }
+        },
+        {
+            "key": "bb_damage_adjust",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "bb_mod_flight",
+            "variable": {
+                "type": "Node",
+                "value": 34
+            }
+        },
+        {
+            "key": "bb_flight_speed_mult",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "bb_flight_shared_targeting",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "making_honey_vfx",
+            "variable": {
+                "type": "Node",
+                "value": 36
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_HERO_NAME_Beetienne",
+            "description": "LOC_HERO_DESC_Beetienne",
+            "cost": 650.0,
+            "upgrade_xp_cost_multiplier": 1.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Hero",
+                "tower_type": "Etienne_Bee",
+                "tower_category": "None",
+                "valid_targeting_modes": "targeting_modes",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 8.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true,
+                    "can_intersect_blockers": false,
+                    "can_be_placed_on_track": false
+                },
+                "range": "range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "can_be_temporarily_disabled_by_map": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "ignore_parent_hierarchy": false,
+                "inherit_target_mode_from_parent_on_change": false,
+                "inherit_target_mode_from_parent_on_instantiation": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "can_target_camo": false,
+                "can_prioritise_camo_targets": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "spawn_with_random_angle": 0.0,
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "lives_generator",
+                    "swarm_spawner",
+                    "auxiliary_hive_spawner",
+                    "defend_the_hive",
+                    "auxiliary_swarm_spawner"
+                ],
+                "mod_provider_props": {
+                    "type": "SModProviderProps",
+                    "enabled": true,
+                    "parent_dependant": true,
+                    "modifier_props": [
+                        "remove_camo_zone",
+                        "bb_mod_reload",
+                        "bb_mod_damage",
+                        "bb_mod_flight",
+                        "making_honey_vfx"
+                    ]
+                },
+                "target_mode_changed_effects_props": [
+                    {
+                        "type": "STargetModeChangedSFXProps",
+                        "enabled": true,
+                        "on_entering_target_mode": "HoneyMode",
+                        "or_leaving_target_mode": "None",
+                        "sfx": {
+                            "type": "SSoundEffectProps",
+                            "enabled": true,
+                            "effect_slot": 6
+                        }
+                    },
+                    {
+                        "type": "STargetModeChangedAnimTriggerProps",
+                        "enabled": true,
+                        "on_entering_target_mode": "HoneyMode",
+                        "or_leaving_target_mode": "None",
+                        "anim_trigger": "\"making_honey\""
+                    },
+                    {
+                        "type": "STargetModeChangedAnimTriggerProps",
+                        "enabled": true,
+                        "on_entering_target_mode": "None",
+                        "or_leaving_target_mode": "HoneyMode",
+                        "anim_trigger": "\"piloting_bees\""
+                    }
+                ],
+                "drone_props": {
+                    "type": "SDroneOperatorProps",
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_HERO_LEVEL_2",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_2",
+            "parent_id": 0,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "range",
+                    "expression": "x+5"
+                },
+                {
+                    "key": "targeting_modes",
+                    "expression": "x | ETowerTargetMode.HoneyMode"
+                },
+                {
+                    "key": "level",
+                    "expression": "2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_HERO_LEVEL_3",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_3",
+            "parent_id": 1,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "dth_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "level",
+                    "expression": "3"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_HERO_LEVEL_4",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_4",
+            "parent_id": 2,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "4"
+                },
+                {
+                    "key": "bb_reload_time_mult",
+                    "expression": "-.22222"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_HERO_LEVEL_5",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_5",
+            "parent_id": 3,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "5"
+                },
+                {
+                    "key": "bb_flight_shared_targeting",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_HERO_LEVEL_6",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_6",
+            "parent_id": 4,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "honey_mode_lives",
+                    "expression": "8"
+                },
+                {
+                    "key": "level",
+                    "expression": "6"
+                },
+                {
+                    "key": "bb_damage_adjust",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_HERO_LEVEL_7",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_7",
+            "parent_id": 5,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "remove_camo_zone_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "level",
+                    "expression": "7"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_HERO_LEVEL_8",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_8",
+            "parent_id": 6,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "honey_mode_lives",
+                    "expression": "16"
+                },
+                {
+                    "key": "level",
+                    "expression": "8"
+                },
+                {
+                    "key": "bb_damage_adjust",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_HERO_LEVEL_9",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_9",
+            "parent_id": 7,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "honey_mode_lives",
+                    "expression": "28"
+                },
+                {
+                    "key": "level",
+                    "expression": "9"
+                },
+                {
+                    "key": "bb_reload_time_mult",
+                    "expression": "x-.22222"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_HERO_LEVEL_10",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_10",
+            "parent_id": 8,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "hs_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "level",
+                    "expression": "10"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_HERO_LEVEL_11",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_11",
+            "parent_id": 9,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "n_swarms",
+                    "expression": "x+1"
+                },
+                {
+                    "key": "targeting_modes",
+                    "expression": "x | ETowerTargetMode.DivideAndConquer"
+                },
+                {
+                    "key": "level",
+                    "expression": "11"
+                },
+                {
+                    "key": "honey_mode_lives",
+                    "expression": "42"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_HERO_LEVEL_12",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_12",
+            "parent_id": 10,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "12"
+                },
+                {
+                    "key": "bb_flight_speed_mult",
+                    "expression": "1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_HERO_LEVEL_13",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_13",
+            "parent_id": 11,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "13"
+                },
+                {
+                    "key": "dth_reload_time_buff",
+                    "expression": "-0.666"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_HERO_LEVEL_14",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_14",
+            "parent_id": 12,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "honey_mode_lives",
+                    "expression": "66"
+                },
+                {
+                    "key": "level",
+                    "expression": "14"
+                },
+                {
+                    "key": "bb_damage_adjust",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_HERO_LEVEL_15",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_15",
+            "parent_id": 13,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "ahs_swarms_per_hive",
+                    "expression": "2"
+                },
+                {
+                    "key": "ahs_hive_lives_cost",
+                    "expression": "200"
+                },
+                {
+                    "key": "level",
+                    "expression": "15"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_HERO_LEVEL_16",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_16",
+            "parent_id": 14,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "16"
+                },
+                {
+                    "key": "bb_reload_time_mult",
+                    "expression": "x-.22222"
+                },
+                {
+                    "key": "dth_cooldown",
+                    "expression": "40"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 16,
+            "name": "LOC_HERO_LEVEL_17",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_17",
+            "parent_id": 15,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "17"
+                },
+                {
+                    "key": "dth_damage",
+                    "expression": "2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 17,
+            "name": "LOC_HERO_LEVEL_18",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_18",
+            "parent_id": 16,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "honey_mode_lives",
+                    "expression": "90"
+                },
+                {
+                    "key": "level",
+                    "expression": "18"
+                },
+                {
+                    "key": "bb_damage_adjust",
+                    "expression": "x+3"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 18,
+            "name": "LOC_HERO_LEVEL_19",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_19",
+            "parent_id": 17,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "n_swarms",
+                    "expression": "x+1"
+                },
+                {
+                    "key": "level",
+                    "expression": "19"
+                },
+                {
+                    "key": "targeting_modes",
+                    "expression": "x | ETowerTargetMode.ZoneDefense"
+                },
+                {
+                    "key": "honey_mode_lives",
+                    "expression": "120"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 19,
+            "name": "LOC_HERO_LEVEL_20",
+            "description": "LOC_HERO_LEVEL_DESC_Beetienne_20",
+            "parent_id": 18,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "20"
+                },
+                {
+                    "key": "dth_mod_targets",
+                    "expression": "x | ETowerType.Etienne_Bee_Swarm_Auxiliary"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "Lives Generator",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "required_target_mode": "HoneyMode",
+                "initial_load_time": 0.0,
+                "reload_time": 3.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "Damage|Pierce|Reload|ReloadCooldown|DamageType",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"making_honey\"",
+                "animation_triggers_props": [
+                    {
+                        "type": "SAnimationTriggerOnTowerTypeProps",
+                        "enabled": true,
+                        "tower_type": "Etienne_Bee_Swarm|Etienne_Bee_Swarm_AA",
+                        "anim_trigger": "\"honey_mode\""
+                    }
+                ],
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": false,
+                    "target_path_start_on_init": false
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "lives_projectile"
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "Lives Proj",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 0.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "Damage|Pierce",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collectable_props": {
+                    "type": "SCollectableLivesProps",
+                    "enabled": true,
+                    "min_value": "honey_mode_lives",
+                    "max_value": "honey_mode_lives",
+                    "lives_gain_cap": -1.0,
+                    "collect_radius": 0.0,
+                    "collect_speed": 1.0,
+                    "collect_flags": "Instant|Auto",
+                    "auto_collect_value_modifier": 1.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "Swarm Spawner",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": "n_swarms",
+                "refresh_ammo_every_n_rounds": 0,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": true,
+                    "target_path_start_on_init": false
+                },
+                "emission_props": {
+                    "type": "SSpawnTowerEmissionProps",
+                    "enabled": true,
+                    "tower": "Etienne_Bee_Swarm",
+                    "always_use_parent_map_layer": true,
+                    "ignore_parent_hierarchy_for_spawned_id": false
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "Defend The Hive",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "dth_enabled",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"defend_the_hive\"",
+                "animation_triggers_props": [
+                    {
+                        "type": "SAnimationTriggerOnTowerTypeProps",
+                        "enabled": true,
+                        "tower_type": "dth_mod_targets",
+                        "anim_trigger": "\"swarm_fast\""
+                    },
+                    {
+                        "type": "SDelayedAnimationTriggerOnTowerTypeProps",
+                        "enabled": true,
+                        "delay_seconds": "dth_base_duration",
+                        "tower_type": "dth_mod_targets",
+                        "anim_trigger": "\"swarm_idle\""
+                    }
+                ],
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": false,
+                    "target_path_start_on_init": false
+                },
+                "emission_props": {
+                    "type": "SLinearSpawnTowerEmissionProps",
+                    "enabled": true,
+                    "count": 2,
+                    "spread_offset": 30.0,
+                    "spray_angle": 120.0,
+                    "centre": true,
+                    "tower": "Etienne_Bee_Swarm_AA"
+                },
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"Defend The Hive\""
+                    },
+                    "ability_icon_slot": 0,
+                    "cooldown_time": "dth_cooldown",
+                    "initial_cooldown_mod": 0.20000000298023224,
+                    "lives_lost_on_activation": 0.0,
+                    "force_target_mode_on_activation": "None",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "can_be_activated_by_drag": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "mod_provider": {
+                        "type": "SModProviderProps",
+                        "enabled": true,
+                        "parent_dependant": true,
+                        "modifier_props": [
+                            "dth_reload_time_mod",
+                            "dth_damage_mod",
+                            "dth_drone_speed_mod",
+                            "dth_vfx_mod"
+                        ]
+                    },
+                    "vfx_on_activation": [
+                        {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 1,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false,
+                            "attach_to_parent_tower": false,
+                            "use_opponents_visuals": false,
+                            "buff_special_case": "Default"
+                        }
+                    ],
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 7
+                    },
+                    "temporary_target_mode_mod": {
+                        "type": "STowerTemporaryTargetingModeMod",
+                        "enabled": true,
+                        "apply_to_self": false,
+                        "modify_type": "Exclusive",
+                        "mod_instances_limit": 1,
+                        "change_for_target_mode": "HoneyMode",
+                        "temporary_targeting_mode": "First",
+                        "delay_in_seconds": "dth_base_duration"
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "Remove Camo Zone",
+            "props": {
+                "type": "SBloonModifierZoneProps",
+                "enabled": "remove_camo_zone_enabled",
+                "group_id": {
+                    "group_str": ""
+                },
+                "only_apply_mod_while_parent_valid": false,
+                "except_if_existing_target": false,
+                "can_soak_though_moab_class": false,
+                "mod": {
+                    "type": "SBloonRevealCamoMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "None",
+                    "include_features": "Camo",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                },
+                "only_apply_filter_once": true,
+                "bloon_target_limit": 0,
+                "use_tower_base_position": true
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "Auxiliary Hive Spawner",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "hs_enabled",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"Hive Spawner\""
+                    },
+                    "ability_icon_slot": 1,
+                    "cooldown_time": 60.0,
+                    "initial_cooldown_mod": 0.0,
+                    "lives_lost_on_activation": "ahs_hive_lives_cost",
+                    "force_target_mode_on_activation": "None",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "can_be_activated_by_drag": true,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "send_custom_reload_event": {
+                        "type": "SCustomReloadEventProps",
+                        "enabled": true,
+                        "send_custom_reload_event_to_self": true,
+                        "send_custom_reload_event_to_all": false,
+                        "custom_reload_event": "\"Spawn Auxiliary Swarm\""
+                    },
+                    "priming_states": [
+                        {
+                            "type": "SPrimingStatePlaceTowerProps",
+                            "enabled": true,
+                            "tower_type": "Etienne_Bee_Hive"
+                        }
+                    ],
+                    "redeploy_tower": {
+                        "type": "SDeployTowerProps",
+                        "enabled": true,
+                        "tower_type": "Etienne_Bee_Hive"
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "Auxiliary Swarm Spawner",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.5,
+                "avoid_buff": "None",
+                "ammo_count": "ahs_swarms_per_hive",
+                "refresh_ammo_every_n_rounds": 0,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": false,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": true,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "custom_reloader": {
+                    "type": "SReloadOnEventProps",
+                    "enabled": false,
+                    "event": "\"Spawn Auxiliary Swarm\""
+                },
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": false,
+                    "target_path_start_on_init": false
+                },
+                "emission_props": {
+                    "type": "SSpawnTowerEmissionProps",
+                    "enabled": true,
+                    "tower": "Etienne_Bee_Swarm_Auxiliary",
+                    "always_use_parent_map_layer": true,
+                    "ignore_parent_hierarchy_for_spawned_id": true
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "DTH Reload Time Mod",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": true,
+                "limit_count": 0,
+                "mod": {
+                    "type": "STowerWeaponReloadTimeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": "dth_reload_time_buff"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "dth_base_duration",
+                    "allow_disable": false
+                },
+                "targeting_filter_props": {
+                    "type": "STowerTargetingProps",
+                    "enabled": true,
+                    "target_base_position": false,
+                    "inclusive_filter_props": {
+                        "type": "SInclusiveTowerFilterProps",
+                        "enabled": true,
+                        "include_types": "dth_mod_targets",
+                        "include_kinds": "None",
+                        "include_category": "None",
+                        "include_area_types": "None",
+                        "include_placed_area_types": "None",
+                        "include_must_have_weapon": false,
+                        "include_must_have_ability": false,
+                        "include_mod_groups": [],
+                        "include_target_mode": "None",
+                        "include_any_combo": false,
+                        "include_only_placement_candidate": false
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "DTH Damage Mod",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": true,
+                "limit_count": 0,
+                "mod": {
+                    "type": "STowerDamageMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.0,
+                    "additive": "dth_damage"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "dth_base_duration",
+                    "allow_disable": false
+                },
+                "targeting_filter_props": {
+                    "type": "STowerTargetingProps",
+                    "enabled": true,
+                    "target_base_position": false,
+                    "inclusive_filter_props": {
+                        "type": "SInclusiveTowerFilterProps",
+                        "enabled": true,
+                        "include_types": "dth_mod_targets",
+                        "include_kinds": "None",
+                        "include_category": "None",
+                        "include_area_types": "None",
+                        "include_placed_area_types": "None",
+                        "include_must_have_weapon": false,
+                        "include_must_have_ability": false,
+                        "include_mod_groups": [],
+                        "include_target_mode": "None",
+                        "include_any_combo": false,
+                        "include_only_placement_candidate": false
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "DTH Drone Speed Mod",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": true,
+                "limit_count": 0,
+                "mod": {
+                    "type": "STowerHeliFlightMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "max_speed_multiplier": 1.0,
+                    "max_speed_additive": 0.0,
+                    "movement_force_start_multiplier": 1.0,
+                    "movement_force_start_additive": 0.0,
+                    "movement_force_end_multiplier": 1.0,
+                    "movement_force_end_additive": 0.0,
+                    "slowdown_radius_max_multiplier": 0.0,
+                    "repulsion_force_multiplier": 0.0,
+                    "restrict_pursuit_to_parent_range_multiplier": 0.0,
+                    "pursuit_has_shared_targeting": -1
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "dth_base_duration",
+                    "allow_disable": false
+                },
+                "targeting_filter_props": {
+                    "type": "STowerTargetingProps",
+                    "enabled": true,
+                    "target_base_position": false,
+                    "inclusive_filter_props": {
+                        "type": "SInclusiveTowerFilterProps",
+                        "enabled": true,
+                        "include_types": "dth_mod_targets",
+                        "include_kinds": "None",
+                        "include_category": "None",
+                        "include_area_types": "None",
+                        "include_placed_area_types": "None",
+                        "include_must_have_weapon": false,
+                        "include_must_have_ability": false,
+                        "include_mod_groups": [],
+                        "include_target_mode": "None",
+                        "include_any_combo": false,
+                        "include_only_placement_candidate": false
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "DTH VFX Mod",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": true,
+                "limit_count": 0,
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 0,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false,
+                                "attach_to_parent_tower": false,
+                                "use_opponents_visuals": false,
+                                "buff_special_case": "Default"
+                            },
+                            "allow_temporary_disable": false
+                        }
+                    ]
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "dth_base_duration",
+                    "allow_disable": false
+                },
+                "targeting_filter_props": {
+                    "type": "STowerTargetingProps",
+                    "enabled": true,
+                    "target_base_position": false,
+                    "inclusive_filter_props": {
+                        "type": "SInclusiveTowerFilterProps",
+                        "enabled": true,
+                        "include_types": "dth_mod_targets",
+                        "include_kinds": "None",
+                        "include_category": "None",
+                        "include_area_types": "None",
+                        "include_placed_area_types": "None",
+                        "include_must_have_weapon": false,
+                        "include_must_have_ability": false,
+                        "include_mod_groups": [],
+                        "include_target_mode": "None",
+                        "include_any_combo": false,
+                        "include_only_placement_candidate": false
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "BB Reload Time Mod",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": true,
+                "limit_count": 0,
+                "mod": {
+                    "type": "STowerWeaponReloadTimeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": "bb_reload_time_mult"
+                },
+                "targeting_filter_props": "bb_targeting"
+            }
+        },
+        {
+            "type": 4,
+            "id": 32,
+            "name": "BB Targeting",
+            "props": {
+                "type": "STowerTargetingProps",
+                "enabled": true,
+                "target_base_position": false,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveTowerFilterProps",
+                    "enabled": true,
+                    "include_types": "Etienne_Bee_Swarm|Etienne_Bee_Swarm_AA|Etienne_Bee_Swarm_Auxiliary",
+                    "include_kinds": "None",
+                    "include_category": "None",
+                    "include_area_types": "None",
+                    "include_placed_area_types": "None",
+                    "include_must_have_weapon": false,
+                    "include_must_have_ability": false,
+                    "include_mod_groups": [],
+                    "include_target_mode": "None",
+                    "include_any_combo": false,
+                    "include_only_placement_candidate": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 33,
+            "name": "BB Damage Mod",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": true,
+                "limit_count": 0,
+                "mod": {
+                    "type": "STowerDamageMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.0,
+                    "additive": "bb_damage_adjust"
+                },
+                "targeting_filter_props": "bb_targeting"
+            }
+        },
+        {
+            "type": 4,
+            "id": 34,
+            "name": "BB Flight Mod",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": true,
+                "limit_count": 0,
+                "mod": {
+                    "type": "STowerHeliFlightMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "max_speed_multiplier": "bb_flight_speed_mult",
+                    "max_speed_additive": 0.0,
+                    "movement_force_start_multiplier": "bb_flight_speed_mult",
+                    "movement_force_start_additive": 0.0,
+                    "movement_force_end_multiplier": "bb_flight_speed_mult",
+                    "movement_force_end_additive": 0.0,
+                    "slowdown_radius_max_multiplier": "bb_flight_speed_mult",
+                    "repulsion_force_multiplier": "bb_flight_speed_mult",
+                    "restrict_pursuit_to_parent_range_multiplier": "bb_flight_shared_targeting and -1 or 0",
+                    "pursuit_has_shared_targeting": "bb_flight_shared_targeting and 1 or -1"
+                },
+                "targeting_filter_props": "bb_targeting"
+            }
+        },
+        {
+            "type": 4,
+            "id": 36,
+            "name": "Making Honey VFX",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": true,
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "HoneyMode",
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": true,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 2,
+                                "use_alt_emission_slot": true,
+                                "emission_slot": 1,
+                                "life_dependent_on_parent_tower": false,
+                                "attach_to_parent_tower": false,
+                                "use_opponents_visuals": false,
+                                "buff_special_case": "Default"
+                            },
+                            "allow_temporary_disable": false
+                        }
+                    ]
+                },
+                "inclusive_filter": {
+                    "type": "SInclusiveTowerFilterProps",
+                    "enabled": true,
+                    "include_types": "None",
+                    "include_kinds": "None",
+                    "include_category": "None",
+                    "include_area_types": "None",
+                    "include_placed_area_types": "None",
+                    "include_must_have_weapon": false,
+                    "include_must_have_ability": false,
+                    "include_mod_groups": [],
+                    "include_target_mode": "HoneyMode",
+                    "include_any_combo": false,
+                    "include_only_placement_candidate": false
+                },
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 1.0,
+                    "override_ignore_range": false
+                }
+            }
+        }
+    ]
+}

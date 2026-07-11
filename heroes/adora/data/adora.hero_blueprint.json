@@ -1,0 +1,2285 @@
+{
+    "version_code": 4,
+    "invalid": false,
+    "type": 2,
+    "variables": [
+        {
+            "key": "main_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "mw_projectile",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "mw_range",
+            "variable": {
+                "type": "Float",
+                "value": 45.0
+            }
+        },
+        {
+            "key": "mw_proj_count",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "mw_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "mw_damage_fortified",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "mw_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "mw_pierce",
+            "variable": {
+                "type": "Float",
+                "value": 5.0
+            }
+        },
+        {
+            "key": "default_exclusive_filter",
+            "variable": {
+                "type": "Node",
+                "value": 22
+            }
+        },
+        {
+            "key": "buff_super_monkeys",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "buff_super_monkeys_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "super_monkeys_only",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "long_arm_of_light",
+            "variable": {
+                "type": "Node",
+                "value": 25
+            }
+        },
+        {
+            "key": "laol_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "laol_duration",
+            "variable": {
+                "type": "Float",
+                "value": 10.0
+            }
+        },
+        {
+            "key": "laol_range",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "laol_pierce",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "laol_proj_speed",
+            "variable": {
+                "type": "Node",
+                "value": 28
+            }
+        },
+        {
+            "key": "laol_proj_lifespan",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "laol_proj_radius",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "laol_dmg_type",
+            "variable": {
+                "type": "Node",
+                "value": 31
+            }
+        },
+        {
+            "key": "laol_proj_visual",
+            "variable": {
+                "type": "Node",
+                "value": 32
+            }
+        },
+        {
+            "key": "laol_lifespan",
+            "variable": {
+                "type": "Node",
+                "value": 33
+            }
+        },
+        {
+            "key": "laol_bonus_damage",
+            "variable": {
+                "type": "Node",
+                "value": 34
+            }
+        },
+        {
+            "key": "laol_bonus_damage_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "laol_super_and_avatar_buff",
+            "variable": {
+                "type": "Node",
+                "value": 39
+            }
+        },
+        {
+            "key": "laol_super_and_avatar_buff_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "blood_sacrifice",
+            "variable": {
+                "type": "Node",
+                "value": 35
+            }
+        },
+        {
+            "key": "bs_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "bs_buffs_duration",
+            "variable": {
+                "type": "Float",
+                "value": 10.0
+            }
+        },
+        {
+            "key": "bs_add_range_multiplier",
+            "variable": {
+                "type": "Float",
+                "value": 0.004000000189989805
+            }
+        },
+        {
+            "key": "bs_add_reload_multiplier",
+            "variable": {
+                "type": "Float",
+                "value": -0.004000000189989805
+            }
+        },
+        {
+            "key": "bs_worth_cap",
+            "variable": {
+                "type": "Float",
+                "value": 10000.0
+            }
+        },
+        {
+            "key": "bs_vfx_on_sacrifice",
+            "variable": {
+                "type": "Node",
+                "value": 47
+            }
+        },
+        {
+            "key": "sacrificial_tower_buff",
+            "variable": {
+                "type": "Node",
+                "value": 36
+            }
+        },
+        {
+            "key": "sacrificial_tower_sell_value",
+            "variable": {
+                "type": "Node",
+                "value": 37
+            }
+        },
+        {
+            "key": "sacrificeable_towers",
+            "variable": {
+                "type": "Node",
+                "value": 38
+            }
+        },
+        {
+            "key": "sun_avatars_only",
+            "variable": {
+                "type": "Node",
+                "value": 40
+            }
+        },
+        {
+            "key": "super_monkeys_t3_above",
+            "variable": {
+                "type": "Node",
+                "value": 41
+            }
+        },
+        {
+            "key": "ball_of_light",
+            "variable": {
+                "type": "Node",
+                "value": 42
+            }
+        },
+        {
+            "key": "bol_projectile",
+            "variable": {
+                "type": "Node",
+                "value": 43
+            }
+        },
+        {
+            "key": "bol_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "bol_beam",
+            "variable": {
+                "type": "Node",
+                "value": 45
+            }
+        },
+        {
+            "key": "bol_terminus",
+            "variable": {
+                "type": "Node",
+                "value": 46
+            }
+        },
+        {
+            "key": "bol_laser_emission",
+            "variable": {
+                "type": "Node",
+                "value": 44
+            }
+        },
+        {
+            "key": "bol_beam_pierce",
+            "variable": {
+                "type": "Float",
+                "value": 8.0
+            }
+        },
+        {
+            "key": "bol_beam_dmg",
+            "variable": {
+                "type": "Float",
+                "value": 3.0
+            }
+        },
+        {
+            "key": "bol_beam_fort_dmg",
+            "variable": {
+                "type": "Float",
+                "value": 3.0
+            }
+        },
+        {
+            "key": "bol_terminus_dmg",
+            "variable": {
+                "type": "Float",
+                "value": 4.0
+            }
+        },
+        {
+            "key": "bol_terminus_fort_dmg",
+            "variable": {
+                "type": "Float",
+                "value": 4.0
+            }
+        },
+        {
+            "key": "bol_dmg_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Plasma"
+            }
+        },
+        {
+            "key": "bol_duration",
+            "variable": {
+                "type": "Float",
+                "value": 12.0
+            }
+        },
+        {
+            "key": "super_monkey_pierce_buff",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "laol_camo",
+            "variable": {
+                "type": "Node",
+                "value": 48
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_HERO_NAME_Adora",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_1",
+            "cost": 650.0,
+            "upgrade_xp_cost_multiplier": 1.5,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Hero",
+                "tower_type": "Adora",
+                "tower_category": "None",
+                "valid_targeting_modes": "First|Last|Close|Strong",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 6.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true,
+                    "can_intersect_blockers": false,
+                    "can_be_placed_on_track": false
+                },
+                "range": "mw_range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "can_be_temporarily_disabled_by_map": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "ignore_parent_hierarchy": false,
+                "inherit_target_mode_from_parent_on_change": false,
+                "inherit_target_mode_from_parent_on_instantiation": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "can_target_camo": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "main_weapon",
+                    "long_arm_of_light",
+                    "blood_sacrifice",
+                    "ball_of_light"
+                ],
+                "mod_provider_props": "buff_super_monkeys"
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_HERO_LEVEL_2",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_2",
+            "parent_id": 0,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_range",
+                    "expression": "49"
+                },
+                {
+                    "key": "buff_super_monkeys_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_HERO_LEVEL_3",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_3",
+            "parent_id": 1,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "laol_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_HERO_LEVEL_4",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_4",
+            "parent_id": 2,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_proj_count",
+                    "expression": "2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_HERO_LEVEL_5",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_5",
+            "parent_id": 3,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_pierce",
+                    "expression": "x+3"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_HERO_LEVEL_6",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_6",
+            "parent_id": 4,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_proj_count",
+                    "expression": "3"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_HERO_LEVEL_7",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_7",
+            "parent_id": 5,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "bs_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_HERO_LEVEL_8",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_8",
+            "parent_id": 6,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_proj_count",
+                    "expression": "4"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_HERO_LEVEL_9",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_9",
+            "parent_id": 7,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_range",
+                    "expression": "54"
+                },
+                {
+                    "key": "mw_damage_fortified",
+                    "expression": "1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_HERO_LEVEL_10",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_10",
+            "parent_id": 8,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "bol_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_HERO_LEVEL_11",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_11",
+            "parent_id": 9,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_reload_time",
+                    "expression": "0.8"
+                },
+                {
+                    "key": "super_monkey_pierce_buff",
+                    "expression": "2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_HERO_LEVEL_12",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_12",
+            "parent_id": 10,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_proj_count",
+                    "expression": "5"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_HERO_LEVEL_13",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_13",
+            "parent_id": 11,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_pierce",
+                    "expression": "x+3"
+                },
+                {
+                    "key": "mw_damage_fortified",
+                    "expression": "2"
+                },
+                {
+                    "key": "bol_beam_pierce",
+                    "expression": "11"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_HERO_LEVEL_14",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_14",
+            "parent_id": 12,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_proj_count",
+                    "expression": "6"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_HERO_LEVEL_15",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_15",
+            "parent_id": 13,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_damage",
+                    "expression": "2"
+                },
+                {
+                    "key": "bol_beam_dmg",
+                    "expression": "5"
+                },
+                {
+                    "key": "bol_beam_fort_dmg",
+                    "expression": "5"
+                },
+                {
+                    "key": "bol_terminus_dmg",
+                    "expression": "7"
+                },
+                {
+                    "key": "bol_terminus_fort_dmg",
+                    "expression": "7"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_HERO_LEVEL_16",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_16",
+            "parent_id": 14,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "laol_duration",
+                    "expression": "12"
+                },
+                {
+                    "key": "laol_bonus_damage_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "laol_super_and_avatar_buff_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 16,
+            "name": "LOC_HERO_LEVEL_17",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_17",
+            "parent_id": 15,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_reload_time",
+                    "expression": "0.6"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 17,
+            "name": "LOC_HERO_LEVEL_18",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_18",
+            "parent_id": 16,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_proj_count",
+                    "expression": "8"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 18,
+            "name": "LOC_HERO_LEVEL_19",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_19",
+            "parent_id": 17,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_range",
+                    "expression": "59"
+                },
+                {
+                    "key": "mw_damage",
+                    "expression": "3"
+                },
+                {
+                    "key": "mw_damage_fortified",
+                    "expression": "3"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 19,
+            "name": "LOC_HERO_LEVEL_20",
+            "description": "LOC_HERO_LEVEL_DESC_Adora_20",
+            "parent_id": 18,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "bs_buffs_duration",
+                    "expression": "20"
+                },
+                {
+                    "key": "bs_add_range_multiplier",
+                    "expression": "0.008"
+                },
+                {
+                    "key": "bs_add_reload_multiplier",
+                    "expression": "-0.008"
+                },
+                {
+                    "key": "bs_worth_cap",
+                    "expression": "5000"
+                },
+                {
+                    "key": "bol_terminus_dmg",
+                    "expression": "30"
+                },
+                {
+                    "key": "bol_terminus_fort_dmg",
+                    "expression": "30"
+                },
+                {
+                    "key": "bol_beam_dmg",
+                    "expression": "20"
+                },
+                {
+                    "key": "bol_beam_fort_dmg",
+                    "expression": "20"
+                },
+                {
+                    "key": "bol_dmg_type",
+                    "expression": "x | EDamageType.Unstoppable"
+                },
+                {
+                    "key": "bol_duration",
+                    "expression": "20"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "Main Weapon",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "mw_reload_time",
+                "emission_delay": 0.10000000149011612,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "parent_anim_trigger_on_ability_activation": "",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": true,
+                    "use_bloon_position": false,
+                    "save_bloon_position": false,
+                    "camo_prioritisation": false,
+                    "exclusive_filter_props": "default_exclusive_filter"
+                },
+                "emission_props": {
+                    "type": "SArcEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "count": "mw_proj_count",
+                    "spread_angle": "150+30*(mw_proj_count-1)",
+                    "lateral_offset": 0.0,
+                    "inclusive_angle": true,
+                    "spread_evenly": true,
+                    "projectile_props": "mw_projectile"
+                },
+                "weapon_group_props": {
+                    "type": "SWeaponGroupProps",
+                    "enabled": true,
+                    "group_id": {
+                        "group_str": "\"spark\""
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "MW Projectile (Spark)",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 2.0,
+                "infinite_collision_radius": false,
+                "damage": "mw_damage",
+                "damage_type": "Plasma",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "mw_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "tag_props": {
+                    "type": "STagProps",
+                    "enabled": true,
+                    "tag": "AdoraSpark"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 1.5,
+                    "allow_disable": false
+                },
+                "collision_filter_props": "default_exclusive_filter",
+                "retarget_props": {
+                    "type": "SRetargetProps",
+                    "enabled": true,
+                    "track_new_targets": true,
+                    "range": 400.0,
+                    "ignore_range": false,
+                    "use_tower_range": false,
+                    "fov": 0.0,
+                    "delay": 0.0,
+                    "max_bounces": -1,
+                    "use_original_target_mode": false,
+                    "target_mode": "Close",
+                    "destroy_if_no_target": false,
+                    "min_bounces_to_destroy": 0,
+                    "use_lifespan_as_range": false,
+                    "use_bloon_bounce_increments": false,
+                    "stop_child_bloons_being_retargeted": false,
+                    "ignore_line_of_sight": true
+                },
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": "mw_damage_fortified > 0",
+                    "damage_adjust_filters": [
+                        {
+                            "type": "SDamageAdjustFilterProps",
+                            "enabled": true,
+                            "damage_set": -1.0,
+                            "damage_set_percentage": -1.0,
+                            "damage_modifier": "mw_damage_fortified",
+                            "damage_multiplier": 1.0,
+                            "damage_modifier_non_multiplicable": 0.0,
+                            "clamp_percentage_damage_to_current_layer": false,
+                            "inclusive_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "None",
+                                "include_features": "Fortified",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                            }
+                        }
+                    ]
+                },
+                "sfx_on_spawn": [
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 4
+                    }
+                ],
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionHomingProps",
+                    "enabled": true,
+                    "speed": 220.0,
+                    "speed_multiplier_while_turning": 0.6000000238418579,
+                    "turn_rate": 700.0,
+                    "track_time": 0.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "Default Exclusive Filter",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "None",
+                "exclude_features": "Camo",
+                "exclude_status": "None",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "Buff Super Monkeys",
+            "props": {
+                "type": "SModProviderProps",
+                "enabled": "buff_super_monkeys_enabled",
+                "parent_dependant": true,
+                "modifier_props": [
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": true,
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerPierceMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "multiplier": 0.0,
+                            "additive": "super_monkey_pierce_buff"
+                        },
+                        "inclusive_filter": "super_monkeys_only"
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": true,
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerRangeMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "multiplier": 0.15000000596046448,
+                            "additive": 0.0
+                        },
+                        "inclusive_filter": "super_monkeys_only"
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": true,
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerActiveVFXMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "new_active_vfx_props": [
+                                {
+                                    "type": "SActiveVFXProps",
+                                    "enabled": true,
+                                    "vfx_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 8,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false,
+                                        "attach_to_parent_tower": false,
+                                        "use_opponents_visuals": false,
+                                        "buff_special_case": "Default"
+                                    },
+                                    "allow_temporary_disable": false
+                                }
+                            ]
+                        },
+                        "inclusive_filter": "super_monkeys_only"
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "Super Monkeys Only",
+            "props": {
+                "type": "SInclusiveTowerFilterProps",
+                "enabled": true,
+                "include_types": "SuperMonkey",
+                "include_kinds": "None",
+                "include_category": "None",
+                "include_area_types": "None",
+                "include_placed_area_types": "None",
+                "include_must_have_weapon": false,
+                "include_must_have_ability": false,
+                "include_mod_groups": [],
+                "include_target_mode": "None",
+                "include_any_combo": false,
+                "include_only_placement_candidate": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "The Long Arm of Light",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "laol_enabled",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "Damage|Pierce|Reload",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"arm_of_light\"",
+                "parent_anim_trigger_on_ability_activation": "",
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"long_arm_of_light\""
+                    },
+                    "ability_icon_slot": 0,
+                    "cooldown_time": 40.0,
+                    "initial_cooldown_mod": 0.25,
+                    "lives_lost_on_activation": 0.0,
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "mod_provider": "laol_super_and_avatar_buff",
+                    "tower_modifiers": [
+                        "laol_range",
+                        "laol_pierce",
+                        "laol_proj_speed",
+                        "laol_proj_lifespan",
+                        "laol_proj_radius",
+                        "laol_dmg_type",
+                        "laol_proj_visual",
+                        "laol_bonus_damage",
+                        "laol_camo"
+                    ],
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 5
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "LAOL Range",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "STowerRangeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 1.0,
+                    "additive": 0.0
+                },
+                "vfx_mods": [
+                    {
+                        "type": "SActiveVFXProps",
+                        "enabled": true,
+                        "vfx_props": {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 0,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false,
+                            "attach_to_parent_tower": false,
+                            "use_opponents_visuals": false,
+                            "buff_special_case": "Default"
+                        },
+                        "allow_temporary_disable": false
+                    }
+                ],
+                "lifespan_props": "laol_lifespan"
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "LAOL Pierce",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "STowerPierceMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 1.399999976158142,
+                    "additive": 0.0,
+                    "projectile_tag": {
+                        "type": "STagProps",
+                        "enabled": true,
+                        "tag": "AdoraSpark"
+                    }
+                },
+                "lifespan_props": "laol_lifespan"
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "LAOL Proj Speed",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "SProjectileMotionSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.5,
+                    "additive": 0.0,
+                    "projectile_type_filter": "AllTypes"
+                },
+                "lifespan_props": "laol_lifespan"
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "LAOL Proj Lifespan",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "SProjectileLifespanMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "additional_lifespan_multiplier": 1.0,
+                    "projectile_tag": {
+                        "type": "STagProps",
+                        "enabled": true,
+                        "tag": "AdoraSpark"
+                    }
+                },
+                "lifespan_props": "laol_lifespan"
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "LAOL Proj Radius",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "SProjectileCollisionRadiusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.5,
+                    "additive": 0.0,
+                    "projectile_type_filter": "AllTypes"
+                },
+                "lifespan_props": "laol_lifespan"
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "LAOL Damage Type",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "STowerDamageTypeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "damage_type_addition": "Unstoppable"
+                },
+                "lifespan_props": "laol_lifespan"
+            }
+        },
+        {
+            "type": 4,
+            "id": 32,
+            "name": "LAOL Proj Visual",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "STowerWeaponProjectileVisualSlotMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "visual_slot": 1,
+                    "projectile_tag": {
+                        "type": "STagProps",
+                        "enabled": true,
+                        "tag": "AdoraSpark"
+                    }
+                },
+                "lifespan_props": "laol_lifespan"
+            }
+        },
+        {
+            "type": 4,
+            "id": 33,
+            "name": "LAOL Lifespan",
+            "props": {
+                "type": "SLifespanSecondsProps",
+                "enabled": true,
+                "lifespan": "laol_duration",
+                "allow_disable": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 34,
+            "name": "LAOL Bonus Damage",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": "laol_bonus_damage_enabled",
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "STowerDamageMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.0,
+                    "additive": 2.0,
+                    "projectile_tag": {
+                        "type": "STagProps",
+                        "enabled": true,
+                        "tag": "AdoraSpark"
+                    }
+                },
+                "lifespan_props": "laol_lifespan"
+            }
+        },
+        {
+            "type": 4,
+            "id": 35,
+            "name": "Blood Sacrifice",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "bs_enabled",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "Damage|Pierce|Reload",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"blood_sacrifice\"",
+                "parent_anim_trigger_on_ability_activation": "",
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"blood_sacrifice\""
+                    },
+                    "ability_icon_slot": 1,
+                    "cooldown_time": 30.0,
+                    "initial_cooldown_mod": 0.33333298563957214,
+                    "lives_lost_on_activation": 0.0,
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "other_tower_modifiers": [
+                        "sacrificial_tower_buff",
+                        "sacrificial_tower_sell_value"
+                    ],
+                    "priming_states": [
+                        {
+                            "type": "SPrimingStateSelectTowerProps",
+                            "enabled": true,
+                            "tower_filter_props": [
+                                "sacrificeable_towers"
+                            ],
+                            "allow_self_target": false,
+                            "select_target_children_too": true
+                        }
+                    ],
+                    "sacrifice_tower": {
+                        "type": "SAdoraSacrificeTowerProps",
+                        "enabled": true,
+                        "delay_before_sacrifice": 4.0,
+                        "worth_to_xp_ratio": 4.0,
+                        "buffs_duration": "bs_buffs_duration",
+                        "reload_time_multiplier": -0.10000000149011612,
+                        "additional_reload_time_multiplier_per_100_dollars": "bs_add_reload_multiplier",
+                        "range_multiplier": 0.10000000149011612,
+                        "additional_range_multiplier_per_100_dollars": "bs_add_range_multiplier",
+                        "additional_multipliers_worth_cap": "bs_worth_cap",
+                        "effect_visual_slot_on_sacrifice_complete": 11,
+                        "modify_on_sacrifice": [
+                            "bs_vfx_on_sacrifice"
+                        ]
+                    },
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 6
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 36,
+            "name": "Sacrificial Tower Buff",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "STowerWeaponReloadTimeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": -0.800000011920929
+                },
+                "vfx_mods": [
+                    {
+                        "type": "SActiveVFXProps",
+                        "enabled": true,
+                        "vfx_props": {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 1,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false,
+                            "attach_to_parent_tower": false,
+                            "use_opponents_visuals": false,
+                            "buff_special_case": "Default"
+                        },
+                        "allow_temporary_disable": false
+                    }
+                ],
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 4.0,
+                    "allow_disable": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 37,
+            "name": "Sacrificial Tower Sell Value",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "STowerSellMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": -1.0,
+                    "additive": 0.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 38,
+            "name": "Sacrificeable Towers",
+            "props": {
+                "type": "SExclusiveTowerFilterProps",
+                "enabled": true,
+                "exclude_types": "None",
+                "exclude_kinds": "Hero|Child|Agent",
+                "exclude_category": "None",
+                "exclude_area_types": "None",
+                "exclude_placed_area_types": "None",
+                "exclude_must_have_weapon": false,
+                "exclude_mod_groups": [],
+                "exclude_target_mode": "None",
+                "exclude_any_combo": false,
+                "exclude_placement_candidate": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 39,
+            "name": "LAOL Super And Avatar Buff",
+            "props": {
+                "type": "SModProviderProps",
+                "enabled": "laol_super_and_avatar_buff_enabled",
+                "parent_dependant": true,
+                "modifier_props": [
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": true,
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerDamageMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "multiplier": 0.0,
+                            "additive": 2.0
+                        },
+                        "lifespan_props": "laol_lifespan",
+                        "inclusive_filter": "super_monkeys_t3_above"
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": true,
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerDamageMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "multiplier": 0.0,
+                            "additive": 2.0
+                        },
+                        "lifespan_props": "laol_lifespan",
+                        "inclusive_filter": "sun_avatars_only"
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": true,
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "SProjectileCollisionRadiusMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "multiplier": 0.5,
+                            "additive": 0.0,
+                            "projectile_type_filter": "AllTypes"
+                        },
+                        "lifespan_props": "laol_lifespan",
+                        "inclusive_filter": "super_monkeys_t3_above"
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": true,
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "SProjectileCollisionRadiusMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "multiplier": 0.5,
+                            "additive": 0.0,
+                            "projectile_type_filter": "AllTypes"
+                        },
+                        "lifespan_props": "laol_lifespan",
+                        "inclusive_filter": "sun_avatars_only"
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": true,
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerActiveVFXMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "new_active_vfx_props": [
+                                {
+                                    "type": "SActiveVFXProps",
+                                    "enabled": true,
+                                    "vfx_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 0,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false,
+                                        "attach_to_parent_tower": false,
+                                        "use_opponents_visuals": false,
+                                        "buff_special_case": "Default"
+                                    },
+                                    "allow_temporary_disable": false
+                                },
+                                {
+                                    "type": "SActiveVFXProps",
+                                    "enabled": true,
+                                    "vfx_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 9,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false,
+                                        "attach_to_parent_tower": false,
+                                        "use_opponents_visuals": false,
+                                        "buff_special_case": "Default"
+                                    },
+                                    "allow_temporary_disable": false
+                                }
+                            ]
+                        },
+                        "lifespan_props": "laol_lifespan",
+                        "inclusive_filter": "sun_avatars_only"
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": true,
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerActiveVFXMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "new_active_vfx_props": [
+                                {
+                                    "type": "SActiveVFXProps",
+                                    "enabled": true,
+                                    "vfx_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 0,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false,
+                                        "attach_to_parent_tower": false,
+                                        "use_opponents_visuals": false,
+                                        "buff_special_case": "Default"
+                                    },
+                                    "allow_temporary_disable": false
+                                },
+                                {
+                                    "type": "SActiveVFXProps",
+                                    "enabled": true,
+                                    "vfx_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 9,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false,
+                                        "attach_to_parent_tower": false,
+                                        "use_opponents_visuals": false,
+                                        "buff_special_case": "Default"
+                                    },
+                                    "allow_temporary_disable": false
+                                }
+                            ]
+                        },
+                        "lifespan_props": "laol_lifespan",
+                        "inclusive_filter": "super_monkeys_t3_above"
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 40,
+            "name": "Sun Avatars Only",
+            "props": {
+                "type": "SInclusiveTowerFilterProps",
+                "enabled": true,
+                "include_types": "SunAvatar",
+                "include_kinds": "None",
+                "include_category": "None",
+                "include_area_types": "None",
+                "include_placed_area_types": "None",
+                "include_must_have_weapon": false,
+                "include_must_have_ability": false,
+                "include_mod_groups": [],
+                "include_target_mode": "None",
+                "include_any_combo": false,
+                "include_only_placement_candidate": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 41,
+            "name": "Super Monkeys 3+xx",
+            "props": {
+                "type": "SInclusiveTowerFilterProps",
+                "enabled": true,
+                "include_types": "SuperMonkey",
+                "include_kinds": "None",
+                "include_category": "None",
+                "include_upgrades": {
+                    "type": "SUpgradeTierProps",
+                    "enabled": true,
+                    "paths": [
+                        0
+                    ],
+                    "tiers": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                "include_area_types": "None",
+                "include_placed_area_types": "None",
+                "include_must_have_weapon": false,
+                "include_must_have_ability": false,
+                "include_mod_groups": [],
+                "include_target_mode": "None",
+                "include_any_combo": false,
+                "include_only_placement_candidate": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 42,
+            "name": "Ball of Light",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "bol_enabled",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"ball_of_light\"",
+                "parent_anim_trigger_on_ability_activation": "",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": true
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 1,
+                    "spray_angle": 0.0,
+                    "projectile_props": "bol_projectile"
+                },
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"ball_of_light\""
+                    },
+                    "ability_icon_slot": 2,
+                    "cooldown_time": 60.0,
+                    "initial_cooldown_mod": 0.0,
+                    "lives_lost_on_activation": 0.0,
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 7
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 43,
+            "name": "BOL Hovering Ball",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 2.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": -1.0,
+                "avoid_buff": "Damage|Pierce",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 2,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": true,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "bol_duration",
+                    "allow_disable": false
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnTimeProps",
+                    "enabled": true,
+                    "max_time": 0.05000000074505806,
+                    "count": -1,
+                    "immediate_fire_first_shot": true,
+                    "requires_target": true,
+                    "targeting_props": {
+                        "type": "SBloonTargetingProps",
+                        "enabled": true,
+                        "target_handedness": "None",
+                        "independent_target_override": "None",
+                        "ignore_line_of_sight": true,
+                        "use_bloon_position": false,
+                        "save_bloon_position": false,
+                        "camo_prioritisation": false,
+                        "exclusive_filter_props": {
+                            "type": "SExclusiveBloonFilterProps",
+                            "enabled": true,
+                            "exclude_types": "None",
+                            "exclude_features": "None",
+                            "exclude_status": "None",
+                            "exclude_mod_groups": [],
+                            "chance": 1.0
+                        },
+                        "target_range_override": {
+                            "type": "SRangeOverrideProps",
+                            "enabled": true,
+                            "override_range": 0.0,
+                            "override_ignore_range": true
+                        }
+                    },
+                    "emission_props": "bol_laser_emission"
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionOrbitProps",
+                    "enabled": true,
+                    "speed": 60.0,
+                    "radius": 25.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 45,
+            "name": "BOL Beam",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 4.0,
+                "infinite_collision_radius": false,
+                "damage": "bol_beam_dmg",
+                "damage_type": "bol_dmg_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "bol_beam_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": true,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 0.05000000074505806,
+                    "allow_disable": false
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": true,
+                    "damage_adjust_filters": [
+                        {
+                            "type": "SDamageAdjustFilterProps",
+                            "enabled": true,
+                            "damage_set": -1.0,
+                            "damage_set_percentage": -1.0,
+                            "damage_modifier": "bol_beam_fort_dmg",
+                            "damage_multiplier": 1.0,
+                            "damage_modifier_non_multiplicable": 0.0,
+                            "clamp_percentage_damage_to_current_layer": false,
+                            "inclusive_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "None",
+                                "include_features": "Fortified",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                            }
+                        }
+                    ]
+                },
+                "laser_beam_props": {
+                    "type": "SLaserBeamProps",
+                    "enabled": true,
+                    "thickness": 4.0,
+                    "additional_length_behind_emission_point": 0.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 46,
+            "name": "BOL Terminus",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 4.0,
+                "infinite_collision_radius": false,
+                "damage": "bol_terminus_dmg",
+                "damage_type": "bol_dmg_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "Pierce",
+                "collide_only_with_target": true,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": true,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 0.05000000074505806,
+                    "allow_disable": false
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": true,
+                    "damage_adjust_filters": [
+                        {
+                            "type": "SDamageAdjustFilterProps",
+                            "enabled": true,
+                            "damage_set": -1.0,
+                            "damage_set_percentage": -1.0,
+                            "damage_modifier": "bol_terminus_fort_dmg",
+                            "damage_multiplier": 1.0,
+                            "damage_modifier_non_multiplicable": 0.0,
+                            "clamp_percentage_damage_to_current_layer": false,
+                            "inclusive_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "None",
+                                "include_features": "Fortified",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                            }
+                        }
+                    ]
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": true,
+                    "destroyOnInvalidTarget": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 44,
+            "name": "BOL Laser Emission",
+            "props": {
+                "type": "STargetedLaserEmissionProps",
+                "enabled": true,
+                "beam_projectile_props": "bol_beam",
+                "beam_terminus_projectile_props": "bol_terminus",
+                "beam_visual_effect_slot": 3,
+                "terminus_visual_effect_slot": 2,
+                "origin_visual_effect_slot": 2
+            }
+        },
+        {
+            "type": 4,
+            "id": 47,
+            "name": "BS VFX on Sacrifice",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 10,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false,
+                                "attach_to_parent_tower": false,
+                                "use_opponents_visuals": false,
+                                "buff_special_case": "Default"
+                            },
+                            "allow_temporary_disable": false
+                        }
+                    ]
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "bs_buffs_duration",
+                    "allow_disable": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 48,
+            "name": "LAOL Camo",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "SWeaponRemoveExcludeFilterMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "targeting_filter_props": {
+                        "type": "SInclusiveBloonFilterProps",
+                        "enabled": true,
+                        "include_types": "None",
+                        "include_features": "Camo",
+                        "include_status": "None",
+                        "include_mod_groups": [],
+                        "chance": 1.0,
+                        "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                    },
+                    "collision_filter_props": {
+                        "type": "SInclusiveBloonFilterProps",
+                        "enabled": true,
+                        "include_types": "None",
+                        "include_features": "Camo",
+                        "include_status": "None",
+                        "include_mod_groups": [],
+                        "chance": 1.0,
+                        "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                    }
+                },
+                "lifespan_props": "laol_lifespan"
+            }
+        }
+    ]
+}

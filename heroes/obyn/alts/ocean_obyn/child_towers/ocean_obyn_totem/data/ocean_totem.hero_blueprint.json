@@ -1,0 +1,678 @@
+{
+    "version_code": 4,
+    "invalid": false,
+    "type": 2,
+    "variables": [
+        {
+            "key": "totem_lifespan",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "distract_non_moabs",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "moabs_filter",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "no_moabs_filter",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "skip_non_moabs",
+            "variable": {
+                "type": "Node",
+                "value": 28
+            }
+        },
+        {
+            "key": "skip_non_moabs_amount",
+            "variable": {
+                "type": "Int",
+                "value": 3
+            }
+        },
+        {
+            "key": "skip_moabs",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "skip_moabs_amount",
+            "variable": {
+                "type": "Int",
+                "value": 2
+            }
+        },
+        {
+            "key": "stun_duration",
+            "variable": {
+                "type": "Node",
+                "value": 25
+            }
+        },
+        {
+            "key": "stun_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 22
+            }
+        },
+        {
+            "key": "stun_proj",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "stun_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_HERO_CHILD_OceanObyn_Totem",
+            "description": "",
+            "cost": 0.0,
+            "upgrade_xp_cost_multiplier": 1.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Hero|Child",
+                "tower_type": "ObynTotem_Ocean",
+                "tower_category": "None",
+                "valid_targeting_modes": "",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 0.0,
+                    "supported_area": "Land|Water",
+                    "blocks_other_towers": true,
+                    "can_intersect_blockers": false,
+                    "can_be_placed_on_track": true
+                },
+                "range": 32.0,
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": false,
+                "can_be_temporarily_disabled_by_map": true,
+                "destroy_on_parent_removal": true,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "ignore_parent_hierarchy": false,
+                "inherit_target_mode_from_parent_on_change": false,
+                "inherit_target_mode_from_parent_on_instantiation": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "can_target_camo": false,
+                "can_prioritise_camo_targets": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "spawn_with_random_angle": 0.0,
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "stun_weapon"
+                ],
+                "mod_provider_props": {
+                    "type": "SModProviderProps",
+                    "enabled": true,
+                    "parent_dependant": true,
+                    "modifier_props": [
+                        "distract_non_moabs"
+                    ]
+                },
+                "lifespan_props": "totem_lifespan",
+                "active_vfx_props": [
+                    {
+                        "type": "SActiveVFXProps",
+                        "enabled": true,
+                        "vfx_props": {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 0,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false,
+                            "attach_to_parent_tower": false,
+                            "use_opponents_visuals": false,
+                            "buff_special_case": "Default"
+                        },
+                        "allow_temporary_disable": false
+                    }
+                ],
+                "despawn_visual_props": {
+                    "type": "SDespawnVisualProps",
+                    "enabled": true,
+                    "vfx_on_despawn": {
+                        "type": "SVisualEffectProps",
+                        "enabled": true,
+                        "effect_visual_slot": 1,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false,
+                        "attach_to_parent_tower": false,
+                        "use_opponents_visuals": false,
+                        "buff_special_case": "Default"
+                    },
+                    "animation_trigger_on_despawn": "\"despawn\"",
+                    "despawn_animation_length": 0.4169999957084656
+                }
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_HERO_LEVEL_2",
+            "description": "",
+            "parent_id": 0,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_HERO_LEVEL_3",
+            "description": "",
+            "parent_id": 1,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_HERO_LEVEL_4",
+            "description": "",
+            "parent_id": 2,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_HERO_LEVEL_5",
+            "description": "",
+            "parent_id": 3,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_HERO_LEVEL_6",
+            "description": "",
+            "parent_id": 4,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_HERO_LEVEL_7",
+            "description": "",
+            "parent_id": 5,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_HERO_LEVEL_8",
+            "description": "",
+            "parent_id": 6,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_HERO_LEVEL_9",
+            "description": "",
+            "parent_id": 7,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "skip_non_moabs_amount",
+                    "expression": "2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_HERO_LEVEL_10",
+            "description": "",
+            "parent_id": 8,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_HERO_LEVEL_11",
+            "description": "",
+            "parent_id": 9,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_HERO_LEVEL_12",
+            "description": "",
+            "parent_id": 10,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_HERO_LEVEL_13",
+            "description": "",
+            "parent_id": 11,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_HERO_LEVEL_14",
+            "description": "",
+            "parent_id": 12,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_HERO_LEVEL_15",
+            "description": "",
+            "parent_id": 13,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "stun_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_HERO_LEVEL_16",
+            "description": "",
+            "parent_id": 14,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "skip_non_moabs_amount",
+                    "expression": "1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 16,
+            "name": "LOC_HERO_LEVEL_17",
+            "description": "",
+            "parent_id": 15,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 17,
+            "name": "LOC_HERO_LEVEL_18",
+            "description": "",
+            "parent_id": 16,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 18,
+            "name": "LOC_HERO_LEVEL_19",
+            "description": "",
+            "parent_id": 17,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 19,
+            "name": "LOC_HERO_LEVEL_20",
+            "description": "",
+            "parent_id": 18,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "MOABs",
+            "props": {
+                "type": "SInclusiveBloonFilterProps",
+                "enabled": true,
+                "include_types": "MOAB|BFB|ZOMG|DDT",
+                "include_features": "None",
+                "include_status": "None",
+                "include_mod_groups": [],
+                "chance": 1.0,
+                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "Skip MOABs",
+            "props": {
+                "type": "SSkipBloonTargetProps",
+                "enabled": true,
+                "skip_amount": "skip_moabs_amount"
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "Stun",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "stun_enabled",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": 1,
+                "refresh_ammo_every_n_rounds": 0,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": false,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 0.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": false,
+                    "target_path_start_on_init": false
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "stun_proj"
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "Stun",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 5.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": -1.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": true,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": "totem_lifespan",
+                "collision_filter_props": "moabs_filter",
+                "skip_target_props": "skip_moabs",
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": true,
+                    "inherit_age_from_projectile": false,
+                    "bloon_modifier_props": [
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": true,
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "perform_immunity_check": false,
+                            "mod": {
+                                "type": "SBloonStatusMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "status": "Stun"
+                            },
+                            "lifespan_props": "stun_duration",
+                            "only_apply_filter_once": false
+                        },
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": true,
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "perform_immunity_check": false,
+                            "mod": {
+                                "type": "SBloonMotionStateMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "bloon_motion_state": "Still"
+                            },
+                            "lifespan_props": "stun_duration",
+                            "only_apply_filter_once": false
+                        }
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "Totem",
+            "props": {
+                "type": "SLifespanSecondsProps",
+                "enabled": true,
+                "lifespan": 15.0,
+                "allow_disable": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "Stun",
+            "props": {
+                "type": "SLifespanSecondsProps",
+                "enabled": true,
+                "lifespan": 0.5,
+                "allow_disable": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "No MOABs",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "MOAB|MOAB_Decoy|BFB|BFB_Decoy|ZOMG|ZOMG_Decoy|DDT|BAD",
+                "exclude_features": "None",
+                "exclude_status": "PhayzeDash",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "Distract Non-MOABs",
+            "props": {
+                "type": "SBloonModifierZoneProps",
+                "enabled": true,
+                "group_id": {
+                    "group_str": ""
+                },
+                "only_apply_mod_while_parent_valid": false,
+                "except_if_existing_target": false,
+                "can_soak_though_moab_class": false,
+                "mod": {
+                    "type": "SBloonBlowbackAddMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "blowback_bloon_props": {
+                        "type": "SBlowbackProps",
+                        "enabled": true,
+                        "chance": 1.0,
+                        "distance_min": 10.0,
+                        "distance_max": 300.0
+                    }
+                },
+                "bloon_filter_props": "no_moabs_filter",
+                "skip_target_props": "skip_non_moabs",
+                "only_apply_filter_once": false,
+                "bloon_target_limit": 0,
+                "use_tower_base_position": true,
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 5.0,
+                    "override_ignore_range": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "Skip Non-MOABs",
+            "props": {
+                "type": "SSkipBloonTargetProps",
+                "enabled": true,
+                "skip_amount": "skip_non_moabs_amount"
+            }
+        }
+    ]
+}

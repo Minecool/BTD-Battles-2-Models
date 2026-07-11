@@ -1,0 +1,1259 @@
+{
+    "version_code": 4,
+    "invalid": false,
+    "type": 2,
+    "variables": [
+        {
+            "key": "level",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "targeting_modes",
+            "variable": {
+                "type": "TowerTargetMode",
+                "value": "First|DivideAndConquer"
+            }
+        },
+        {
+            "key": "range",
+            "variable": {
+                "type": "Float",
+                "value": 55.0
+            }
+        },
+        {
+            "key": "exclude_no_tower",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "drone_spawner",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "n_drones",
+            "variable": {
+                "type": "Int",
+                "value": 2
+            }
+        },
+        {
+            "key": "enable_drone_swarm",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "drone_swarm",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "ds_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 60.0
+            }
+        },
+        {
+            "key": "enable_screen_glow",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "screen_glow",
+            "variable": {
+                "type": "Node",
+                "value": 33
+            }
+        },
+        {
+            "key": "enable_bloon_queue_spy",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "bloon_queue_spy",
+            "variable": {
+                "type": "Node",
+                "value": 32
+            }
+        },
+        {
+            "key": "enable_ucav",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "ucav_launcher",
+            "variable": {
+                "type": "Node",
+                "value": 28
+            }
+        },
+        {
+            "key": "ignore_immunity_chance_mod",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "ignore_immunity_chance_icon",
+            "variable": {
+                "type": "Node",
+                "value": 25
+            }
+        },
+        {
+            "key": "enable_ignore_immunity_chance",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "ignore_immunity_chance",
+            "variable": {
+                "type": "Float",
+                "value": 0.20000000298023224
+            }
+        },
+        {
+            "key": "enable_global_camo_detection",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "global_camo_detection",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "global_camo_detection_icon",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "camo_priority",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "first_pierce_buff",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "zone_defence_attack_speed_buff",
+            "variable": {
+                "type": "Float",
+                "value": -0.10000000149011612
+            }
+        },
+        {
+            "key": "first_pierce_buff_ref",
+            "variable": {
+                "type": "Node",
+                "value": 22
+            }
+        },
+        {
+            "key": "divide_and_conquer_attack_speed_buff_ref",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "divide_and_conquer_speed_buff_ref",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "zone_dmg_buff_ref",
+            "variable": {
+                "type": "Node",
+                "value": 31
+            }
+        },
+        {
+            "key": "targeting_buffs",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_HERO_NAME_Etienne",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_1",
+            "cost": 650.0,
+            "upgrade_xp_cost_multiplier": 1.059999942779541,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Hero",
+                "tower_type": "Etienne",
+                "tower_category": "None",
+                "valid_targeting_modes": "targeting_modes",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 6.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true,
+                    "can_intersect_blockers": false,
+                    "can_be_placed_on_track": false
+                },
+                "range": "range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "can_be_temporarily_disabled_by_map": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "ignore_parent_hierarchy": false,
+                "inherit_target_mode_from_parent_on_change": false,
+                "inherit_target_mode_from_parent_on_instantiation": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "can_target_camo": false,
+                "can_prioritise_camo_targets": "camo_priority",
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "spawn_with_random_angle": 0.0,
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "drone_spawner",
+                    "drone_swarm",
+                    "ucav_launcher"
+                ],
+                "mod_provider_props": {
+                    "type": "SModProviderProps",
+                    "enabled": true,
+                    "parent_dependant": true,
+                    "modifier_props": [
+                        "ignore_immunity_chance_mod",
+                        "global_camo_detection",
+                        "ignore_immunity_chance_icon",
+                        "global_camo_detection_icon",
+                        "first_pierce_buff_ref",
+                        "divide_and_conquer_attack_speed_buff_ref",
+                        "divide_and_conquer_speed_buff_ref",
+                        "zone_dmg_buff_ref"
+                    ]
+                },
+                "bloon_queue_spy_props": "bloon_queue_spy",
+                "active_vfx_props": [
+                    "screen_glow"
+                ],
+                "drone_props": {
+                    "type": "SDroneOperatorProps",
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_HERO_LEVEL_2",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_2",
+            "parent_id": 0,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "enable_bloon_queue_spy",
+                    "expression": "true"
+                },
+                {
+                    "key": "range",
+                    "expression": "x+5"
+                },
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_HERO_LEVEL_3",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_3",
+            "parent_id": 1,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "enable_drone_swarm",
+                    "expression": "true"
+                },
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_HERO_LEVEL_4",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_4",
+            "parent_id": 2,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                },
+                {
+                    "key": "targeting_buffs",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_HERO_LEVEL_5",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_5",
+            "parent_id": 3,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                },
+                {
+                    "key": "camo_priority",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_HERO_LEVEL_6",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_6",
+            "parent_id": 4,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "enable_ignore_immunity_chance",
+                    "expression": "true"
+                },
+                {
+                    "key": "enable_ucav",
+                    "expression": "true"
+                },
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_HERO_LEVEL_7",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_7",
+            "parent_id": 5,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "enable_global_camo_detection",
+                    "expression": "true"
+                },
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_HERO_LEVEL_8",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_8",
+            "parent_id": 6,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "enable_screen_glow",
+                    "expression": "true"
+                },
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_HERO_LEVEL_9",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_9",
+            "parent_id": 7,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "ignore_immunity_chance",
+                    "expression": "0.5"
+                },
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                },
+                {
+                    "key": "first_pierce_buff",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_HERO_LEVEL_10",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_10",
+            "parent_id": 8,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_HERO_LEVEL_11",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_11",
+            "parent_id": 9,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "n_drones",
+                    "expression": "3"
+                },
+                {
+                    "key": "targeting_modes",
+                    "expression": "x | ETowerTargetMode.ZoneDefense"
+                },
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_HERO_LEVEL_12",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_12",
+            "parent_id": 10,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_HERO_LEVEL_13",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_13",
+            "parent_id": 11,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_HERO_LEVEL_14",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_14",
+            "parent_id": 12,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_HERO_LEVEL_15",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_15",
+            "parent_id": 13,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "ignore_immunity_chance",
+                    "expression": "1"
+                },
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_HERO_LEVEL_16",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_16",
+            "parent_id": 14,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "range",
+                    "expression": "x + 20"
+                },
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                },
+                {
+                    "key": "ds_cooldown",
+                    "expression": "x * 0.75"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 16,
+            "name": "LOC_HERO_LEVEL_17",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_17",
+            "parent_id": 15,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 17,
+            "name": "LOC_HERO_LEVEL_18",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_18",
+            "parent_id": 16,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 18,
+            "name": "LOC_HERO_LEVEL_19",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_19",
+            "parent_id": 17,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "n_drones",
+                    "expression": "4"
+                },
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 19,
+            "name": "LOC_HERO_LEVEL_20",
+            "description": "LOC_HERO_LEVEL_DESC_Etienne_20",
+            "parent_id": 18,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "level",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "Drone Spawner",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": "n_drones",
+                "refresh_ammo_every_n_rounds": 0,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": true,
+                    "target_path_start_on_init": false
+                },
+                "emission_props": {
+                    "type": "SSpawnTowerEmissionProps",
+                    "enabled": true,
+                    "tower": "EtienneDrone",
+                    "always_use_parent_map_layer": true,
+                    "ignore_parent_hierarchy_for_spawned_id": false
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "Drone Swarm",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_drone_swarm",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 0,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack_ability\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": true,
+                    "target_path_start_on_init": false
+                },
+                "emission_props": {
+                    "type": "SLinearSpawnTowerEmissionProps",
+                    "enabled": true,
+                    "count": 4,
+                    "spread_offset": 30.0,
+                    "spray_angle": 120.0,
+                    "centre": true,
+                    "tower": "EtienneDrone_AA"
+                },
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"Drone Swarm\""
+                    },
+                    "ability_icon_slot": 0,
+                    "cooldown_time": "ds_cooldown",
+                    "initial_cooldown_mod": 0.20000000298023224,
+                    "lives_lost_on_activation": 0.0,
+                    "force_target_mode_on_activation": "None",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "can_be_activated_by_drag": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "tower_modifiers": [
+                        {
+                            "type": "STowerModifierProps",
+                            "enabled": true,
+                            "is_multi_dependent": false,
+                            "group_id": {
+                                "group_str": ""
+                            },
+                            "accumulate_modifier": false,
+                            "mod": {
+                                "type": "STowerActiveVFXMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "new_active_vfx_props": [
+                                    {
+                                        "type": "SActiveVFXProps",
+                                        "enabled": true,
+                                        "vfx_props": {
+                                            "type": "SVisualEffectProps",
+                                            "enabled": true,
+                                            "effect_visual_slot": 7,
+                                            "use_alt_emission_slot": false,
+                                            "emission_slot": 0,
+                                            "life_dependent_on_parent_tower": false,
+                                            "attach_to_parent_tower": false,
+                                            "use_opponents_visuals": false,
+                                            "buff_special_case": "Default"
+                                        },
+                                        "allow_temporary_disable": false
+                                    }
+                                ]
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": "17 + level*0.5",
+                                "allow_disable": false
+                            }
+                        }
+                    ],
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 2
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "Ignore Immunity Chance Mod",
+            "props": {
+                "type": "SPlayerModifierProps",
+                "enabled": "enable_ignore_immunity_chance",
+                "mod": {
+                    "type": "SPlayerIgnoreDamageTypeImmunityChanceMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "damage_type": "Sharp|Shatter|Explosion|Acid|Fire|Cold|Glacier|Energy|Plasma",
+                    "immunity_chance": "ignore_immunity_chance"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "Global Camo Detection",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": "enable_global_camo_detection",
+                "limit_count": 0,
+                "mod": {
+                    "type": "SWeaponRemoveExcludeFilterMod",
+                    "enabled": true,
+                    "apply_to_self": true,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "targeting_filter_props": {
+                        "type": "SInclusiveBloonFilterProps",
+                        "enabled": true,
+                        "include_types": "None",
+                        "include_features": "Camo",
+                        "include_status": "None",
+                        "include_mod_groups": [],
+                        "chance": 1.0,
+                        "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                    },
+                    "collision_filter_props": {
+                        "type": "SInclusiveBloonFilterProps",
+                        "enabled": true,
+                        "include_types": "None",
+                        "include_features": "Camo",
+                        "include_status": "None",
+                        "include_mod_groups": [],
+                        "chance": 1.0,
+                        "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "Global Camo Detection Icon",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": "enable_global_camo_detection",
+                "limit_count": 0,
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": true,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 0,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false,
+                                "attach_to_parent_tower": false,
+                                "use_opponents_visuals": false,
+                                "buff_special_case": "Camo_Mod"
+                            },
+                            "allow_temporary_disable": false
+                        }
+                    ]
+                },
+                "targeting_filter_props": {
+                    "type": "STowerTargetingProps",
+                    "enabled": true,
+                    "target_base_position": false,
+                    "exclusive_filter_props": "exclude_no_tower"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "Ignore Immunity Chance Icon",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": "enable_ignore_immunity_chance",
+                "limit_count": 0,
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": true,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 1,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false,
+                                "attach_to_parent_tower": false,
+                                "use_opponents_visuals": false,
+                                "buff_special_case": "Default"
+                            },
+                            "allow_temporary_disable": false
+                        }
+                    ]
+                },
+                "targeting_filter_props": {
+                    "type": "STowerTargetingProps",
+                    "enabled": true,
+                    "target_base_position": false,
+                    "exclusive_filter_props": "exclude_no_tower"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "Exclude No Tower",
+            "props": {
+                "type": "SExclusiveTowerFilterProps",
+                "enabled": true,
+                "exclude_types": "None",
+                "exclude_kinds": "Agent",
+                "exclude_category": "None",
+                "exclude_area_types": "None",
+                "exclude_placed_area_types": "None",
+                "exclude_must_have_weapon": false,
+                "exclude_mod_groups": [],
+                "exclude_target_mode": "None",
+                "exclude_any_combo": false,
+                "exclude_placement_candidate": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "UCAV Launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_ucav",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "Damage|Pierce|Reload|ReloadCooldown",
+                "ammo_count": 1,
+                "refresh_ammo_every_n_rounds": 0,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": false,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": true,
+                    "target_path_start_on_init": false
+                },
+                "emission_props": {
+                    "type": "SSpawnTowerEmissionProps",
+                    "enabled": true,
+                    "tower": "EtienneUCAV",
+                    "always_use_parent_map_layer": true,
+                    "ignore_parent_hierarchy_for_spawned_id": false
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 32,
+            "name": "Bloon Queue Spy",
+            "props": {
+                "type": "SBloonQueueSpyProps",
+                "enabled": "enable_bloon_queue_spy",
+                "warning_cooldown": 10.0,
+                "warning_sfx": 6,
+                "warning_vfx": 5
+            }
+        },
+        {
+            "type": 4,
+            "id": 33,
+            "name": "Screen Glow",
+            "props": {
+                "type": "SActiveVFXProps",
+                "enabled": "enable_screen_glow",
+                "vfx_props": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 4,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false,
+                    "attach_to_parent_tower": false,
+                    "use_opponents_visuals": false,
+                    "buff_special_case": "Default"
+                },
+                "allow_temporary_disable": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "First Pierce Buff",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "targeting_buffs",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "First",
+                "mod": {
+                    "type": "STowerPierceMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.0,
+                    "additive": "first_pierce_buff"
+                },
+                "inclusive_filter": {
+                    "type": "SInclusiveTowerFilterProps",
+                    "enabled": true,
+                    "include_types": "EtienneDrone|EtienneDrone_AA",
+                    "include_kinds": "None",
+                    "include_category": "None",
+                    "include_area_types": "None",
+                    "include_placed_area_types": "None",
+                    "include_must_have_weapon": false,
+                    "include_must_have_ability": false,
+                    "include_mod_groups": [],
+                    "include_target_mode": "None",
+                    "include_any_combo": false,
+                    "include_only_placement_candidate": false
+                },
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 40.0,
+                    "override_ignore_range": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "DivideAndConquer Speed buff",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "targeting_buffs",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "DivideAndConquer",
+                "mod": {
+                    "type": "STowerHeliFlightMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "max_speed_multiplier": 0.0,
+                    "max_speed_additive": 20.0,
+                    "movement_force_start_multiplier": 0.0,
+                    "movement_force_start_additive": 0.0,
+                    "movement_force_end_multiplier": 0.0,
+                    "movement_force_end_additive": 40.0,
+                    "slowdown_radius_max_multiplier": 1.5,
+                    "repulsion_force_multiplier": 0.0,
+                    "restrict_pursuit_to_parent_range_multiplier": 0.0,
+                    "pursuit_has_shared_targeting": -1
+                },
+                "inclusive_filter": {
+                    "type": "SInclusiveTowerFilterProps",
+                    "enabled": true,
+                    "include_types": "EtienneDrone|EtienneDrone_AA",
+                    "include_kinds": "None",
+                    "include_category": "None",
+                    "include_area_types": "None",
+                    "include_placed_area_types": "None",
+                    "include_must_have_weapon": false,
+                    "include_must_have_ability": false,
+                    "include_mod_groups": [],
+                    "include_target_mode": "None",
+                    "include_any_combo": false,
+                    "include_only_placement_candidate": false
+                },
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 40.0,
+                    "override_ignore_range": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "DivideAndConquer Attack Speed Buff",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "targeting_buffs",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "DivideAndConquer",
+                "mod": {
+                    "type": "STowerWeaponReloadTimeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": -0.10000000149011612
+                },
+                "inclusive_filter": {
+                    "type": "SInclusiveTowerFilterProps",
+                    "enabled": true,
+                    "include_types": "EtienneDrone|EtienneDrone_AA",
+                    "include_kinds": "None",
+                    "include_category": "None",
+                    "include_area_types": "None",
+                    "include_placed_area_types": "None",
+                    "include_must_have_weapon": false,
+                    "include_must_have_ability": false,
+                    "include_mod_groups": [],
+                    "include_target_mode": "None",
+                    "include_any_combo": false,
+                    "include_only_placement_candidate": false
+                },
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 40.0,
+                    "override_ignore_range": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "Zone Defence DMG Buff",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "targeting_buffs",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "ZoneDefense",
+                "mod": {
+                    "type": "STowerDamageMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.0,
+                    "additive": 1.0
+                },
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 40.0,
+                    "override_ignore_range": true
+                }
+            }
+        }
+    ]
+}

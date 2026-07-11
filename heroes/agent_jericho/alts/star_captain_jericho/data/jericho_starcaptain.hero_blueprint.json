@@ -1,0 +1,1288 @@
+{
+    "version_code": 4,
+    "invalid": false,
+    "type": 2,
+    "variables": [
+        {
+            "key": "allow_camo_prio",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "bloon_adjustment",
+            "variable": {
+                "type": "Node",
+                "value": 31
+            }
+        },
+        {
+            "key": "bloon_adjustment_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "ba_every_n_bloon",
+            "variable": {
+                "type": "Int",
+                "value": 4
+            }
+        },
+        {
+            "key": "ba_n_adjustments",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "ba_affects_sent_bloons",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "default_targeting",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "main_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 22
+            }
+        },
+        {
+            "key": "main_weapon_proj",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "mw_exclude_features",
+            "variable": {
+                "type": "BloonFeatures",
+                "value": "Camo"
+            }
+        },
+        {
+            "key": "mw_range",
+            "variable": {
+                "type": "Float",
+                "value": 40.0
+            }
+        },
+        {
+            "key": "mw_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 0.5400000214576721
+            }
+        },
+        {
+            "key": "mw_dmg",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "mw_damage_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Plasma"
+            }
+        },
+        {
+            "key": "mw_dot_dmg",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "mw_bullets_per_shot",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "mw_emission",
+            "variable": {
+                "type": "Node",
+                "value": 25
+            }
+        },
+        {
+            "key": "laser_shock_mod",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "bloon_feature_enhancement",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "bfe_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "bfe_regen_delay",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "bfe_camo_speed",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "bfe_fortified_hp",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "smugglers_run",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "sr_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "sr_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 80.0
+            }
+        },
+        {
+            "key": "sr_capacity",
+            "variable": {
+                "type": "Float",
+                "value": 5500.0
+            }
+        },
+        {
+            "key": "sr_excluded_types",
+            "variable": {
+                "type": "BloonType",
+                "value": "BAD"
+            }
+        },
+        {
+            "key": "in_it_for_the_money",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "iifm_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "iifm_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 70.0
+            }
+        },
+        {
+            "key": "iifm_purple",
+            "variable": {
+                "type": "Float",
+                "value": 7.0
+            }
+        },
+        {
+            "key": "iifm_zebra",
+            "variable": {
+                "type": "Float",
+                "value": 7.0
+            }
+        },
+        {
+            "key": "iifm_lead",
+            "variable": {
+                "type": "Float",
+                "value": 7.0
+            }
+        },
+        {
+            "key": "iifm_rainbow",
+            "variable": {
+                "type": "Float",
+                "value": 7.0
+            }
+        },
+        {
+            "key": "iifm_ceramics",
+            "variable": {
+                "type": "Float",
+                "value": 7.0
+            }
+        },
+        {
+            "key": "iifm_moab_class",
+            "variable": {
+                "type": "Float",
+                "value": 300.0
+            }
+        },
+        {
+            "key": "iifm_moab_class_limit",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "iifm_duration",
+            "variable": {
+                "type": "Float",
+                "value": 6.0
+            }
+        },
+        {
+            "key": "fortified_exclude",
+            "variable": {
+                "type": "BloonType",
+                "value": "BAD"
+            }
+        },
+        {
+            "key": "iifm_bfb",
+            "variable": {
+                "type": "Float",
+                "value": 390.0
+            }
+        },
+        {
+            "key": "iifm_zomg_ddt",
+            "variable": {
+                "type": "Float",
+                "value": 600.0
+            }
+        },
+        {
+            "key": "iifm_bad",
+            "variable": {
+                "type": "Float",
+                "value": 900.0
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_HERO_NAME_StarCaptainJericho",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_1",
+            "cost": 850.0,
+            "upgrade_xp_cost_multiplier": 1.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Hero",
+                "tower_type": "Jericho_StarCaptain",
+                "tower_category": "None",
+                "valid_targeting_modes": "First|Last|Close|Strong",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 6.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true,
+                    "can_intersect_blockers": false,
+                    "can_be_placed_on_track": false
+                },
+                "range": "mw_range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "can_be_temporarily_disabled_by_map": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "ignore_parent_hierarchy": false,
+                "inherit_target_mode_from_parent_on_change": false,
+                "inherit_target_mode_from_parent_on_instantiation": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "can_target_camo": false,
+                "can_prioritise_camo_targets": "allow_camo_prio",
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "spawn_with_random_angle": 0.0,
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "main_weapon",
+                    "smugglers_run",
+                    "in_it_for_the_money"
+                ],
+                "bloon_send_modifier_props": "bloon_feature_enhancement",
+                "opponent_modifier_props": "bloon_adjustment"
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_HERO_LEVEL_2",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_2",
+            "parent_id": 0,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "bloon_adjustment_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_HERO_LEVEL_3",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_3",
+            "parent_id": 1,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "iifm_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_HERO_LEVEL_4",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_4",
+            "parent_id": 2,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "bfe_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "bfe_regen_delay",
+                    "expression": "0.88"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_HERO_LEVEL_5",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_5",
+            "parent_id": 3,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "ba_n_adjustments",
+                    "expression": "1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_HERO_LEVEL_6",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_6",
+            "parent_id": 4,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_reload_time",
+                    "expression": "0.35"
+                },
+                {
+                    "key": "mw_emission",
+                    "expression": "26"
+                },
+                {
+                    "key": "iifm_purple",
+                    "expression": "14"
+                },
+                {
+                    "key": "iifm_zebra",
+                    "expression": "14"
+                },
+                {
+                    "key": "iifm_lead",
+                    "expression": "14"
+                },
+                {
+                    "key": "iifm_rainbow",
+                    "expression": "31"
+                },
+                {
+                    "key": "iifm_ceramics",
+                    "expression": "60"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_HERO_LEVEL_7",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_7",
+            "parent_id": 5,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_range",
+                    "expression": "70"
+                },
+                {
+                    "key": "mw_exclude_features",
+                    "expression": "x &~ EBloonFeatures.Camo"
+                },
+                {
+                    "key": "allow_camo_prio",
+                    "expression": "true"
+                },
+                {
+                    "key": "bfe_camo_speed",
+                    "expression": "1.15"
+                },
+                {
+                    "key": "mw_dmg",
+                    "expression": "2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_HERO_LEVEL_8",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_8",
+            "parent_id": 6,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "ba_every_n_bloon",
+                    "expression": "2"
+                },
+                {
+                    "key": "iifm_moab_class_limit",
+                    "expression": "1"
+                },
+                {
+                    "key": "iifm_duration",
+                    "expression": "12"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_HERO_LEVEL_9",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_9",
+            "parent_id": 7,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "iifm_moab_class",
+                    "expression": "600"
+                },
+                {
+                    "key": "bfe_fortified_hp",
+                    "expression": "1.125"
+                },
+                {
+                    "key": "iifm_bfb",
+                    "expression": "780"
+                },
+                {
+                    "key": "iifm_zomg_ddt",
+                    "expression": "1200"
+                },
+                {
+                    "key": "iifm_bad",
+                    "expression": "1800"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_HERO_LEVEL_10",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_10",
+            "parent_id": 8,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "sr_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_HERO_LEVEL_11",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_11",
+            "parent_id": 9,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "iifm_moab_class",
+                    "expression": "1100"
+                },
+                {
+                    "key": "iifm_bfb",
+                    "expression": "1430"
+                },
+                {
+                    "key": "iifm_zomg_ddt",
+                    "expression": "2200"
+                },
+                {
+                    "key": "iifm_bad",
+                    "expression": "3300"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_HERO_LEVEL_12",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_12",
+            "parent_id": 10,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_bullets_per_shot",
+                    "expression": "2"
+                },
+                {
+                    "key": "sr_capacity",
+                    "expression": "8000"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_HERO_LEVEL_13",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_13",
+            "parent_id": 11,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "ba_n_adjustments",
+                    "expression": "2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_HERO_LEVEL_14",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_14",
+            "parent_id": 12,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "iifm_moab_class",
+                    "expression": "2200"
+                },
+                {
+                    "key": "iifm_bfb",
+                    "expression": "2860"
+                },
+                {
+                    "key": "iifm_zomg_ddt",
+                    "expression": "4400"
+                },
+                {
+                    "key": "iifm_bad",
+                    "expression": "6600"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_HERO_LEVEL_15",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_15",
+            "parent_id": 13,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "sr_capacity",
+                    "expression": "13000"
+                },
+                {
+                    "key": "ba_affects_sent_bloons",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_HERO_LEVEL_16",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_16",
+            "parent_id": 14,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_bullets_per_shot",
+                    "expression": "3"
+                },
+                {
+                    "key": "mw_dmg",
+                    "expression": "5"
+                },
+                {
+                    "key": "mw_dot_dmg",
+                    "expression": "2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 16,
+            "name": "LOC_HERO_LEVEL_17",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_17",
+            "parent_id": 15,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "sr_capacity",
+                    "expression": "20000"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 17,
+            "name": "LOC_HERO_LEVEL_18",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_18",
+            "parent_id": 16,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "iifm_cooldown",
+                    "expression": "45"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 18,
+            "name": "LOC_HERO_LEVEL_19",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_19",
+            "parent_id": 17,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "mw_dmg",
+                    "expression": "8"
+                },
+                {
+                    "key": "mw_damage_type",
+                    "expression": "x | EDamageType.Unstoppable"
+                },
+                {
+                    "key": "mw_dot_dmg",
+                    "expression": "4"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 19,
+            "name": "LOC_HERO_LEVEL_20",
+            "description": "LOC_HERO_LEVEL_DESC_StarCaptainJericho_20",
+            "parent_id": 18,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "sr_excluded_types",
+                    "expression": "x &~ EBloonType.BAD"
+                },
+                {
+                    "key": "sr_capacity",
+                    "expression": "27000"
+                },
+                {
+                    "key": "sr_cooldown",
+                    "expression": "40"
+                },
+                {
+                    "key": "fortified_exclude",
+                    "expression": "x~EBloonType.BAD"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "Main Weapon",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "mw_reload_time",
+                "emission_delay": 0.0,
+                "avoid_buff": "Damage|Pierce",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": "-1",
+                "refresh_ammo_every_n_rounds": 0,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": false,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"Attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "save_bloon_position": false,
+                    "exclude_from_shared_targeting": false,
+                    "exclusive_filter_props": "default_targeting"
+                },
+                "emission_props": "mw_emission",
+                "vfx_on_emission_props": [
+                    {
+                        "type": "SVisualEffectProps",
+                        "enabled": true,
+                        "effect_visual_slot": 0,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false,
+                        "attach_to_parent_tower": false,
+                        "use_opponents_visuals": false,
+                        "buff_special_case": "Default"
+                    }
+                ],
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "Deafult Targeting",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "None",
+                "exclude_features": "mw_exclude_features",
+                "exclude_status": "None",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "Main Weapon Proj",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 2.0,
+                "infinite_collision_radius": false,
+                "damage": "mw_dmg",
+                "damage_type": "mw_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "mw_bullets_per_shot",
+                "avoid_buff": "Pierce",
+                "collide_only_with_target": true,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": true,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 0.5,
+                    "allow_disable": false
+                },
+                "collision_filter_props": "default_targeting",
+                "clear_collided_with_props": {
+                    "type": "SClearCollidedWithProps",
+                    "enabled": true,
+                    "interval_time": 0.10000000149011612
+                },
+                "retarget_on_target_lost_props": {
+                    "type": "SRetargetOnTargetLostProps",
+                    "enabled": true,
+                    "spawn_without_target": false,
+                    "range": 12.0,
+                    "delay": 0.10000000149011612,
+                    "targeting_props": {
+                        "type": "SBloonTargetingProps",
+                        "enabled": true,
+                        "target_handedness": "None",
+                        "independent_target_override": "Close",
+                        "ignore_line_of_sight": true,
+                        "use_bloon_position": false,
+                        "save_bloon_position": false,
+                        "exclude_from_shared_targeting": false,
+                        "exclusive_filter_props": "default_targeting"
+                    },
+                    "retarget_first_child_if_bloon": false
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": false,
+                    "inherit_age_from_projectile": false,
+                    "bloon_modifier_props": [
+                        "laser_shock_mod"
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": false
+                },
+                "priority_instant_collision_props": {
+                    "type": "SPriorityInstantCollisionProps",
+                    "enabled": true,
+                    "single_use": true,
+                    "hide_visual_while_active": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "MW Single Emission",
+            "props": {
+                "type": "SSingleEmissionProps",
+                "enabled": true,
+                "slot": 0,
+                "spray_angle": 0.0,
+                "projectile_props": "main_weapon_proj"
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "MW Sequential Emission",
+            "props": {
+                "type": "SSequentialEmissionProps",
+                "enabled": true,
+                "spray_angle": 0.0,
+                "slot_props": [
+                    {
+                        "type": "SEmissionSlotProps",
+                        "enabled": true,
+                        "slot": 0,
+                        "animation_trigger": "\"Attack.L\""
+                    },
+                    {
+                        "type": "SEmissionSlotProps",
+                        "enabled": true,
+                        "slot": 1,
+                        "animation_trigger": "\"Attack.R\""
+                    }
+                ],
+                "projectile_props": "main_weapon_proj"
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "Bloon Adjustment",
+            "props": {
+                "type": "SBloonAdjustmentProps",
+                "enabled": "bloon_adjustment_enabled",
+                "adjust_every_n_bloons": "ba_every_n_bloon",
+                "adjustments_per_bloon": "ba_n_adjustments",
+                "affects_natural_bloons": true,
+                "affects_sent_bloons": "ba_affects_sent_bloons"
+            }
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "Laser Shock",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "status": "Shocked"
+                },
+                "effector_props": {
+                    "type": "SBloonDoTProps",
+                    "enabled": true,
+                    "interval": 1.0,
+                    "amount": "mw_dot_dmg",
+                    "percentage_damage": 0.0,
+                    "damage_cap": 0.0,
+                    "damage_type": "Energy",
+                    "damage_distribution_mode": "ChildrenIfAllowed",
+                    "tick_immediately_on_refresh": true
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 1.0,
+                    "allow_disable": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "Bloon Feature Enhancement",
+            "props": {
+                "type": "SBloonFeatureEnhancementProps",
+                "enabled": "bfe_enabled",
+                "regen_delay_multiplier": "bfe_regen_delay",
+                "camo_speed_multiplier": "bfe_camo_speed",
+                "fortified_hp_multiplier": "bfe_fortified_hp",
+                "fortified_exclude_bloon_type": "fortified_exclude"
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "In It For The Money",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "iifm_enabled",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"In It For The Money\""
+                    },
+                    "ability_icon_slot": 0,
+                    "cooldown_time": "iifm_cooldown",
+                    "initial_cooldown_mod": 0.5,
+                    "lives_lost_on_activation": 0.0,
+                    "force_target_mode_on_activation": "None",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "can_be_activated_by_drag": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "unique_effect": {
+                        "type": "SInItForTheMoneyProps",
+                        "enabled": true,
+                        "time_limit": "iifm_duration",
+                        "bloons_limit": 25,
+                        "moab_class_limit": "iifm_moab_class_limit",
+                        "default_amount": 7.0,
+                        "types_to_amount": [
+                            {
+                                "amount": "iifm_purple",
+                                "bloon_type": "Purple"
+                            },
+                            {
+                                "amount": "iifm_lead",
+                                "bloon_type": "Lead"
+                            },
+                            {
+                                "amount": "iifm_zebra",
+                                "bloon_type": "Zebra"
+                            },
+                            {
+                                "amount": "iifm_rainbow",
+                                "bloon_type": "Rainbow"
+                            },
+                            {
+                                "amount": "iifm_ceramics",
+                                "bloon_type": "Ceramic"
+                            },
+                            {
+                                "amount": "iifm_moab_class",
+                                "bloon_type": "MOAB"
+                            },
+                            {
+                                "amount": "iifm_bfb",
+                                "bloon_type": "BFB"
+                            },
+                            {
+                                "amount": "iifm_zomg_ddt",
+                                "bloon_type": "ZOMG"
+                            },
+                            {
+                                "amount": "iifm_zomg_ddt",
+                                "bloon_type": "DDT"
+                            },
+                            {
+                                "amount": "iifm_bad",
+                                "bloon_type": "BAD"
+                            }
+                        ]
+                    },
+                    "vfx_on_activation": [
+                        {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 5,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false,
+                            "attach_to_parent_tower": false,
+                            "use_opponents_visuals": false,
+                            "buff_special_case": "Default"
+                        }
+                    ],
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 3
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "Smuggler's Run",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "sr_enabled",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"Smugglers Run\""
+                    },
+                    "ability_icon_slot": 1,
+                    "cooldown_time": "sr_cooldown",
+                    "initial_cooldown_mod": 0.0,
+                    "lives_lost_on_activation": 0.0,
+                    "force_target_mode_on_activation": "None",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "can_be_activated_by_drag": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "unique_effect": {
+                        "type": "SSmugglersRunProps",
+                        "enabled": true,
+                        "cargo_bay_capacity": "sr_capacity",
+                        "load_duration": 8.0,
+                        "path_spawn_progress": 0.25,
+                        "excluded_bloon_types": "sr_excluded_types",
+                        "sfx_slot_on_dispatch": 6,
+                        "vfx_slot_on_dispatch": 7
+                    },
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 4
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        }
+    ]
+}

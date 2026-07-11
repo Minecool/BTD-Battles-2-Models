@@ -1,0 +1,436 @@
+{
+    "version_code": 4,
+    "invalid": false,
+    "type": 2,
+    "variables": [
+        {
+            "key": "speed_percent_mod",
+            "variable": {
+                "type": "Float",
+                "value": 0.6499999761581421
+            }
+        },
+        {
+            "key": "moab_speed_percent_mod",
+            "variable": {
+                "type": "Float",
+                "value": 0.8349999785423279
+            }
+        },
+        {
+            "key": "range",
+            "variable": {
+                "type": "Float",
+                "value": 28.0
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_HERO_CHILD_Obyn_Totem",
+            "description": "",
+            "cost": 0.0,
+            "upgrade_xp_cost_multiplier": 1.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Hero|Child",
+                "tower_type": "ObynTotem",
+                "tower_category": "None",
+                "valid_targeting_modes": "",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 0.0,
+                    "supported_area": "Land|Water",
+                    "blocks_other_towers": true,
+                    "can_intersect_blockers": false,
+                    "can_be_placed_on_track": true
+                },
+                "range": "range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": false,
+                "can_be_temporarily_disabled_by_map": true,
+                "destroy_on_parent_removal": true,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "ignore_parent_hierarchy": false,
+                "inherit_target_mode_from_parent_on_change": false,
+                "inherit_target_mode_from_parent_on_instantiation": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "can_target_camo": false,
+                "can_prioritise_camo_targets": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "spawn_with_random_angle": 0.0,
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "mod_provider_props": {
+                    "type": "SModProviderProps",
+                    "enabled": true,
+                    "parent_dependant": true,
+                    "modifier_props": [
+                        {
+                            "type": "SBloonModifierZoneProps",
+                            "enabled": true,
+                            "group_id": {
+                                "group_str": ""
+                            },
+                            "only_apply_mod_while_parent_valid": false,
+                            "except_if_existing_target": false,
+                            "can_soak_though_moab_class": false,
+                            "mod": {
+                                "type": "SBloonSpeedMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "multiplier": "speed_percent_mod"
+                            },
+                            "bloon_filter_props": {
+                                "type": "SExclusiveBloonFilterProps",
+                                "enabled": true,
+                                "exclude_types": "MOAB|MOAB_Decoy|BFB|BFB_Decoy|ZOMG|ZOMG_Decoy|DDT|BAD",
+                                "exclude_features": "None",
+                                "exclude_status": "None",
+                                "exclude_mod_groups": [],
+                                "chance": 1.0
+                            },
+                            "only_apply_filter_once": false,
+                            "bloon_target_limit": 0,
+                            "use_tower_base_position": true
+                        },
+                        {
+                            "type": "SBloonModifierZoneProps",
+                            "enabled": true,
+                            "group_id": {
+                                "group_str": ""
+                            },
+                            "only_apply_mod_while_parent_valid": false,
+                            "except_if_existing_target": false,
+                            "can_soak_though_moab_class": false,
+                            "mod": {
+                                "type": "SBloonSpeedMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "multiplier": "moab_speed_percent_mod"
+                            },
+                            "bloon_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "MOAB|BFB|ZOMG|DDT",
+                                "include_features": "None",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                            },
+                            "only_apply_filter_once": false,
+                            "bloon_target_limit": 0,
+                            "use_tower_base_position": true
+                        }
+                    ]
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 15.0,
+                    "allow_disable": false
+                },
+                "active_vfx_props": [
+                    {
+                        "type": "SActiveVFXProps",
+                        "enabled": true,
+                        "vfx_props": {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 0,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false,
+                            "attach_to_parent_tower": false,
+                            "use_opponents_visuals": false,
+                            "buff_special_case": "Default"
+                        },
+                        "allow_temporary_disable": false
+                    }
+                ],
+                "despawn_visual_props": {
+                    "type": "SDespawnVisualProps",
+                    "enabled": true,
+                    "vfx_on_despawn": {
+                        "type": "SVisualEffectProps",
+                        "enabled": true,
+                        "effect_visual_slot": 1,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false,
+                        "attach_to_parent_tower": false,
+                        "use_opponents_visuals": false,
+                        "buff_special_case": "Default"
+                    },
+                    "animation_trigger_on_despawn": "\"despawn\"",
+                    "despawn_animation_length": 0.4169999957084656
+                }
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "Upgrade 1",
+            "description": "",
+            "parent_id": 0,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "Upgrade 2",
+            "description": "",
+            "parent_id": 1,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "Upgrade 3",
+            "description": "",
+            "parent_id": 2,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "Upgrade 4",
+            "description": "",
+            "parent_id": 3,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "Upgrade 5",
+            "description": "",
+            "parent_id": 4,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "Upgrade 6",
+            "description": "",
+            "parent_id": 5,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "Upgrade 7",
+            "description": "",
+            "parent_id": 6,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "speed_percent_mod",
+                    "expression": "0.5"
+                },
+                {
+                    "key": "moab_speed_percent_mod",
+                    "expression": "0.769"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "Upgrade 8",
+            "description": "",
+            "parent_id": 7,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "Upgrade 9",
+            "description": "",
+            "parent_id": 8,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "Upgrade 10",
+            "description": "",
+            "parent_id": 9,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "Upgrade 11",
+            "description": "",
+            "parent_id": 10,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "Upgrade 12",
+            "description": "",
+            "parent_id": 11,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "Upgrade 13",
+            "description": "",
+            "parent_id": 12,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "Upgrade 14",
+            "description": "",
+            "parent_id": 13,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "moab_speed_percent_mod",
+                    "expression": "0.67"
+                },
+                {
+                    "key": "range",
+                    "expression": "34"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "Upgrade 15",
+            "description": "",
+            "parent_id": 14,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 16,
+            "name": "Upgrade 16",
+            "description": "",
+            "parent_id": 15,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 17,
+            "name": "Upgrade 17",
+            "description": "",
+            "parent_id": 16,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 18,
+            "name": "Upgrade 18",
+            "description": "",
+            "parent_id": 17,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        },
+        {
+            "type": 1,
+            "id": 19,
+            "name": "Upgrade 19",
+            "description": "",
+            "parent_id": 18,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": []
+        }
+    ]
+}

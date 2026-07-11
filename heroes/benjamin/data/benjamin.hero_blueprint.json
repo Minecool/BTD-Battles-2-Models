@@ -1,0 +1,2012 @@
+{
+    "version_code": 4,
+    "invalid": false,
+    "type": 2,
+    "variables": [
+        {
+            "key": "range",
+            "variable": {
+                "type": "Float",
+                "value": 20.0
+            }
+        },
+        {
+            "key": "hack_money",
+            "variable": {
+                "type": "Int",
+                "value": 75
+            }
+        },
+        {
+            "key": "biohack_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "biohack_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "biohack_mod_lifespan",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "biohack_mod_seconds",
+            "variable": {
+                "type": "Float",
+                "value": 9.0
+            }
+        },
+        {
+            "key": "biohack_tower_filter",
+            "variable": {
+                "type": "Node",
+                "value": 22
+            }
+        },
+        {
+            "key": "biohack_tower_limit",
+            "variable": {
+                "type": "Int",
+                "value": 7
+            }
+        },
+        {
+            "key": "biohack_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "biohack_tower_mod",
+            "variable": {
+                "type": "Node",
+                "value": 46
+            }
+        },
+        {
+            "key": "biohack_buff_mod",
+            "variable": {
+                "type": "Node",
+                "value": 47
+            }
+        },
+        {
+            "key": "biohack_active_vfx",
+            "variable": {
+                "type": "Node",
+                "value": 44
+            }
+        },
+        {
+            "key": "biohack_effector",
+            "variable": {
+                "type": "Node",
+                "value": 45
+            }
+        },
+        {
+            "key": "skimming_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "skimming_cash",
+            "variable": {
+                "type": "Float",
+                "value": 0.5
+            }
+        },
+        {
+            "key": "bank_hack_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "bank_hack_mod",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "bank_hack_multiplier",
+            "variable": {
+                "type": "Float",
+                "value": 0.10000000149011612
+            }
+        },
+        {
+            "key": "bank_hack_buff_mod",
+            "variable": {
+                "type": "Node",
+                "value": 41
+            }
+        },
+        {
+            "key": "bank_hack_tower_filter",
+            "variable": {
+                "type": "Node",
+                "value": 42
+            }
+        },
+        {
+            "key": "bank_hack_tower_targeting",
+            "variable": {
+                "type": "Node",
+                "value": 43
+            }
+        },
+        {
+            "key": "bloon_trojan_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "bloon_trojan_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "bloon_trojan_reload",
+            "variable": {
+                "type": "Float",
+                "value": 5.0
+            }
+        },
+        {
+            "key": "bloon_trojan_reload_boost_max",
+            "variable": {
+                "type": "Float",
+                "value": 2.0
+            }
+        },
+        {
+            "key": "bloon_trojan_targeting",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "bloon_trojan_filter",
+            "variable": {
+                "type": "Node",
+                "value": 28
+            }
+        },
+        {
+            "key": "bloon_trojan_exclude_types",
+            "variable": {
+                "type": "BloonType",
+                "value": "Red|Blue|Green|Yellow|BFB|ZOMG|DDT|BAD"
+            }
+        },
+        {
+            "key": "bloon_trojan_exclude_features",
+            "variable": {
+                "type": "BloonFeatures",
+                "value": "Camo"
+            }
+        },
+        {
+            "key": "bloon_trojan_mod_status",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "bloon_trojan_proj",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "bloon_trojan_mod_remove_children",
+            "variable": {
+                "type": "Node",
+                "value": 31
+            }
+        },
+        {
+            "key": "bloon_trojan_mod_cash_t5",
+            "variable": {
+                "type": "Node",
+                "value": 32
+            }
+        },
+        {
+            "key": "bloon_trojan_mod_cash_t6",
+            "variable": {
+                "type": "Node",
+                "value": 33
+            }
+        },
+        {
+            "key": "bloon_trojan_mod_cash_t7",
+            "variable": {
+                "type": "Node",
+                "value": 34
+            }
+        },
+        {
+            "key": "bloon_trojan_mod_cash_t8",
+            "variable": {
+                "type": "Node",
+                "value": 35
+            }
+        },
+        {
+            "key": "bloon_trojan_mod_cash_t9",
+            "variable": {
+                "type": "Node",
+                "value": 36
+            }
+        },
+        {
+            "key": "bloon_trojan_mod_cash_t10",
+            "variable": {
+                "type": "Node",
+                "value": 37
+            }
+        },
+        {
+            "key": "bloon_trojan_t5_cash",
+            "variable": {
+                "type": "Float",
+                "value": 5.0
+            }
+        },
+        {
+            "key": "bloon_trojan_t6_cash",
+            "variable": {
+                "type": "Float",
+                "value": 6.0
+            }
+        },
+        {
+            "key": "bloon_trojan_t7_cash",
+            "variable": {
+                "type": "Float",
+                "value": 7.0
+            }
+        },
+        {
+            "key": "bloon_trojan_t8_cash",
+            "variable": {
+                "type": "Float",
+                "value": 8.0
+            }
+        },
+        {
+            "key": "bloon_trojan_t9_cash",
+            "variable": {
+                "type": "Float",
+                "value": 9.0
+            }
+        },
+        {
+            "key": "bloon_trojan_t10_cash",
+            "variable": {
+                "type": "Float",
+                "value": 10.0
+            }
+        },
+        {
+            "key": "syphon_funding_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "syphon_funding_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 38
+            }
+        },
+        {
+            "key": "syphon_funding_duration",
+            "variable": {
+                "type": "Node",
+                "value": 39
+            }
+        },
+        {
+            "key": "syphon_funding_seconds",
+            "variable": {
+                "type": "Float",
+                "value": 17.0
+            }
+        },
+        {
+            "key": "syphon_funding_targeting",
+            "variable": {
+                "type": "Node",
+                "value": 40
+            }
+        },
+        {
+            "key": "vr_keyboard_vfx_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "syphon_funding_ineligible",
+            "variable": {
+                "type": "BloonType",
+                "value": "Red|MOAB_Decoy|BFB_Decoy|ZOMG_Decoy|DDT|BAD"
+            }
+        },
+        {
+            "key": "biohack_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 40.0
+            }
+        },
+        {
+            "key": "bank_income_hack_mod",
+            "variable": {
+                "type": "Node",
+                "value": 48
+            }
+        },
+        {
+            "key": "money_hack_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 49
+            }
+        },
+        {
+            "key": "syphon_funding_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 60.0
+            }
+        },
+        {
+            "key": "boost_hack_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "boost_hack_ref",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "give_boosts_on_next_upgrade",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_HERO_NAME_Benjamin",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_1",
+            "cost": 950.0,
+            "upgrade_xp_cost_multiplier": 1.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Hero",
+                "tower_type": "Benjamin",
+                "tower_category": "None",
+                "valid_targeting_modes": "First|Last|Close|Strong",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 6.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true,
+                    "can_intersect_blockers": false,
+                    "can_be_placed_on_track": false
+                },
+                "range": "range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "can_be_temporarily_disabled_by_map": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "ignore_parent_hierarchy": false,
+                "inherit_target_mode_from_parent_on_change": false,
+                "inherit_target_mode_from_parent_on_instantiation": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "can_target_camo": false,
+                "can_prioritise_camo_targets": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "spawn_with_random_angle": 0.0,
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "biohack_weapon",
+                    "bloon_trojan_weapon",
+                    "syphon_funding_weapon",
+                    "money_hack_weapon"
+                ],
+                "mod_provider_props": {
+                    "type": "SModProviderProps",
+                    "enabled": true,
+                    "parent_dependant": true,
+                    "modifier_props": [
+                        "bank_hack_mod",
+                        "bank_hack_buff_mod",
+                        "bank_income_hack_mod",
+                        "boost_hack_ref"
+                    ]
+                },
+                "cash_generator_props": {
+                    "type": "SCashByBloonSpawnProps",
+                    "enabled": "skimming_enabled",
+                    "cash": "skimming_cash",
+                    "bloon_sources": "Round"
+                },
+                "active_vfx_props": [
+                    {
+                        "type": "SActiveVFXProps",
+                        "enabled": "vr_keyboard_vfx_enabled",
+                        "vfx_props": {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 9,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false,
+                            "attach_to_parent_tower": false,
+                            "use_opponents_visuals": false,
+                            "buff_special_case": "Default"
+                        },
+                        "allow_temporary_disable": false
+                    }
+                ],
+                "on_upgrade_event_props": {
+                    "type": "SOnUpgradeAddBoostChargesProps",
+                    "enabled": "give_boosts_on_next_upgrade",
+                    "recharge_tower_boost": 1,
+                    "recharge_bloon_boost": 1
+                }
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_HERO_LEVEL_2",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_2",
+            "parent_id": 0,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "hack_money",
+                    "expression": "125"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_HERO_LEVEL_3",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_3",
+            "parent_id": 1,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "biohack_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_HERO_LEVEL_4",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_4",
+            "parent_id": 2,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "skimming_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_HERO_LEVEL_5",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_5",
+            "parent_id": 3,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "bank_hack_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "hack_money",
+                    "expression": "200"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_HERO_LEVEL_6",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_6",
+            "parent_id": 4,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "boost_hack_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_HERO_LEVEL_7",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_7",
+            "parent_id": 5,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "bloon_trojan_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_HERO_LEVEL_8",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_8",
+            "parent_id": 6,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "hack_money",
+                    "expression": "350"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_HERO_LEVEL_9",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_9",
+            "parent_id": 7,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "bank_hack_multiplier",
+                    "expression": "0.15"
+                },
+                {
+                    "key": "biohack_damage",
+                    "expression": "2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_HERO_LEVEL_10",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_10",
+            "parent_id": 8,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "syphon_funding_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_HERO_LEVEL_11",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_11",
+            "parent_id": 9,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "hack_money",
+                    "expression": "800"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_HERO_LEVEL_12",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_12",
+            "parent_id": 10,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "skimming_cash",
+                    "expression": "1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_HERO_LEVEL_13",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_13",
+            "parent_id": 11,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "biohack_tower_limit",
+                    "expression": "x+2"
+                },
+                {
+                    "key": "biohack_mod_seconds",
+                    "expression": "15"
+                },
+                {
+                    "key": "biohack_cooldown",
+                    "expression": "35"
+                },
+                {
+                    "key": "give_boosts_on_next_upgrade",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_HERO_LEVEL_14",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_14",
+            "parent_id": 12,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "give_boosts_on_next_upgrade",
+                    "expression": "false"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_HERO_LEVEL_15",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_15",
+            "parent_id": 13,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "hack_money",
+                    "expression": "2000"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_HERO_LEVEL_16",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_16",
+            "parent_id": 14,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "bloon_trojan_t5_cash",
+                    "expression": "10.0"
+                },
+                {
+                    "key": "bloon_trojan_t6_cash",
+                    "expression": "12.0"
+                },
+                {
+                    "key": "bloon_trojan_t7_cash",
+                    "expression": "14.0"
+                },
+                {
+                    "key": "bloon_trojan_t8_cash",
+                    "expression": "16.0"
+                },
+                {
+                    "key": "bloon_trojan_t9_cash",
+                    "expression": "18.0"
+                },
+                {
+                    "key": "bloon_trojan_t10_cash",
+                    "expression": "20.0"
+                },
+                {
+                    "key": "bloon_trojan_reload",
+                    "expression": "3.0"
+                },
+                {
+                    "key": "bloon_trojan_reload_boost_max",
+                    "expression": "1.0"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 16,
+            "name": "LOC_HERO_LEVEL_17",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_17",
+            "parent_id": 15,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "hack_money",
+                    "expression": "4000"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 17,
+            "name": "LOC_HERO_LEVEL_18",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_18",
+            "parent_id": 16,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "bloon_trojan_exclude_types",
+                    "expression": "x &~EBloonType.BFB &~EBloonType.DDT"
+                },
+                {
+                    "key": "bloon_trojan_exclude_features",
+                    "expression": "x &~EBloonFeatures.Camo"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 18,
+            "name": "LOC_HERO_LEVEL_19",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_19",
+            "parent_id": 17,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "biohack_mod_seconds",
+                    "expression": "18"
+                },
+                {
+                    "key": "biohack_damage",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 19,
+            "name": "LOC_HERO_LEVEL_20",
+            "description": "LOC_HERO_LEVEL_DESC_Benjamin_20",
+            "parent_id": 18,
+            "cost": 0.0,
+            "requires_prompt": false,
+            "additional_cost": 0.0,
+            "additional_tower_type": "",
+            "variable_modifiers": [
+                {
+                    "key": "syphon_funding_seconds",
+                    "expression": "20.0"
+                },
+                {
+                    "key": "vr_keyboard_vfx_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "syphon_funding_ineligible",
+                    "expression": "x &~ EBloonType.DDT"
+                },
+                {
+                    "key": "syphon_funding_cooldown",
+                    "expression": "40"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "Biohack",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "biohack_enabled",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"\"",
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"biohack\""
+                    },
+                    "ability_icon_slot": 0,
+                    "cooldown_time": "biohack_cooldown",
+                    "initial_cooldown_mod": 0.25,
+                    "lives_lost_on_activation": 0.0,
+                    "force_target_mode_on_activation": "None",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "can_be_activated_by_drag": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "unique_effect": {
+                        "type": "SSMFCAbilityProps",
+                        "enabled": true,
+                        "tower_limit": "biohack_tower_limit",
+                        "group_id": {
+                            "group_str": "\"biohack\""
+                        },
+                        "apply_to_self_only": false,
+                        "affects_child_towers": "AffectThroughParent",
+                        "additional_non_leader_tower_mods": [
+                            "biohack_tower_mod",
+                            "biohack_buff_mod"
+                        ],
+                        "use_tower_filter_alternative": true,
+                        "tower_filter_props": "biohack_tower_filter",
+                        "use_in_range_towers_as_filter": false,
+                        "limit_per_in_range_tower_filter_type": 0,
+                        "furthest_towers_first": false
+                    },
+                    "vfx_on_activation": [
+                        {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 0,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": true,
+                            "attach_to_parent_tower": false,
+                            "use_opponents_visuals": false,
+                            "buff_special_case": "Default"
+                        }
+                    ],
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 6
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "Biohack Seconds",
+            "props": {
+                "type": "SLifespanSecondsProps",
+                "enabled": true,
+                "lifespan": "biohack_mod_seconds",
+                "allow_disable": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "Biohack Tower Filter",
+            "props": {
+                "type": "SExclusiveTowerFilterProps",
+                "enabled": true,
+                "exclude_types": "MonkeyVillage|BananaFarm",
+                "exclude_kinds": "Agent",
+                "exclude_category": "None",
+                "exclude_area_types": "None",
+                "exclude_placed_area_types": "None",
+                "exclude_must_have_weapon": false,
+                "exclude_mod_groups": [],
+                "exclude_target_mode": "None",
+                "exclude_any_combo": false,
+                "exclude_placement_candidate": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "Bank Hack",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": "bank_hack_enabled",
+                "limit_count": 0,
+                "mod": {
+                    "type": "STowerWeaponProjectileCollectableCashMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": "bank_hack_multiplier",
+                    "additive": 0.0
+                },
+                "targeting_filter_props": "bank_hack_tower_targeting"
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "Bloon Trojan",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "bloon_trojan_enabled",
+                "targeting_mode_override": "Random",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "bloon_trojan_reload",
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": "\"\""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 0,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": false,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"\"",
+                "custom_reloader": {
+                    "type": "SRandomBoostReloaderProps",
+                    "enabled": true,
+                    "event": "\"\"",
+                    "min": 0.0,
+                    "max": "bloon_trojan_reload_boost_max"
+                },
+                "targeting_props": "bloon_trojan_targeting",
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "bloon_trojan_proj"
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "Bloon Trojan",
+            "props": {
+                "type": "SBloonTargetingProps",
+                "enabled": true,
+                "target_handedness": "None",
+                "independent_target_override": "Random",
+                "ignore_line_of_sight": true,
+                "use_bloon_position": false,
+                "save_bloon_position": false,
+                "exclude_from_shared_targeting": false,
+                "exclusive_filter_props": "bloon_trojan_filter"
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "Bloon Trojan Filter",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "bloon_trojan_exclude_types",
+                "exclude_features": "bloon_trojan_exclude_features",
+                "exclude_status": "Trojan",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "Bloon Trojan Status",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": false,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "status": "Trojan"
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "Bloon Trojan",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 3.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "Pierce",
+                "collide_only_with_target": true,
+                "collide_with_target_multiple_times": false,
+                "ignore_collision_lineage": false,
+                "time_between_collisions": 0.0,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when": "None",
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "save_target_position": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 2.0,
+                    "allow_disable": false
+                },
+                "collision_filter_props": "bloon_trojan_filter",
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": true,
+                    "apply_even_if_not_damaged": true,
+                    "inherit_age_from_projectile": false,
+                    "bloon_modifier_props": [
+                        "bloon_trojan_mod_status",
+                        "bloon_trojan_mod_remove_children",
+                        "bloon_trojan_mod_cash_t5",
+                        "bloon_trojan_mod_cash_t6",
+                        "bloon_trojan_mod_cash_t7",
+                        "bloon_trojan_mod_cash_t8",
+                        "bloon_trojan_mod_cash_t9",
+                        "bloon_trojan_mod_cash_t10"
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                },
+                "vfx_on_contact": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 3,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false,
+                    "attach_to_parent_tower": false,
+                    "use_opponents_visuals": false,
+                    "buff_special_case": "Default"
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionHomingProps",
+                    "enabled": true,
+                    "speed": 1200.0,
+                    "speed_multiplier_while_turning": 0.0,
+                    "turn_rate": 360.0,
+                    "track_time": 0.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "Bloon Trojan Remove Children",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": false,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonRemoveChildrenMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 32,
+            "name": "Bloon Trojan Cash T5",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": false,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonCashMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "cash": "bloon_trojan_t5_cash"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Pink",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 33,
+            "name": "Bloon Trojan Cash T6",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": false,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonCashMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "cash": "bloon_trojan_t6_cash"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Black|White|Purple",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 34,
+            "name": "Bloon Trojan Cash T7",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": false,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonCashMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "cash": "bloon_trojan_t7_cash"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Lead|Zebra",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 35,
+            "name": "Bloon Trojan Cash T8",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": false,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonCashMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "cash": "bloon_trojan_t8_cash"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Rainbow",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 36,
+            "name": "Bloon Trojan Cash T9",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": false,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonCashMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "cash": "bloon_trojan_t9_cash"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Ceramic",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 37,
+            "name": "Bloon Trojan Cash T10",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": false,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "perform_immunity_check": false,
+                "mod": {
+                    "type": "SBloonCashMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "cash": "bloon_trojan_t10_cash"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "MOAB",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "include_sources": "Round|Opponent|Debug|Projectile|Self"
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 38,
+            "name": "Syphon Funding",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "syphon_funding_enabled",
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"biohack\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 0.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": false,
+                    "target_path_start_on_init": false
+                },
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"syphon funding\""
+                    },
+                    "ability_icon_slot": 1,
+                    "cooldown_time": "syphon_funding_cooldown",
+                    "initial_cooldown_mod": 0.0,
+                    "lives_lost_on_activation": 0.0,
+                    "force_target_mode_on_activation": "None",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "can_be_activated_by_drag": false,
+                    "cooldown_persists_globally": false,
+                    "fire_all_with_id": {
+                        "id": ""
+                    },
+                    "unique_effect": {
+                        "type": "SDamageBloonOnSpawnProps",
+                        "enabled": true,
+                        "damage_amount": 0.0,
+                        "downgrade_bloon": true,
+                        "bloon_filter": {
+                            "type": "SExclusiveBloonFilterProps",
+                            "enabled": true,
+                            "exclude_types": "syphon_funding_ineligible",
+                            "exclude_features": "None",
+                            "exclude_status": "Syphon_Funds",
+                            "exclude_mod_groups": [],
+                            "chance": 1.0
+                        },
+                        "mod_on_spawn_after_downgrade": {
+                            "type": "SBloonModifierProps",
+                            "enabled": true,
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": true,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "perform_immunity_check": false,
+                            "mod": {
+                                "type": "SBloonStatusMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "status": "Syphon_Funds"
+                            },
+                            "only_apply_filter_once": false
+                        },
+                        "bloon_limits": [
+                            {
+                                "type": "SDowngradeBloonLimitProps",
+                                "enabled": true,
+                                "bloon_type": "ZOMG",
+                                "limit": 10
+                            }
+                        ]
+                    },
+                    "duration": {
+                        "type": "STimeDurationProps",
+                        "enabled": true,
+                        "time": "syphon_funding_seconds"
+                    },
+                    "tower_modifiers": [
+                        {
+                            "type": "STowerModifierProps",
+                            "enabled": true,
+                            "is_multi_dependent": false,
+                            "group_id": {
+                                "group_str": ""
+                            },
+                            "accumulate_modifier": false,
+                            "mod": {
+                                "type": "STowerActiveVFXMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "new_active_vfx_props": [
+                                    {
+                                        "type": "SActiveVFXProps",
+                                        "enabled": true,
+                                        "vfx_props": {
+                                            "type": "SVisualEffectProps",
+                                            "enabled": true,
+                                            "effect_visual_slot": 8,
+                                            "use_alt_emission_slot": false,
+                                            "emission_slot": 0,
+                                            "life_dependent_on_parent_tower": false,
+                                            "attach_to_parent_tower": false,
+                                            "use_opponents_visuals": false,
+                                            "buff_special_case": "Default"
+                                        },
+                                        "allow_temporary_disable": false
+                                    }
+                                ]
+                            },
+                            "lifespan_props": "syphon_funding_duration"
+                        }
+                    ],
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 7
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 39,
+            "name": "Syphon Funding",
+            "props": {
+                "type": "SLifespanSecondsProps",
+                "enabled": true,
+                "lifespan": "syphon_funding_seconds",
+                "allow_disable": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 40,
+            "name": "Syphon Funding",
+            "props": {
+                "type": "SBloonTargetingProps",
+                "enabled": true,
+                "target_handedness": "None",
+                "independent_target_override": "First",
+                "ignore_line_of_sight": false,
+                "use_bloon_position": false,
+                "save_bloon_position": false,
+                "exclude_from_shared_targeting": false,
+                "exclusive_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "syphon_funding_ineligible",
+                    "exclude_features": "None",
+                    "exclude_status": "Syphon_Funds",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 41,
+            "name": "Bank Hack Buff",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": "bank_hack_enabled",
+                "limit_count": 0,
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 4,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false,
+                                "attach_to_parent_tower": false,
+                                "use_opponents_visuals": false,
+                                "buff_special_case": "Default"
+                            },
+                            "allow_temporary_disable": false
+                        }
+                    ]
+                },
+                "targeting_filter_props": "bank_hack_tower_targeting"
+            }
+        },
+        {
+            "type": 4,
+            "id": 42,
+            "name": "Bank Hack Tower Filter",
+            "props": {
+                "type": "SInclusiveTowerFilterProps",
+                "enabled": true,
+                "include_types": "BananaFarm",
+                "include_kinds": "None",
+                "include_category": "None",
+                "include_upgrades": {
+                    "type": "SUpgradeTierProps",
+                    "enabled": true,
+                    "paths": [
+                        1,
+                        2
+                    ],
+                    "tiers": [
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                "include_area_types": "None",
+                "include_placed_area_types": "None",
+                "include_must_have_weapon": false,
+                "include_must_have_ability": false,
+                "include_mod_groups": [],
+                "include_target_mode": "None",
+                "include_any_combo": false,
+                "include_only_placement_candidate": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 43,
+            "name": "Bank Hack Tower Targeting",
+            "props": {
+                "type": "STowerTargetingProps",
+                "enabled": true,
+                "target_base_position": false,
+                "inclusive_filter_props": "bank_hack_tower_filter"
+            }
+        },
+        {
+            "type": 4,
+            "id": 44,
+            "name": "Biohack VFX",
+            "props": {
+                "type": "SActiveVFXProps",
+                "enabled": true,
+                "vfx_props": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 1,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": true,
+                    "attach_to_parent_tower": false,
+                    "use_opponents_visuals": false,
+                    "buff_special_case": "Default"
+                },
+                "allow_temporary_disable": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 45,
+            "name": "Biohack Effector Mod",
+            "props": {
+                "type": "STowerModOnExpiryProps",
+                "enabled": true,
+                "tower_mods": [
+                    {
+                        "type": "STowerModifierProps",
+                        "enabled": true,
+                        "is_multi_dependent": false,
+                        "group_id": {
+                            "group_str": ""
+                        },
+                        "accumulate_modifier": false,
+                        "vfx_mods": [
+                            {
+                                "type": "SActiveVFXProps",
+                                "enabled": true,
+                                "vfx_props": {
+                                    "type": "SVisualEffectProps",
+                                    "enabled": true,
+                                    "effect_visual_slot": 2,
+                                    "use_alt_emission_slot": false,
+                                    "emission_slot": 0,
+                                    "life_dependent_on_parent_tower": true,
+                                    "attach_to_parent_tower": false,
+                                    "use_opponents_visuals": false,
+                                    "buff_special_case": "Default"
+                                },
+                                "allow_temporary_disable": false
+                            }
+                        ],
+                        "effector_props": {
+                            "type": "STemporaryTowerDisableEffectorProps",
+                            "enabled": true,
+                            "flags": "Weapons|ActivatedAbilityActivations|ActivatedAbilityCooldowns|HeliFlight",
+                            "ignore_groups": "{\"spirit_of_the_forest_dot\"}"
+                        },
+                        "lifespan_props": {
+                            "type": "SLifespanSecondsProps",
+                            "enabled": true,
+                            "lifespan": 2.0,
+                            "allow_disable": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 46,
+            "name": "Biohack Mod",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "STowerAddDamageAdjustMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "projectile_damage_props": {
+                        "type": "SDamageAdjustProps",
+                        "enabled": true,
+                        "damage_adjust_filters": [
+                            {
+                                "type": "SDamageAdjustFilterProps",
+                                "enabled": true,
+                                "damage_set": -1.0,
+                                "damage_set_percentage": -1.0,
+                                "damage_modifier": "biohack_damage",
+                                "damage_multiplier": 1.0,
+                                "damage_modifier_non_multiplicable": 0.0,
+                                "clamp_percentage_damage_to_current_layer": false
+                            }
+                        ]
+                    }
+                },
+                "vfx_mods": [
+                    "biohack_active_vfx"
+                ],
+                "effector_props": "biohack_effector",
+                "lifespan_props": "biohack_mod_lifespan",
+                "tower_filter_props": "biohack_tower_filter"
+            }
+        },
+        {
+            "type": 4,
+            "id": 47,
+            "name": "Biohack Icon Buff",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 5,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false,
+                                "attach_to_parent_tower": false,
+                                "use_opponents_visuals": false,
+                                "buff_special_case": "Default"
+                            },
+                            "allow_temporary_disable": false
+                        }
+                    ]
+                },
+                "lifespan_props": "biohack_mod_lifespan",
+                "tower_filter_props": "biohack_tower_filter"
+            }
+        },
+        {
+            "type": 4,
+            "id": 48,
+            "name": "Bank Income Hack",
+            "props": {
+                "type": "STowerModifierGlobalProps",
+                "enabled": "bank_hack_enabled",
+                "limit_count": 0,
+                "mod": {
+                    "type": "STowerBankIncomeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": "bank_hack_multiplier",
+                    "additive": 0.0
+                },
+                "targeting_filter_props": "bank_hack_tower_targeting"
+            }
+        },
+        {
+            "type": 4,
+            "id": 49,
+            "name": "Money Hack Weapon",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "Damage|Pierce|Reload|ReloadCooldown|DamageType",
+                "ammo_count": 1,
+                "refresh_ammo_every_n_rounds": 1,
+                "refresh_ammo_skip_first_round": true,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": false,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "dump_ammo_on_temporarily_disable": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": true,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": false,
+                    "required_valid_target": false,
+                    "ignore_line_of_sight": false,
+                    "target_path_start_on_init": false
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": {
+                        "type": "SProjectileProps",
+                        "enabled": true,
+                        "collision_radius": 2.0,
+                        "infinite_collision_radius": false,
+                        "damage": 0.0,
+                        "damage_type": "None",
+                        "damage_distribution_mode": "SingleLayerOnly",
+                        "pierce": 0.0,
+                        "avoid_buff": "Damage|Pierce|Reload|ReloadCooldown|DamageType",
+                        "collide_only_with_target": false,
+                        "collide_with_target_multiple_times": false,
+                        "ignore_collision_lineage": false,
+                        "time_between_collisions": 0.0,
+                        "collide_with_blockers": "None",
+                        "visual_slot": 0,
+                        "random_starting_angle": false,
+                        "ignore_immunity_for_bloon_types": "None",
+                        "ignore_immunity_for_damage_type": "None",
+                        "projectile_type": "None",
+                        "lifespan_depends_on_target": false,
+                        "lifespan_depends_on_tower": false,
+                        "destroy_projectile_when": "None",
+                        "show_visual_on_spawn": false,
+                        "destroy_at_screen_bounds": false,
+                        "transform_emission_point_by_camera": false,
+                        "save_target_position": false,
+                        "lifespan_props": {
+                            "type": "SLifespanSingleFrameProps",
+                            "enabled": true
+                        },
+                        "collectable_props": {
+                            "type": "SCollectableCashProps",
+                            "enabled": true,
+                            "min_value": "hack_money",
+                            "max_value": "hack_money",
+                            "collect_radius": 50.0,
+                            "collect_speed": 5.0,
+                            "collectable_delay_seconds": 0.0,
+                            "collect_flags": "Instant|Auto",
+                            "auto_collect_value_modifier": 1.0,
+                            "contribute_to_tower_score": true
+                        }
+                    }
+                },
+                "weapon_group_props": {
+                    "type": "SWeaponGroupProps",
+                    "enabled": true,
+                    "group_id": {
+                        "group_str": "\"benjamin_hack\""
+                    }
+                },
+                "ignore_target_to_other_weapons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "Boost Hack",
+            "props": {
+                "type": "SPlayerModifierProps",
+                "enabled": "boost_hack_enabled",
+                "mod": {
+                    "type": "SPlayerBoostCooldownMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.800000011920929
+                }
+            }
+        }
+    ]
+}
